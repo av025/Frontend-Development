@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style attribute</title>
+  </head>
+  <body>
+    <h1>Style Attribute for Responsive Images</h1>
+    <p>
+      Style tag was used to styling the HTML element So, Style attribute was
+      part of CSS
+    </p>
+    <img src="image/lions.jpg" alt="lions at grassland" style="width: 100%" />
+    <!--? With the help of style tag we can style our html element and height and width was also part of styling. -->
+    <!--* In Here we give width in percentage unit 100 percent -->
+    <!--! But here was one problem that was when we give width property than it causes overflow when we create websites for various devices -->
+    <!--? Overflow means when our html content was going outside from our web-browser and at the bottom horizontal bar was come that's means our website was not that good. -->
+    <img
+      src="image/lions.jpg"
+      alt="lions at grassland"
+      style="width: 100%; max-width: 500px"
+    />
+    <!--! So for overflow concern we are using max-width property which constrain the width of image not actual value but approx value -->
+    <!--* Here we say not actual value but approx value in above img tag we give max-width: 500 px so here this property will constrain the width of image to not going over the 500px if the img width size was smaller than 500px than it does not affect image. If width was more than 500px so it set as 500px -->
+  </body>
+</html>
