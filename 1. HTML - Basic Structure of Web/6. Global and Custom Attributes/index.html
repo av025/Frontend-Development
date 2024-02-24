@@ -57,5 +57,39 @@
     />
 
     <!--todo *** " The Global attributes are those which we give to every html elements are in HTML " -->
+
+    <h2>Local Attributes or Private Attributes</h2>
+    <p style="font-size: 22px">
+      The attributes which are only for particular HTML elements are called
+      local attributes or private attributes. This attribute will not work on
+      other HTML Elements
+    </p>
+    <!--? href was a local attribute we can only use in anchor tag only.... -->
+    <a href="https:/www.instagram.com" style="font-size: 22px"
+      >Instagram Link</a
+    >
+    <!--! href attribute was only use on anchor tag only -->
+
+    <!--? If we use href attribute on p tag see what happen.... -->
+    <p href="https:/www.instagram.com" style="font-size: 22px">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ex corrupti
+      dicta omnis culpa? Voluptas corporis quos expedita adipisci corrupti!
+    </p>
+    <!--? Here we give href attribute with the p tag but when we see on browser screen it does not work same as it work in anchor tag -->
+
+    <!--? In img tag there was src attribute which source of our picture which was only we can use in img tag -->
+    <img
+      src="source/transparent-html-css-javascript.png"
+      alt="frontend-technologies-html-css-javascript"
+      style="background-color: burlywood; width: 100%; max-width: 400px"
+    />
+
+    <!--? Similarly if we give source attribute to span tag than it does not display image on the browser screen -->
+    <span src="source/html-css-javascript.png"></span>
+    <!--* these src attribute was not work on span tag it does not display image in span tag -->
+
+    <!--! Similarly Img tag has two local attribute which was width and height which was also not work with other html elements -->
+
+    <!--todo ** " Local Attribute called to those attribute which are use for only particular HTML element "** -->
   </body>
 </html>
