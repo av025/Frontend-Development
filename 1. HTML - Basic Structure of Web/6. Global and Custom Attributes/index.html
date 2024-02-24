@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Global and Custom Attributes</title>
+    <style>
+      #dummy-paragraph {
+        color: #fff;
+        font-size: 22px;
+        background-color: darksalmon;
+      }
+
+      .same-color {
+        color: orange;
+        margin: 5px;
+        font-size: 22px;
+      }
+    </style>
   </head>
   <body>
     <h1>Global and local Attributes in HTML</h1>
@@ -91,5 +104,35 @@
     <!--! Similarly Img tag has two local attribute which was width and height which was also not work with other html elements -->
 
     <!--todo ** " Local Attribute called to those attribute which are use for only particular HTML element "** -->
+
+    <h2>Two Most important global attribute in HTML</h2>
+    <p style="font-size: 22px">
+      <b style="color: red">id attribute</b> and
+      <b style="color: red">class attribute</b> are most used attribute on
+      website with the use of both we can style our HTML element in css and DOM
+      manipulation in JS
+    </p>
+    <h3>id attribute</h3>
+    <p style="font-size: 20px">
+      id attribute mainly use in css and js. In css for styling in any html
+      element uniqunely we use id attribute and we give id attribute to only
+      single html element and don't give same name id attribute to other element
+      beacuse id was always unique of everyone.
+    </p>
+    <p id="dummy-paragraph">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto,
+      saepe! Modi, dolore debitis distinctio eius beatae animi quia pariatur
+      esse?
+    </p>
+
+    <h3>class attribute</h3>
+    <p style="font-size: 22px">
+      If we want to give some html elements same styling than we use class
+      attribute with the help of class attribute we can target group of html
+      elements
+    </p>
+    <span class="same-color">One</span><span class="same-color">Two</span
+    ><span class="same-color">Three</span><span class="same-color">Four</span
+    ><span class="same-color">Five</span>
   </body>
 </html>
