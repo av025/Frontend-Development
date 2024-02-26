@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Validators Input Field</title>
+  </head>
+  <body>
+    <h1>Add Validators Input Fields</h1>
+    <p>
+      With the help of Validtors we can control or constrain users input what
+      User will type was depends on what information we have to safe in our
+      database.
+    </p>
+    <form action="./index.html">
+      <!--! Text input field -->
+      <input type="text" placeholder="Write your Full-Name Here" />
+      <!--! Email input field -->
+      <input type="email" placeholder="Write your E-mail Here" />
+      <!--! Password input field -->
+      <input
+        type="password"
+        placeholder="Write your Password Here"
+        minlength="6"
+        maxlength="10"
+      />
+      <!--? minlength attribute was used to give validation that user have to write password of minimum of 6 characters -->
+      <!--? maxlength attribute was used to give validation that user have to write password of maximum of 10 characters -->
+      <!--! If we give character minimum to 6 than it give warning and if we give character more than 10 than it also give warning -->
+
+      <!--! Number input field -->
+      <input type="number" min="100" max="1000" placeholder="Number" />
+      <!--? Here we use attribute min & max  -->
+      <!--? With min attribute we can set minimum value of number and with max attribute we can set maximum value of number.  -->
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
