@@ -1,0 +1,23 @@
+* {
+  background-color: #111;
+  color: #fff;
+}
+
+p {
+  font-size: 30px;
+}
+
+.first-paragraph {
+  text-decoration: underline wavy cyan;
+}
+/* ! Here we decorate with wavy underline */
+
+.second-paragraph {
+  text-decoration: overline wavy crimson 5px;
+}
+/* ! Here we give overline wavy decoration */
+
+.third-paragraph {
+  text-decoration: line-through wavy orange;
+}
+/* ! Here we give linethrough wavy style */
