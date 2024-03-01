@@ -1,0 +1,19 @@
+* {
+  background-color: #111;
+  color: #fff;
+}
+
+p {
+  font-size: 30px;
+}
+
+.first-paragraph {
+  font-family: sans-serif;
+  /*? Here we give font style sans-serif */
+  /*! Default font-family of HTML was " Serif " */
+}
+
+.second-paragraph {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /*! Here we give multiple font-style because if our main Franklin Gothic Medium was not applied than Arial Narrow applied if that was not applied than " Arial " applied and lastly Arial was not applied than " sans-serif " applied */
+}
