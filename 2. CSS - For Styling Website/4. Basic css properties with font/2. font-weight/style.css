@@ -1,0 +1,18 @@
+/*! Font-weight was used to give boldness or thickness to our text or font  */
+/** There was range in our font-weight property which lie from 100 t0 900 in which was 400 was default value */
+
+p {
+  color: darkblue;
+}
+
+.paragraph-two {
+  color: cadetblue;
+  font-weight: 100;
+}
+
+/*! These 100 was least value in font-weight */
+
+.paragraph-three {
+  color: crimson;
+  font-weight: 900;
+}
