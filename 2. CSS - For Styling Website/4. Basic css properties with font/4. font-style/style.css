@@ -1,0 +1,20 @@
+* {
+  background-color: #111;
+  color: #fff;
+}
+
+p {
+  font-size: 30px;
+}
+
+.first-paragraph {
+  font-style: italic;
+  /*! Here we are give italic font-style */
+}
+
+.second-paragraph {
+  font-style: normal;
+  /*! Here we are give normal font-style */
+}
+
+/** font-style have only two value first one was normal and second was itallic. */
