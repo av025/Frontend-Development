@@ -1,0 +1,14 @@
+* {
+  background-color: #111;
+  color: #fff;
+}
+
+p {
+  font-size: 50px;
+}
+
+/*! font-size property was used to give size to our text. */
+
+.smallSize {
+  font-size: 14px;
+}
