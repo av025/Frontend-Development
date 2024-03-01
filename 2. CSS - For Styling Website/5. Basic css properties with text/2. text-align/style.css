@@ -1,0 +1,30 @@
+* {
+  background-color: #111;
+  color: #fff;
+  font-family: cursive;
+}
+
+.first-paragraph {
+  text-align: start;
+  /*! Here we align our text in start position which was default position too!!!! */
+}
+
+.second-paragraph {
+  text-align: center;
+  /*! Here we align our text in vertical center position with giving center value to text-align property */
+}
+
+.third-paragraph {
+  text-align: end;
+  /*! Here we align our text in vertically end position with giving end value to text-align property */
+}
+
+.fourth-paragraph {
+  text-align: left;
+  /* ! Here we give left value */
+}
+
+.fifth-paragraph {
+  text-align: right;
+  /*! Here we give right value */
+}
