@@ -1,0 +1,17 @@
+/*! Styling our webpage in external style sheet  */
+
+/*? Here also we do same thing writing CSS Rule */
+
+h1 {
+  color: deeppink;
+}
+
+h2 {
+  color: coral;
+}
+
+p {
+  color: crimson;
+}
+
+/** We write styling with the help of element selector */
