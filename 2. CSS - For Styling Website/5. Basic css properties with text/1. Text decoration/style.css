@@ -1,0 +1,52 @@
+p {
+  font-size: 30px;
+  color: crimson;
+  /*! We are using text-decoration for decorate our text. */
+  text-decoration: dashed;
+  /*? Above we are giving text-decoration property value dashed but we can't see on viewport that it does not applied but Why ?????? */
+  /*! Because we have to use line and that's mandatory..... */
+  text-decoration: underline dashed;
+}
+
+.overline {
+  font-size: 30px;
+  color: orangered;
+  /*! Similarly we can give overline two */
+  text-decoration: overline dashed;
+}
+
+.third-paragraph {
+  font-size: 30px;
+  /* In text-decoration property there was other style too....  */
+  text-decoration: overline dotted;
+  /** We can style our text with dotted line too!!!! */
+}
+
+.fourth-paragraph {
+  color: coral;
+  font-size: 30px;
+  text-decoration: underline double;
+  /** Double line styling also... */
+}
+
+.fifth-paragraph {
+  color: rgb(174, 0, 255);
+  text-decoration: line-through solid;
+  /*! We can use linethrough also to cut the text and using solid style */
+}
+
+/*? Basically text-decoration was Short hand property it have other properties too in it.... */
+.shorthand-property {
+  color: darkmagenta;
+  /* ! We can give property individually too!!! */
+  text-decoration-line: underline;
+  /*! These property was mandatory.... to give what decoration we want */
+  text-decoration-color: deeppink;
+  /*? We can give color of line two If we are not giving color of text-decoration than default it's take text-color  */
+  text-decoration-style: double;
+  /*? Text decoration style property */
+  text-decoration-thickness: 6px;
+  /*? We can define Thickness of line alsoo */
+}
+
+/* ! That's above all properties we used in text-decoration short hand property  */
