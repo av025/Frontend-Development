@@ -11,3 +11,10 @@ h3 {
   color: crimson;
 }
 /** Here we select h3 element with the help of element selector so it styling all h3 element in our web page. */
+
+/* ! What is CSS Declaration and CSS Rule ????  */
+h2 {
+  color: chocolate;
+  /*! In curly brackets we write css properties with it's value was entirely called as " CSS Declaration " */
+}
+/*? These entirely called as CSS Rule..... */
