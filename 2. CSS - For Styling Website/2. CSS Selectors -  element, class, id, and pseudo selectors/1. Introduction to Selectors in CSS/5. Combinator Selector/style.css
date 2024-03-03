@@ -1,0 +1,10 @@
+/*! We can generally select with the help of commas to combine different  html element together */
+
+.first-paragraph,
+h2,
+span {
+  background-color: indianred;
+  color: gold;
+}
+
+/*? Generally we have to combine html element than we use commas and we can give multiple  elements styling together. */
