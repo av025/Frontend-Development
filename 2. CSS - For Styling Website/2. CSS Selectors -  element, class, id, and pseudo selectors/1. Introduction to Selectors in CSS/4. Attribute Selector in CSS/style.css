@@ -7,4 +7,17 @@
 [color="golden color"] {
   background-color: #111;
   /*! We can give background color with the help of background-color property */
+  color: gold;
 }
+
+/* ! Here we style our Custom Attribute with value too!!!! */
+
+[shaktimaan] {
+  background-color: indianred;
+  color: gold;
+  font-size: 20px;
+  font-weight: 600;
+}
+/*! We can style our HTML element with single custom attribute too!!!!! */
+
+/*? We can select html attribute with the help of square brackets " [ ] " */
