@@ -1,0 +1,68 @@
+.red {
+  color: rgb(255, 0, 0);
+  font-size: 25px;
+  font-weight: 500;
+}
+/* ! Here we give red text color to our html element  */
+/*? So the intensity of rgb value was lie between 0 to 255. ( Here 0 was lowest value and 255 was highest value) */
+/*? Here are three parameters which define colors  red which was first parameter , green which was second parameter and last was blue color parameter. */
+/** In above rgb value we give 255 value to first place , than 0 to second place and similarly to third place 0 and here the Red color was created. If we give any specific highest value than that parameter will get there original color */
+
+.green {
+  color: rgb(0, 255, 0);
+  font-size: 25px;
+  font-weight: 500;
+}
+/*? Here we give second parameter highest value which was 255 so we got green color. */
+
+.blue {
+  color: rgb(0, 0, 255);
+  font-size: 25px;
+  font-weight: 500;
+}
+/*? Here we give third parameter highest value 255 so we get blue color */
+
+/*! With the combination of red , green ,blue parameters in rgb value we can create lot of colors and in rgb format values lie from 0 to 255 to get color according with our needs. */
+
+.combination-color-first {
+  color: rgb(120, 240, 20);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* First combination color */
+
+.combination-color-second {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(69, 169, 238);
+}
+
+/* Second combination color */
+
+.combination-color-third {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(250, 125, 250);
+}
+
+/* Third combination color */
+
+.black-color {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+/*! We can create black color in rgb by giving lowest value 0 to all three parameters. */
+
+div {
+  background-color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*! We can create white color by giving highest value 255 to all three parameters */
+.inside-div {
+  color: rgb(255, 255, 255);
+}
