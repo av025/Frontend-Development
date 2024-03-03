@@ -1,0 +1,52 @@
+.red {
+  font-size: 30px;
+  color: hsl(0, 100%, 50%);
+}
+
+/*! So in hsl color format we have three things :- */
+/*! 1st) Hue :- Which in degree from 0 deg to 360 deg and above we giv 0 deg */
+/*! 2nd) Saturation :- Which is in percentage and from 0% to 100% it defines the color grayness on 0% full gray and on 100% full color. Above we are giving 100%. */
+/*! 3rd) Lightness :- Which was also in percentage which define lightness of color 0% means full black , 50% for nor light or nor dark , 100% for full white. */
+
+/** With above values red color was created */
+
+.green {
+  font-size: 30px;
+  color: hsl(120, 100%, 50%);
+}
+/*? Above on html element we give hue = 120 deg , saturation = 100% , lightness = 50%  */
+/** Here Green color was created */
+
+.blue {
+  font-size: 30px;
+  color: hsl(240, 100%, 50%);
+}
+/*? Above on html element we give hue = 240 deg , saturation = 100% , lightness = 50% */
+/** Here Blue color was created */
+
+.first-combination-color {
+  font-size: 30px;
+  color: hsl(69, 69%, 69%);
+}
+/* First combination color */
+
+.second-combination-color {
+  font-size: 30px;
+  color: hsl(320, 80%, 80%);
+}
+
+/* Second combination color */
+
+.black-color {
+  font-size: 30px;
+  color: hsl(0, 100%, 0%);
+}
+/** For black color we hue = 0 deg , Saturation = 100%  for full color or 0% for full gray both we can apply , Lightness = 0% for full black color   */
+
+.white-color {
+  font-size: 30px;
+  background-color: hsl(0, 100%, 0%);
+  color: hsl(0, 0%, 100%);
+}
+
+/** For white color we hue = 0 deg , Saturation = 100%  for full color or 0% for full gray both we can apply , Lightness = 100% for full white color   */
