@@ -1,0 +1,13 @@
+/*! Now we want that our HTML text in orange color so we select li html element  */
+
+li {
+  color: orangered;
+}
+
+/*? But Here the main problem occurs that when we are giving li element which has text  HTML was get color orange but other li elements too also !!!!  */
+
+/*! When we select that particular html element with element selector so it style all other same html element on the webpage  */
+h3 {
+  color: crimson;
+}
+/** Here we select h3 element with the help of element selector so it styling all h3 element in our web page. */
