@@ -1,0 +1,10 @@
+/*! If we want to use class attribute than we have to use dot " . " to access the class */
+.crimson-color {
+  color: crimson;
+}
+
+.hotpink-color {
+  color: hotpink;
+}
+
+/*! We use class selector when we have to give same styling to group of html elements */
