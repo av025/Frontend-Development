@@ -1,0 +1,22 @@
+/* ! Descendant Combinator ( giving space ) */
+
+div h2 {
+  color: gold;
+  font-size: 25px;
+  background-color: indianred;
+}
+/*! Here with descendant combinator we select div child h2 element and do styling too!!! */
+
+div p {
+  color: gold;
+  font-size: 25px;
+  background-color: #111;
+}
+/*! Here with the help of descendant combinator ( giving space ) we can select all p child or descendant element of div parent element */
+
+/*? With the help of descendant element we can select all same type of child element of any particular parent element */
+
+div h3 {
+  color: rgb(0, 255, 255);
+  background-color: indianred;
+}
