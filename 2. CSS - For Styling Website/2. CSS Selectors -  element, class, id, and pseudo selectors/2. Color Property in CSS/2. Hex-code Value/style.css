@@ -1,0 +1,45 @@
+.red {
+  color: #ff0000;
+  font-size: 30px;
+}
+/*! In Hex-code we use # hash to give colors than hexadecimal numbers */
+/** Above we give html element color red by giving highest value to red color hexa-values the highest value was ff here */
+
+.green {
+  color: #00ff00;
+  font-size: 30px;
+}
+/** Above we give html element green color by giving highest value to green color hexa-values the highest value was ff here */
+
+.blue {
+  color: #0000ff;
+  font-size: 30px;
+}
+/** Above we give html element blue color by giving highest value to blue color hexa-values the highest value was ff here */
+
+.first-combination-color {
+  font-size: 30px;
+  color: #ff69ff;
+}
+/** First combination color */
+
+.second-combination-color {
+  font-size: 30px;
+  color: #99ff55;
+}
+/** Second combination color */
+div {
+  background-color: #000;
+}
+/*! If we want to give combination color than we can use short hand too!!! In hexa-code form instead of giving 6 values give only 3 */
+
+.white-color {
+  color: #fff;
+  font-size: 30px;
+}
+/*? Here above we have to give white - color than give highest value in hexa-code which was " ffffff " to white but we can write in short form to instead of 6 f we write 3 " fff ". */
+
+.black-color {
+  color: #000;
+}
+/*? Here above we have to give black - color than give smallest value in hexa-code which was " 000000 " to black but we can write in short form to instead of 6 0 we write 3 " 000 " */
