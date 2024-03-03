@@ -1,0 +1,47 @@
+h1 {
+  color: crimson;
+}
+
+p {
+  font-size: 25px;
+  color: blueviolet;
+}
+
+h2 {
+  font-size: 28px;
+  color: chocolate;
+}
+
+li {
+  font-size: 30px;
+}
+
+/*! Here we have to use id selector to do styling every element uniquely.... */
+
+/*? We have to access id-selector with the help of # ( Hash Symbol ) */
+#html {
+  color: #dd4b25;
+}
+/*! Mainly we are using Hex-code to give color in website */
+
+#css {
+  color: #254bdd;
+}
+
+#javascript {
+  color: #efd81d;
+}
+
+#tailwind-css {
+  color: #36b7f0;
+}
+
+#react-js {
+  color: #087a9f;
+}
+
+#redux {
+  color: #7147b6;
+}
+
+/*? With the help of Id Selector  we give all technologies respected color what they represent.  */
