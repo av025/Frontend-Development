@@ -1,0 +1,10 @@
+[title="Dummy Paragraph"] {
+  color: crimson;
+}
+
+/*! Here we select our HTML element with the help of  Attributes of HTML. */
+
+[color="golden color"] {
+  background-color: #111;
+  /*! We can give background color with the help of background-color property */
+}
