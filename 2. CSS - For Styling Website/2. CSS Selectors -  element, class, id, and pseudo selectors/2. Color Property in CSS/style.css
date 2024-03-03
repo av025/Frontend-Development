@@ -1,0 +1,17 @@
+h1 {
+  color: cornflowerblue;
+  /*! Here we give color names in color property */
+}
+
+.second-level-heading {
+  color: crimson;
+}
+
+.paragraph {
+  color: coral;
+}
+
+/*! Now here we give color names in value of color properties. There are only approx 100 - 150 color names in css and other color was create with the help of red , green , blue combination  */
+
+/* ? There are different values of color like RGB , RGBA , Hexcode , HSL , HSLA from which we create 16 millions of color.  */
+/** Overall there was 16 millions color present to use in our website  */
