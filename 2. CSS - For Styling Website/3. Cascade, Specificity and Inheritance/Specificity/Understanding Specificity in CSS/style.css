@@ -1,0 +1,23 @@
+/*! Specificty was the concept in the CSS which appose the concept of cascade. */
+/** In CSS The importance of new css rule was more as compare to older css rule. In Stylesheet we go from top to bottom  but when we style our html element with the help of css selector which has higher specificity than these concept will not applied. */
+
+/*! Every CSS Selector has Specificitywhich we can see in vs code when we hover over our selector. */
+
+.paragraph-dummy {
+  color: hotpink;
+}
+/*? If we write on the top also these class selector rule only was applied because it has more specificty as compare to below css rules */
+
+p {
+  color: crimson;
+  font-size: 25px;
+}
+
+/* ! These element selector has specificity (0 , 0 , 1) here 1 was on zero place so it has lower specificity or lower importance. */
+
+.paragraph-dummy {
+  color: cyan;
+  font-weight: 400;
+  background-color: rgb(0, 0, 0);
+}
+/*! These class selector has more specificity as compare to element selector if we hover over our class selector it shows ( 0 , 1 , 0) 1 was on ten place */
