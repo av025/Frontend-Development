@@ -1,0 +1,19 @@
+.hoverOverMe {
+  height: 300px;
+  width: 300px;
+  color: white;
+  border: 4px solid #111;
+  margin: auto;
+}
+
+/*! Giving Hover pseudo class to div */
+.hoverOverMe:hover {
+  background-color: #111;
+  font-family: cursive;
+  
+}
+
+h2 {
+  color: crimson;
+  text-align: center;
+}
