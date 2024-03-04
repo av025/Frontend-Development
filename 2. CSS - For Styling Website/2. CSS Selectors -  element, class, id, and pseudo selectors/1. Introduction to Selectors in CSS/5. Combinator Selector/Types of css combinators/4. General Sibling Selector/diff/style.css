@@ -21,4 +21,9 @@ body {
   background-color: cornflowerblue;
 }
 
+.parent-general p ~ ul {
+  color: crimson;
+  background-color: gold;
+}
+
 /*! In general sibling we can select all same type of element which was after the current element. */
