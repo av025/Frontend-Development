@@ -1,0 +1,33 @@
+body {
+  background-color: #111;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+/*! We can increase specificity by adding or combining same css selector again again */
+
+/*? Element selector css */
+p p p p p {
+  color: crimson;
+  font-size: larger;
+}
+
+/*! We write the p element many times but it doesnot apply because there was not descendant of p element but it increase it's specificity ( 0 , 0 ,5)  Here was 5.*/
+
+/*? Class selector css */
+.classes.classes.classes.classes.classes {
+  color: chocolate;
+}
+
+/*! Here the specificity of class selector was (0,5,0) which was 50 */
+
+/*? Id selector css */
+#ids#ids#ids#ids#ids {
+  color: brown;
+  font-size: larger;
+}
+/*! Here the specificity of id selector was (5,0,0) which was 500 */
+
+/*? Here also id combine selectors has more specificity as compare to combine class selector. */
+/** If we add 1000 class selector combine too than also that style not applied if we have one id selector. */
