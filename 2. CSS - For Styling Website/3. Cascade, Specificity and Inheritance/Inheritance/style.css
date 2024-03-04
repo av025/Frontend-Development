@@ -1,0 +1,11 @@
+body {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+.explanation-inheritance {
+  color: indianred;
+  font-size: 25px;
+}
