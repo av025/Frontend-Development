@@ -1,0 +1,23 @@
+body {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+}
+
+b {
+  color: indianred;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/*! If we use class selector than it will appose the concept of cascade we are using above p element */
+.example {
+  color: cyan;
+}
+/*! These styling apply because class selector has more specificity. */
+
+p {
+  font-size: 20px;
+  color: crimson;
+}
+/*? According to cascade rule the newest css rule will apply but it was appose by css selector specificity class selector has more specificity or importance compare to element selector. */
