@@ -1,0 +1,29 @@
+/*! In our CSS Stylesheet we write css from top to bottom and CSS was Cascadeing Style sheet the lastest css rule has more importance as compare to older */
+
+body {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-align: center;
+}
+
+/** We are giving new css rule to body element again */
+body {
+  color: gold;
+  background-color: crimson;
+}
+/*? These new body css rule apply beacuse of cascade concept so color and background-color was change of our body element */
+
+/** One example more */
+h2 {
+  color: hotpink;
+  background-color: cyan;
+}
+
+/*? Writing h2 rule again  */
+
+h2 {
+  color: gold;
+  background-color: #111;
+}
+/*? These new h2 css rule apply beacuse of cascade concept so color and background-color was change of our h2 element */
