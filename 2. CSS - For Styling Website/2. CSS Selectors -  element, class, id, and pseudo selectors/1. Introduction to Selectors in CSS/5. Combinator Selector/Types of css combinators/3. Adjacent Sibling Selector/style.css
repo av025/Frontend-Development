@@ -1,0 +1,10 @@
+h3 + p {
+  color: hotpink;
+}
+
+/*! With the help of + we can select adjacent sibling just next element we want to Style. */
+
+h2 + p {
+  color: gold;
+  background-color: indianred;
+}
