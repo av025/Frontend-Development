@@ -1,0 +1,13 @@
+.parent-element > div {
+  background-color: indianred;
+  color: gold;
+}
+
+/*! With the help child selector we can select all same html element  of */
+/*? Here only parent elements direct child's div  get styling not descendant child */
+
+.parent-element > section {
+  font-style: italic;
+}
+
+/*? Here we style our section elementwhich was direct child of parent element */
