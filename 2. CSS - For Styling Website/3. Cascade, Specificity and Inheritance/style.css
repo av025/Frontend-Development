@@ -1,0 +1,30 @@
+body {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+}
+
+/* Here we give li the font-weight */
+li {
+  font-weight: 400;
+}
+
+/*! Here we give font-weight 400  */
+
+/*? Again we give font-weight to li element but now we give value 800 */
+
+li {
+  font-weight: 800;
+}
+
+/** Now font-weight value was change 400 to 800 and latest li css rule was apply beacuse css was cascade too!!! Full-form of CSS was Cascade Styling Sheet in css we write our styling from top to bottom. */
+
+/*! Important thing :- When we write our css declaration at the end please also add semi-colon to add that line . */
