@@ -1,0 +1,11 @@
+div ~ p {
+  color: gold;
+  background-color: indianred;
+  font-weight: 800;
+}
+
+p ~ span {
+  color: lightblue;
+  background-color: brown;
+  font-weight: 500;
+}
