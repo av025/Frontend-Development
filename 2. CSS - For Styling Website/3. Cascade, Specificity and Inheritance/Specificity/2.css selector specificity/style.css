@@ -1,0 +1,31 @@
+body {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+}
+
+/*? Id Selector Specificity */
+#idSelector-specificity {
+  color: deepskyblue;
+  background-color: orangered;
+}
+/*! The specificity of id selector was ( 1,0,0) we can say 100 which was higher as we compare both class selector and element selector So , it over-write the css tule of class selector  */
+
+/*? Class Selector Specificity */
+.classSelector-specificity {
+  color: chocolate;
+  background-color: cyan;
+}
+
+/*! The specificity of class selector was (0, 1, 0 ) we can say 10 which was higher than element selector and it over-write the element selector css rule */
+
+/*? Element Selector Specificity */
+p {
+  color: gold;
+  background-color: crimson;
+}
+
+/*! The specificity of p element was ( 0,0,1 ) we can say 1  */
+
+/*? Actually All styling was applying on p elment but because id-selector has highest specificity so they over write other css selector styling */
+/** If we comment id-selector styling than class-selector styling apply if we comment that also than element specificity was applied Here the cascade was not applied when we are not use same specificity selector than cascade rule applied. */
