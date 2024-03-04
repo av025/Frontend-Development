@@ -1,0 +1,17 @@
+p#id-specificity.class-specificity {
+  color: crimson;
+  background-color: goldenrod;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/*! Now we want top one style apply so we increase it's specificity by combining with other css selector so here specificity was (1,1,1) which was 111 and greater than 100 so first stlye apply due to specificity */
+
+#id-specificity {
+  color: gold;
+  background-color: #111;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+/** Here second id-selector apply because of cascade but both have same specificity which was ( 1 , 0 ,0 ) which was 100. */
