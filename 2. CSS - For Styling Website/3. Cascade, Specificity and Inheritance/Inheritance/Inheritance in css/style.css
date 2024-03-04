@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+}
+body {
+  color: #fff;
+  background-color: #111;
+}
+
+.explanation {
+  font-size: 25px;
+  color: indianred;
+  font-weight: 600;
+  text-align: center;
+}
+
+.parent {
+  font-size: 26px;
+  font-family: cursive;
+  text-align: center;
+  color: gold;
+  font-weight: 600;
+  background-color: crimson;
+}
+
+/*! These above properties fonts , texts and color was inherited directly by parent element */
+/** Other properties was also inherit but it was over-write by user style sheet ( default browser styling ) so we have to individually use inherit value to inherit from parent. */
+
+/*? Here we have to manually inherit the btton properties from parent. */
+.btn {
+  width: 100px;
+  color: inherit;
+  background-color: inherit;
+  font-size: inherit;
+  font-family: cursive;
+  font-weight: inherit;
+}
