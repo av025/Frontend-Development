@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Difference</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Difference between Child Selector and Descendant Selector</h1>
+    <h2>Example of Descendant Selector</h2>
+    <div class="first-parent">
+      <!-- First section in parent -->
+      <section class="first-section-pOne">
+        These was first Section of Parent
+        <!-- First div inside section -->
+        <div class="first-div-of-firstSection-pOne">
+          These was first div in Section
+        </div>
+      </section>
+      <!-- First div in parent -->
+      <div class="first-div-pOne">These was first div in parent</div>
+      <!-- Second div in parent  -->
+      <div class="second-div-pOne">
+        These was second div in parent
+        <!-- First section in div -->
+        <section class="first-section-of-secondDiv-pOne">
+          These was first Section in Div
+        </section>
+      </div>
+      <!-- Second section in parent -->
+      <section class="second-section-pOne">
+        These was second section in div
+      </section>
+    </div>
+    <h2>Example of Child Selector</h2>
+    <div class="second-parent">
+      <!-- First section in parent -->
+      <section class="first-section-pTwo">
+        These was first Section of Parent
+        <!-- First div inside section -->
+        <div class="first-div-of-firstSection-pTwo">
+          These was first div in Section
+        </div>
+      </section>
+      <!-- First div in parent -->
+      <div class="first-div-pTwo">These was first div in parent</div>
+      <!-- Second div in parent  -->
+      <div class="second-div-pTwo">
+        These was second div in parent
+        <!-- First section in div -->
+        <section class="first-section-of-secondDiv-pTwo">
+          These was first Section in Div
+        </section>
+      </div>
+      <!-- Second section in parent -->
+      <section class="second-section-pTwo">
+        These was second section in div
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+}
+
+/*! Example of Descendant Selector  */
+.first-parent div {
+  color: gold;
+  background-color: indianred;
+  font-weight: 600;
+}
+
+.first-parent section {
+  color: cyan;
+  background-color: hotpink;
+  font-weight: 600;
+}
+
+/*todo ** If we use descendant selector than it will style all the descendant of that parent element with real child element ** */
+
+/*! Example of Child Selector  */
+
+.second-parent > section {
+  color: gold;
+  background-color: indianred;
+  font-weight: 600;
+}
+
+.second-parent > div {
+  color: cyan;
+  background-color: hotpink;
+  font-weight: 600;
+}
+
+/*todo ** Here we see that when we use child selector than styling was apply on real children of parent element but not in descendant of parent element ** */
