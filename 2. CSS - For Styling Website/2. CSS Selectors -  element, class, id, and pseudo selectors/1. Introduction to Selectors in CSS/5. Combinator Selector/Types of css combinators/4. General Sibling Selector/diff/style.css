@@ -1,0 +1,24 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: cursive;
+}
+
+.adjacent-paragraph + h2 {
+  color: gold;
+  background-color: indianred;
+}
+
+.adjacent-heading + span {
+  color: rgb(114, 40, 13);
+  background-color: cornflowerblue;
+}
+
+/*? Here we only select adjacent to current element it means just next element in adjacent sibling selector */
+
+.parent-general h2 ~ p {
+  color: darkmagenta;
+  background-color: cornflowerblue;
+}
+
+/*! In general sibling we can select all same type of element which was after the current element. */
