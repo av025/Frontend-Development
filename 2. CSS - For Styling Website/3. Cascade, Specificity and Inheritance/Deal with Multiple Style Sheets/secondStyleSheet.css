@@ -1,0 +1,11 @@
+body {
+  color: gold;
+  background-color: crimson;
+  font-family: cursive;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  color: magenta;
+}
