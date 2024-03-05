@@ -1,0 +1,18 @@
+body {
+  color: #fff;
+  background-color: #111;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+.first-div {
+  background-color: crimson;
+}
+
+.second-div {
+  background-color: cadetblue;
+}
