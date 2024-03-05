@@ -1,0 +1,15 @@
+body {
+  color: gold;
+  background-color: crimson;
+  font-family: cursive;
+}
+
+p {
+  font-size: 25px;
+}
+
+#ids {
+  color: rgb(93, 124, 200);
+}
+
+/*! With id the specificity was (1,0,0) which was 100 */

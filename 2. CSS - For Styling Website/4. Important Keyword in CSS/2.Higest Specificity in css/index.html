@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Highest Specificity in CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Highest Specificity in CSS</h1>
+    <p id="ids" class="classes" style="color: gold">
+      When we give styling through Element styling or inline styling it has more
+      specificity as compare to all css selector
+    </p>
+    <!--! When we give styling through Element Styling or inline styling than it was difficult to over-ride the inline-styling because it has maximum specificity which was (1,0,0,0) so we can say that 1000 it was...... -->
+    <p style="color: gold; font-weight: 600; background-color: #111">
+      Inline-Styling has Highest Specificity among all CSS Styling.
+    </p>
+  </body>
+</html>
