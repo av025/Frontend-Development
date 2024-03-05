@@ -1,0 +1,28 @@
+body {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+}
+
+.first-div {
+  color: gold;
+  background-color: crimson;
+}
+/*! We see that in block level element width was full 100% default and height was depend on content if content are more than height was also increase or if content was less than height was not increase. */
+
+/*! If we decrease size of viewport than height will increase and if we increase size of viewport than width was increase they are directly praportional to each other. */
+
+/*? Now we are giving width to second-div */
+.second-div {
+  color: crimson;
+  background-color: gold;
+  /*! Giving width */
+  width: 500px;
+}
+
+/*! So in second div we fixed width by giving 500 px and height also by fixing width */
