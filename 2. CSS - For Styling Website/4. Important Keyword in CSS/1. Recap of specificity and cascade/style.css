@@ -1,0 +1,62 @@
+body {
+  font-family: cursive;
+  color: #fff;
+  background-color: #111;
+  text-align: center;
+}
+
+/*! Cascade Rule */
+/*? In cascade the importance was increasing when we write our css rule from top to bottom. lastest css rule has more importance as compared to oldest */
+
+p {
+  color: darksalmon;
+}
+
+/*! Giving first paragraph styling */
+
+p {
+  color: aquamarine;
+}
+/*! Giving again second paragraph styling. This second css rule applied due to cascade rule and these second cascade was also overwrite first paragraph styling. */
+
+/*! Specificity Rule */
+/*? Here the specificity means importance. So in CSS every css selector has specificity which give more importance than that styling applied and it does not follow cascade rule until if css selector has same level of specificity. */
+
+/* #ids {
+  color: gold;
+  background-color: crimson;
+  font-size: 25px;
+} */
+/*! Ids has the highest specificity in css selector it's has ( 1 , 0 , 0 ) we can say that 100 specificity. */
+
+/* .classes {
+  color: rgb(187, 60, 14);
+  background-color: cornflowerblue;
+  font-size: 25px;
+} */
+/*! Class selector has the low specificity as we compare to id selector but higher  specificity than element selector   */
+
+p {
+  color: darkmagenta;
+  background-color: orange;
+  font-size: 25px;
+}
+/*! Element selector has lower specificity as compare to class and id selector there some other selector like universal selector and pseudo selectors which has less specificity to element selector too!!!! */
+
+/** Case  */
+/** Here when we give same specificity selector than cascade was applied..... */
+#ids {
+  color: chartreuse;
+  background-color: burlywood;
+}
+
+/* ! Styling p element with id selector and they has specificity (1,0,0)   */
+
+#ids {
+  color: crimson;
+  background-color: lightblue;
+}
+
+/*! Again do styling p element with id selectorthey also have same specificity (1,0,0) */
+
+/*? Now here cascade rule apply because of both selectors have same specificty that's why second styling apply. */
