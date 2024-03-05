@@ -1,0 +1,25 @@
+body {
+  color: #fff;
+  background-color: #111;
+  text-align: center;
+  font-family: cursive;
+}
+
+/*? Now we want to use these below p element styling so what we can do ??? */
+/*! To increase there specificity by combining all css selector */
+p#ids.example {
+  color: gold !important;
+  background-color: crimson !important;
+  font-size: 25px;
+}
+/*? Above styling we use important keyword */
+
+/** Belwo css rule applied. */
+p {
+  color: darkred !important;
+  background-color: darkkhaki !important;
+  font-size: 25px;
+}
+/*?  Here also we use important keyword   */
+
+/*! We can say that both styling have same specificity so as usual cascade rule appled  */
