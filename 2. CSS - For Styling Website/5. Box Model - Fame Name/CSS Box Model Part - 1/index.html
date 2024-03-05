@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction to Box-Model</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Introduction to Box-Model in CSS</h1>
+    <p class="explanation-box-model">
+      When our HTML code transpile by browser and rendered on the viewport every
+      html element was wrap up by the box which was called Box Model
+    </p>
+    <h2>Box Model Consists of 4 layers</h2>
+    <p class="explanation-box-model text-align">
+      We start from inside layer of box-model
+    </p>
+    <ul class="explanation-box-model text-align">
+      <li>Content :- Width and Height</li>
+      <li>Padding</li>
+      <li>Border</li>
+      <li>Margin</li>
+    </ul>
+
+    <div class="box-model">
+      Margin
+      <div class="border">
+        Border
+        <div class="padding">
+          Padding
+          <div class="content-box"><span>Content : Width X Height</span></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
