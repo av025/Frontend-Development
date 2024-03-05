@@ -1,0 +1,52 @@
+body {
+  color: #fff;
+  background-color: #111;
+  text-align: center;
+}
+
+.explanation {
+  color: rgb(80, 255, 188);
+  font-size: 25px;
+}
+
+span {
+  color: violet;
+  font-weight: 700;
+}
+
+/*! Giving style to our p element  */
+
+/*? Element Selector */
+
+p {
+  color: gold !important;
+  background-color: crimson !important;
+  font-weight: 500;
+  font-size: 30px;
+}
+/*? Important Keyword kills all specificity and whenever we give important keyword to that property it was applied. */
+
+/*! It's specificity was (0,0,1) which was 1 only..... */
+
+/*? Class Selector */
+
+.classes {
+  color: aquamarine;
+  background-color: #111;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+/*! It's specificity was (0,1,0) which was 10  */
+
+#ids {
+  color: rgb(165, 58, 19);
+  background-color: cadetblue;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+/*! It's specificity was (1,0,0) which was 100 */
+
+/*? Now we want our element selector styling was applied but it has lowest specificity among all so how we can apply ?  */
+/*! By giving " !important " keyword to that css declaration which kills all the specificity and than we give important keyword that property was applied on html element. */
