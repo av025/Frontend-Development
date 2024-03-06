@@ -1,0 +1,54 @@
+body {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+}
+
+span {
+  color: indianred;
+  font-weight: 600;
+}
+
+.element-overflow {
+  width: 600px;
+  background-color: orange;
+  height: 400px;
+}
+
+/*! Here the we set height and width of html element so it causing overflow  */
+
+#some-bottom-position {
+  position: relative;
+  top: 250px;
+}
+
+.website-content-Overflow {
+  position: relative;
+  background-color: crimson;
+  top: 260px;
+  width: 400px;
+  height: 200px;
+
+  overflow-x: scroll;
+  margin: auto;
+}
+
+/*! At the bottom Horizontal bar was come that's was overflow in webpage which increase our browser width */
+
+.explanation-website-overflow {
+  color: indianred;
+  font-size: 25px;
+  margin: auto;
+  position: relative;
+  top: 280px;
+  font-weight: 900;
+}
