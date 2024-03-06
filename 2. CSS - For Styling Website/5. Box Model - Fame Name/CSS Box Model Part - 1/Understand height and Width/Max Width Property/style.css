@@ -1,0 +1,26 @@
+body {
+  color: #eee;
+  background-color: #555;
+}
+
+ul {
+  font-size: 25px;
+}
+
+p {
+  font-size: 25px;
+}
+
+span {
+  color: indianred;
+  font-weight: 900;
+}
+
+.example-max-width {
+  background-color: coral;
+  max-width: 800px;
+}
+
+/*! Max-width helps to constrain our html element width if the element has bigger width and if the width was small than max-width was not affect.  */
+
+/** After using max-width horizontal scrollbar was not coming because we are not set absolute values we set approx value and default maximum width of block level element was 100% { 100-percent }.  */
