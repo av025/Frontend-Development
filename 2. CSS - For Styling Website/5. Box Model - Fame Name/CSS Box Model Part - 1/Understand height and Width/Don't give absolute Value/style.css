@@ -1,0 +1,36 @@
+body {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*? Now here we are seting height and width of paragraphs */
+.first-paragraph {
+  background-color: crimson;
+  width: 600px;
+  /** Similarly if we fixed height than also overflow happen */
+  height: 600px;
+}
+
+.second-paragraph {
+  background-color: orange;
+  width: 600px;
+  /** Here also we give height = 600px */
+  height: 600px;
+  /*? Here also overflow occurs because we fix the height of our html element */
+}
+
+/*! Here we set our width 600px if the viewport was bigger than 600 px than it does not cause any thing t our paragraphs element when our viewport size was becoming small to 600px than one horizontal scroll bar was comming at the end which was also called " OverFlow " in our page. */
+
+#overflow-causes {
+  color: red;
+  font-weight: 700;
+  font-size: 30px;
+  position: relative;
+  top: 120px;
+}
