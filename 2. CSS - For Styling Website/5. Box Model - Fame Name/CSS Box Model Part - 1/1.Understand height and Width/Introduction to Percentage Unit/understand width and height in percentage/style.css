@@ -47,7 +47,7 @@ h2 {
   margin: auto;
   /*? Giving height in perecentage */
   height: 50%;
-  /*! Height was not applied here in percentage because we have to give absolute value to parent element than percentage uint apply to it's childs or descendant */
+  /*! Height was not applied here in percentage because we have to give absolute value to parent element than percentage unit apply to it's childs or descendant */
   height: 600px;
 }
 
