@@ -1,0 +1,33 @@
+body {
+  color: #fff;
+  background-color: crimson;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.pixels-unit {
+  color: darkgoldenrod;
+  background-color: darkturquoise;
+  font-weight: 600;
+  /*! Width & height in pixels */
+  width: 500px;
+  height: 350px;
+  margin: auto;
+}
+
+.explanation {
+  color: gold;
+  margin: auto;
+  width: 50%;
+  font-size: 25px;
+  background-color: lightcoral;
+  margin-top: 15px;
+}
