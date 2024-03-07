@@ -1,0 +1,22 @@
+body {
+  color: #fff;
+  background-color: #333;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+.overflow-property {
+  color: gold;
+  background-color: crimson;
+  width: 500px;
+  height: 400px;
+  /** Default overflow property was visible which with we can see that our content was overflow  */
+  overflow: visible; /*? Default property */
+  overflow: hidden;
+  /** When we use overflow hidden than it's hide the overflow of our content and where upto we set our height which was seen on the viewport. */
+}
+/*! So here the overflow was cause due to set aboslute values we give to height. Now we want to cut the overflow content from our webpage than we use overflow property here !!!! */
