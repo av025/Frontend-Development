@@ -36,3 +36,35 @@ h2 {
   width: 50%;
   /*! Here we give width in percentage to child's child element here also we give width 50% so here it was 200px width. */
 }
+
+/*? Height Styling */
+/*! Here Default  height was 312px if we give height also in percentage it was also takes height from it's parent element  */
+/** Here Parent element was body element */
+.height-parent {
+  color: #6a230a;
+  background-color: #e440c4;
+  width: 800px;
+  margin: auto;
+  /*? Giving height in perecentage */
+  height: 50%;
+  /*! Height was not applied here in percentage because we have to give absolute value to parent element than percentage uint apply to it's childs or descendant */
+  height: 600px;
+}
+
+.height-child {
+  color: crimson;
+  background-color: burlywood;
+  width: 50%;
+  /*? Here also giving height in perecentage */
+  height: 50%;
+}
+
+.heightChild-childs {
+  color: darkred;
+  background-color: #6495ed;
+  width: 50%;
+  /*? Again giving height in percentage */
+  height: 50%;
+}
+
+/*! On Screen we see that styling was not applied in the case of percentage unit. Height was not applied  */
