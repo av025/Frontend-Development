@@ -1,0 +1,65 @@
+body {
+  color: orange;
+  background-color: crimson;
+}
+
+h1 {
+  text-align: center;
+}
+
+.padding-example {
+  width: 60%;
+  margin: auto;
+  color: lightcoral;
+  background-color: yellow;
+  font-size: 24px;
+  /*! Giving padding in 4 direction by one value */
+  padding: 30px;
+  /*? Here we give padding 30px which means we are giving 30 px in all 4 direction equally */
+  /*? padding-top = 30px , paddin-right = 30px , padding-bottom = 30px , padding-left = 30px */
+}
+
+.padding-example-two {
+  color: #066e6e;
+  background-color: lightpink;
+  width: 50%;
+  margin: auto;
+  font-size: 25px;
+  /*! Here we give padding of 4 direction individually but in shorthand padding property */
+  padding: 25px 50px 75px 100px;
+  /*? Here we give padding in 4 direction in short hand padding property.  */
+  /** Here we go in anticlock wise direction top --> right --> bottom --> left */
+  /** Padding-top = 25px */
+  /** Padding-right = 50px */
+  /** Padding-bottom = 75px */
+  /** Padding-left = 100px */
+}
+
+.padding-example-three {
+  color: rgb(230, 164, 77);
+  background-color: whitesmoke;
+  font-weight: 600;
+  width: 80%;
+  margin: auto;
+  font-size: 25px;
+  /*! Here we give padding in 3 values  */
+  padding: 25px 50px 75px;
+  /*? Here we give padding in 3 values of 4 direction in shorthand padding property */
+  /** Here padding was given like this.... */
+  /** padding-top = 25px */
+  /** padding-right & padding-left = 50px */
+  /** padding-bottom = 75px */
+}
+
+.padding-example-four {
+  color: #fff;
+  background-color: #555;
+  width: 80%;
+  margin: auto;
+  font-size: 24px;
+  /*! Here we give padding in 2 values */
+  padding: 25px 50px;
+  /*? Here we give padding in 2 values of 4 direction */
+  /** Here padding was given like this... */
+  /** padding-top & padding-bottom = 25px and padding-right & padding-left = 50px */
+}
