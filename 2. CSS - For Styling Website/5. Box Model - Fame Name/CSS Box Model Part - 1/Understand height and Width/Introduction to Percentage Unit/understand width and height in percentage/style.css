@@ -1,0 +1,34 @@
+body {
+  color: #fff;
+  background-color: #111;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+}
+
+.parent {
+  color: #054b4b;
+  background-color: #e440c4;
+  /*? Giving width in pixels */
+  width: 800px;
+  /*! Here we give width in pixels and absolute value to parent element. When we decrease size of  viewport than overflow causes. */
+  margin: auto;
+}
+
+.child {
+  color: #dc143c;
+  background-color: #ff7f50;
+  /*? Giving width in percentage */
+  width: 50%;
+  /*! Here we give width in percentage here we give it takes width from parent which have width 800px. Here 50% of 800px was 400px. */
+}
+
+.child-element {
+  color: #8b008b;
+  background-color: #2cdbdb;
+  /*? Giving width in percentage */
+  width: 50%;
+  /*! Here we give width in percentage to child's child element here also we give width 50% so here it was 200px width. */
+}
