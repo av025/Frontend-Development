@@ -1,0 +1,35 @@
+body {
+  color: #fff;
+  background-color: #333;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.explanation-of-padding {
+  font-size: 30px;
+  color: indianred;
+  width: 60%;
+  margin: auto;
+}
+
+.padding-div {
+  color: orangered;
+  background-color: lightpink;
+  font-size: 20px;
+  width: 600px;
+  margin: auto;
+  /*! Giving padding individually to all 4 sites */
+  padding-left: 3px;
+  /** Giving 3px padding from left */
+  padding-top: 15px;
+  /** Giving 15px padding from top */
+  padding-right: 21px;
+  /** Giving 21px padding from right */
+  padding-bottom: 27px;
+  /** Giving 27px padding from bottom */
+}
+
+/*? These 4 properties padding-left , padding-right , padding-top and padding-bottom was reside inside padding shorthand property. */
