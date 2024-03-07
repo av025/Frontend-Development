@@ -5,6 +5,8 @@ body {
   text-transform: capitalize;
 }
 
+/*! When our viewport was small and very small than we use words which was bigger in legth so it was also overflow and come outside from our html element so for that we use property word-break which breaks our words when the screen was samll our content was look some wierd type but it does not lead to come out content from our html element */
+
 .percentage-unit-exampleOne {
   color: chocolate;
   background-color: lightgreen;
@@ -13,6 +15,10 @@ body {
   width: 50%;
   /** Giving width in percentage unit and giving 50%  */
   /*! When we give unit in percentage than it's takes width or height from it's parent element here the parent was body element. */
+  /*? word break property */
+  word-break: break-all;
+  /** With break-all value it break our words and pushed to move on next line when viewport was small it causes that our words look like distrouted by the way */
+  /*? To prevent overflow, word may be broken at any character */
 }
 
 .percentage-unit-exampleTwo {
@@ -21,6 +27,9 @@ body {
   font-weight: 500;
   font-size: 20px;
   width: 100%;
+  /*! Here we use default word-break property */
+  word-break: normal; /** Default value*/
+  word-break: break-all; /** text behavior is the same as value "normal" */
 }
 
 .red-color {
