@@ -1,0 +1,41 @@
+body {
+  color: #fff;
+  background-color: #111;
+}
+
+h1 {
+  text-align: center;
+}
+.color-indianred {
+  color: indianred;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.red-color {
+  color: rgb(255, 117, 95);
+  font-size: 25px;
+  background-color: azure;
+}
+
+.min-height-example {
+  font-size: 20px;
+  color: crimson;
+  background-color: burlywood;
+  /*? Here we set minimum height of the p element */
+  min-height: 300px;
+  /*! These min-height will constrain our paragraph element to 300px it was not allowed to go down smaller size than 300px. */
+  max-width: 500px;
+  /*! Here we set our max-width 500px pixel which constrain our width to 500px it was not allowed our p element to go higer than 500px. */
+}
+
+/*? Mainly we are using max-width and min-height only we don't give absolute width and height and we don't give height usually browser takes perfect height our html element by it's content. */
+
+.cyan-color {
+  font-size: 25px;
+  color: rgb(3, 98, 98);
+  background-color: lightsalmon;
+  width: 500px;
+  margin: auto;
+  border: 3px solid red;
+}
