@@ -1,0 +1,35 @@
+body {
+  color: #fff;
+  background-color: #222;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+}
+
+.height-property {
+  color: coral;
+  background-color: lightpink;
+  width: 600px;
+  height: 300px;
+  padding: 20px;
+}
+
+.height-example {
+  background-color: crimson;
+  /*! Here we set height of div */
+  height: 300px;
+  /** With the help of height we can set height of HTML Element. */
+  width: 600px;
+  border: 2px solid #fff;
+}
+
+.explanation-paragraph {
+  position: relative;
+  top: 200px;
+  font-size: 20px;
+  color: indianred;
+  font-weight: 600;
+}
