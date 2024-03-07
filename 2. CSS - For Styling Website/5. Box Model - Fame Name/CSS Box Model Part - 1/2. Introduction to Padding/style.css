@@ -1,0 +1,26 @@
+body {
+  color: #fff;
+  background-color: crimson;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+.explanation {
+  width: 50%;
+  font-size: 25px;
+  margin: auto;
+}
+
+.example-of-padding {
+  width: 70%;
+  font-size: 20px;
+  color: crimson;
+  background-color: coral;
+  margin: auto;
+  /*! Giving padding  */
+  padding: 20px;
+}
