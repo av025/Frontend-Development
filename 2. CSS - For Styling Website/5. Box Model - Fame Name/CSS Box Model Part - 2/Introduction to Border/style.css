@@ -1,0 +1,31 @@
+body {
+  color: #fff;
+  background-color: #555;
+}
+
+h1 {
+  text-align: center;
+}
+
+.explanation-border {
+  font-size: 30px;
+  color: lightcoral;
+  background-color: wheat;
+  width: 40%;
+  margin: auto;
+}
+
+.border-example {
+  width: 60%;
+  margin: auto;
+  color: gold;
+  background-color: crimson;
+  font-weight: 500;
+  margin-top: 50px;
+  padding: 30px;
+  font-size: 30px;
+  /*! Giving border  */
+  border: 5px solid;
+}
+/*? In border we have to give thickness length of the border , style of the border , color of the border */
+/*! If we don't give color of the border than it takes default font color as border color */
