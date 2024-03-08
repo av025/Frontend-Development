@@ -1,0 +1,27 @@
+* {
+  color: #fff;
+  background-color: #111;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+h1 {
+  text-align: center;
+}
+
+.explanation {
+  color: crimson;
+  background-color: skyblue;
+  margin: auto;
+  font-size: 25px;
+  width: 60%;
+  padding: 20px;
+}
+
+.example {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: coral;
+  border: 5px groove;
+  margin-top: 20px;
+}
