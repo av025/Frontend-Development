@@ -1,0 +1,36 @@
+body {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.explanation {
+  width: 60%;
+  margin: auto;
+  font-size: 26px;
+  background-color: crimson;
+  padding: 15px;
+}
+
+/*! Here we use Universal selector to target all element of our webpage and give default styling */
+/*? With the use of star "*" */
+* {
+  box-sizing: border-box;
+}
+
+/*? Specificity of universal was lowest in our all selector it over-write very easily */
+.specificity {
+  color: lightgreen;
+  width: 60%;
+  font-size: 26px;
+  background-color: #fff;
+  padding: 15px;
+  font-weight: 800;
+  margin: auto;
+}
