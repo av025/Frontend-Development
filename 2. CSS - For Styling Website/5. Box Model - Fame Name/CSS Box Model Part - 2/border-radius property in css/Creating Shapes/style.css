@@ -1,0 +1,58 @@
+* {
+  color: #fff;
+  background-color: #111;
+  text-transform: capitalize;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+/*? Eclipse Shape */
+.eclipse-shape {
+  background-color: crimson;
+  border: 5px solid #656923;
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  padding: 20px;
+  /*! Giving border-radius  */
+  border-radius: 50%;
+  /*? When we give border-radius value 50 percent than it will give ellipse shape */
+  border-radius: 100%;
+  /*? Same with 100 percent value it give ellipse shape */
+}
+
+.eclipse-text {
+  position: relative;
+  top: 20px;
+  background-color: crimson;
+  left: 60px;
+  font-size: 20px;
+}
+
+/*! CPerfect Circle */
+.circle-shape {
+  background-color: crimson;
+  border: 5px dashed #e05a6e;
+  /*! Giving same width and height to create perfect circle shape for that we have to create perfect square */
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  /*? Giving border radius */
+  border-radius: 50%;
+  /*? With the help of giving 50% value it create perfect round circle */
+  border-radius: 100%;
+  /*? Similarly with 100 percent too!!!! */
+}
+
+.circle-text {
+  position: relative;
+  top: 80px;
+  background-color: crimson;
+  left: 30px;
+  font-size: 20px;
+}
