@@ -1,0 +1,151 @@
+* {
+  color: #fff;
+  background-color: hotpink;
+  text-transform: capitalize;
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.example {
+  margin: auto;
+  font-size: 20px;
+  width: 50%;
+  background-color: skyblue;
+  padding: 20px;
+}
+
+/** Four values */
+.parent-one {
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  background-color: skyblue;
+  padding: 15px;
+}
+
+.parent-one-childOne {
+  width: 50%;
+  height: 200px;
+  background-color: crimson;
+  padding: 10px;
+  /*? Giving 4 values to margin */
+  margin: 20px 30px 40px 50px;
+  /*! Here we give 4 values to margin property every one values resemble the direction in which we give margin. */
+  /** Here also we are going in anticlock wise direction top --> right --> bottom --> left */
+  /*? margin-top = 20px */
+  /*? margin-right = 30px */
+  /*? margin-bottom = 40px */
+  /*? margin-left = 50px */
+}
+
+.parent-one-childTwo {
+  width: 50%;
+  height: 200px;
+  background-color: pink;
+  padding: 10px;
+  /*? Here we give again 4 values to margin */
+  margin: 50px 40px 30px 20px;
+  /** Here also we are going in anticlock wise direction top --> right --> bottom --> left */
+  /*? margin-top = 50px */
+  /*? margin-right = 40px */
+  /*? margin-bottom = 30px */
+  /*? margin-left = 20px */
+}
+
+/** Three Values */
+.parent-two {
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  background-color: cornflowerblue;
+  padding: 15px;
+}
+
+.parent-two-childOne {
+  background-color: coral;
+  height: 200px;
+  padding: 10px;
+  width: 50%;
+  /*? Here we give 3 values to margin property */
+  margin: 20px 40px 60px;
+  /*! Here we give margin in three value which resmeble four direction  */
+  /*? margin-top = 20px */
+  /*? margin-right & margin-left = 40px */
+  /*? margin-bottom = 60px */
+}
+
+.parent-two-childTwo {
+  background-color: darkmagenta;
+  height: 200px;
+  padding: 10px;
+  width: 50%;
+  /*? Here also we give 3 values to margin property */
+  margin: 60px 40px 20px;
+  /*? margin-top = 60px */
+  /*? margin-right & margin-left = 40px */
+  /*? margin-bottom = 20px */
+}
+
+/** two values */
+
+.parent-three {
+  color: #1255d1;
+  background-color: #fff;
+  width: 50%;
+  margin: auto;
+  height: 500px;
+  padding: 30px;
+}
+
+.parent-three-childOne {
+  color: crimson;
+  background-color: #6892df;
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  /*? Giving two values to margin */
+  margin: 50px 100px;
+  /*? Here we give 4 directions in two values */
+  /** margin-top & margin-bottom = 50px */
+  /** margin-left & margin-right = 100px */
+}
+
+.parent-three-childTwo {
+  color: darkorange;
+  background-color: #111;
+  width: 50%;
+  height: 30%;
+  padding: 10px;
+  /*? Giving two values here also */
+  margin: 20px 20px;
+  /** margin-top & margin-bottom = 20px */
+  /** margin-left & margin-right = 20px */
+}
+
+.parent-four {
+  background-color: crimson;
+  width: 50%;
+  margin: auto;
+  height: 300px;
+  padding: 30px;
+}
+
+.child-parent-four {
+  color: gold;
+  background-color: #111;
+  padding: 10px;
+  width: 50%;
+  height: 50%;
+  /** Giving single value to margin property */
+  margin: 80px;
+  /*? Here we give single value for all four direction */
+  /** margin-top = margin-right = margin-bottom = margin-left = 80px */
+}
