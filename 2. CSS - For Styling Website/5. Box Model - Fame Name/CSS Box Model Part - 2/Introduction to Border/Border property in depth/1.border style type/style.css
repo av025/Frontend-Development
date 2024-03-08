@@ -1,0 +1,130 @@
+body {
+  color: wheat;
+  background-color: #333;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+p {
+  margin: auto;
+}
+.types-of-border {
+  color: crimson;
+  width: 50%;
+  margin: auto;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+/* dotted border */
+.dotted-border {
+  width: 50%;
+  color: lightcoral;
+  background-color: lightgreen;
+  font-weight: 600;
+  /*? Giving dotted border */
+  border: 4px dotted rgb(238, 17, 54);
+  font-size: 30px;
+}
+
+/* dashed border */
+.dashed-border {
+  width: 50%;
+  color: deeppink;
+  background-color: #111;
+  font-weight: 300;
+  font-size: 30px;
+  /* ? Giving dashed border */
+  border: 4px dashed lightcyan;
+}
+
+/* solid border */
+.solid-border {
+  width: 50%;
+  color: lightcoral;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  /*? Giving solid border */
+  border: 5px solid;
+}
+
+/* double border */
+.double-border {
+  width: 50%;
+  color: crimson;
+  background-color: burlywood;
+  font-weight: 300;
+  font-size: 30px;
+  /*? Giving double border */
+  border: 6px double #2367ff;
+}
+
+/* groove border */
+.groove-border {
+  color: #2367ff;
+  width: 60%;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 25px;
+  /*? Giving groove border */
+  border: 6px groove deeppink;
+}
+
+/* ridge border */
+.ridge-border {
+  color: rgb(224, 23, 54);
+  width: 60%;
+  background-color: #8ba3d5;
+  font-weight: 500;
+  font-size: 30px;
+  /*? Giving ridge border */
+  border: 5px ridge peru;
+}
+
+/* inset border */
+.inset-border {
+  color: crimson;
+  background-color: #fff;
+  width: 60%;
+  font-weight: 600;
+  font-size: 20px;
+  /*? Giving inset border */
+  border: 5px inset crimson;
+}
+
+/* outset border */
+.outset-border {
+  color: #8ba3d5;
+  background-color: antiquewhite;
+  width: 50%;
+  font-size: 25px;
+  /*? Giving outset border */
+  border: 6px outset pink;
+}
+
+/* none border */
+.none-border {
+  color: rgb(153, 31, 51);
+  background-color: whitesmoke;
+  width: 60%;
+  font-size: 26px;
+  /*? Giving none value to border  */
+  border: none;
+  /*! here we don't set border which was default styling */
+}
+
+/* hidden border */
+.hidden-border {
+  color: rgb(126, 39, 10);
+  background-color: darkgray;
+  width: 60%;
+  font-size: 26px;
+  /*? Giving border  */
+  border: 5px solid palevioletred;
+  /*! We want to hide our border than we use hidden value */
+  border: hidden;
+}
