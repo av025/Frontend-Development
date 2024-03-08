@@ -1,0 +1,62 @@
+body {
+  color: #fff;
+  background-color: black;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.explanation-individually {
+  width: 50%;
+  margin: auto;
+  color: fuchsia;
+  font-size: 25px;
+}
+
+.example-one {
+  margin: auto;
+  background-color: #eee;
+  color: crimson;
+  font-size: 25px;
+  width: 60%;
+  padding: 30px;
+  /*! Giving border propeties individually  */
+  /*? Border-top property */
+  border-top: 4px solid lime;
+  /*? Border-right property */
+  border-right: 8px dotted yellow;
+  /*? Border-bottom property */
+  border-bottom: 5px dashed palevioletred;
+  /*? Border-left property */
+  border-left: 5px double rgb(226, 43, 86);
+}
+
+.example-two {
+  margin: auto;
+  width: 60%;
+  background-color: #fff;
+  color: crimson;
+  padding: 20px;
+  font-size: 28px;
+  /*! Giving border properties more individually */
+  /** top border property */
+  border-top-width: 5px;
+  border-top-color: chocolate;
+  border-top-style: ridge;
+  /** right border property */
+  border-right: 5px;
+  border-right-color: palevioletred;
+  border-right-style: solid;
+  /** bottom border property */
+  border-bottom-width: 5px;
+  border-bottom-color: darkmagenta;
+  border-bottom-style: inset;
+  /** left border property */
+  border-left-style: groove;
+  border-left-color: deepskyblue;
+  border-left-width: 5px;
+}
