@@ -1,0 +1,40 @@
+* {
+  color: crimson;
+  background-color: antiquewhite;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.explanation-of-margin {
+  width: 60%;
+  margin: auto;
+  color: #fff;
+  background-color: lightgreen;
+  font-size: 25px;
+  padding: 26px;
+}
+
+/*! They are place ajadcently to each other and we want to give spaces between them so we use margin property */
+
+.one {
+  color: #fff;
+  background-color: #ac8e1a;
+  padding: 20px;
+  width: 600px;
+  /** margin property */
+  margin: 20px;
+}
+
+.two {
+  color: cadetblue;
+  background-color: #fff;
+  padding: 20px;
+  width: 600px;
+  /** margin property */
+  margin: 20px;
+}
