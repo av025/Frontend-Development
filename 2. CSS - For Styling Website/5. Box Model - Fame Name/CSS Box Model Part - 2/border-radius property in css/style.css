@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #111;
+  font-family: "Helvetica Neue", sans-serif;
+  text-transform: capitalize;
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+}
+
+.explanation {
+  color: crimson;
+  background-color: skyblue;
+  font-size: 30px;
+  width: 40%;
+  margin: auto;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.example-one {
+  background-color: khaki;
+  color: rgb(230, 64, 92);
+  width: 50%;
+  padding: 15px;
+  margin: auto;
+  margin-top: 20px;
+  border: 4px solid;
+  /*! Giving border radius */
+  border-radius: 10px;
+  /*? our border was curved or rounded 10px from every corner of html element */
+}
+
+.example-two {
+  background-color: cadetblue;
+  color: #d30007;
+  padding: 20px;
+  margin: auto;
+  width: 60%;
+  margin-top: 50px;
+  border: 5px groove orangered;
+  /*! Here we give border-radius property individually */
+  border-top-right-radius: 15px;
+  /** Here we give 15px rounded border radius to top right corner */
+  border-top-left-radius: 30px;
+  /** Here we give 30px rounded border radius to top left corner */
+  border-bottom-right-radius: 45px;
+  /** Here we give 45px rounded border radius to bottom right corner */
+  border-bottom-left-radius: 60px;
+  /** Here we give 60px rounded border radius to bottom left corner */
+}
