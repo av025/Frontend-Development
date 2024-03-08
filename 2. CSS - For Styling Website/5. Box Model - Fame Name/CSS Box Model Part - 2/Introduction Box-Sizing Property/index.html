@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box-Sizing Property</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Box-Sizing Property</h1>
+    <h2>What is the Problem with "box-sizing" in CSS?</h2>
+    <div class="example">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+      cumque nemo consectetur voluptate inventore nesciunt voluptas
+      necessitatibus veritatis dolores commodi pariatur numquam distinctio a,
+      perferendis maiores ipsam eaque nobis voluptatum ullam, atque qui modi
+      quaerat alias. Veritatis facere sunt ratione!
+    </div>
+    <p class="explanation">
+      Here we give width = 500px and height = 200px to our html element but here
+      was one problem it width and height was increases because of default
+      nature of box-sizing. We give 10px border and 30px padding to it also so
+      here width was claculated like that 10px (left-side border) + 30px
+      (left-side padding) + 500 (width of content) + 30px (right-side ) + 10px
+      (right-side border) = 580px
+      <br />
+      <br />
+      Similarly same case height 10px (top-side border) + 30px (top-side
+      padding) + 200px (height of the content) + 30px (bottom-side padding) +
+      10px (bottom-side border) = 280px
+      <br />
+      <br />
+      <span
+        >When we add border and padding than our content width and height was
+        also increases simultaneously
+      </span>
+    </p>
+  </body>
+</html>

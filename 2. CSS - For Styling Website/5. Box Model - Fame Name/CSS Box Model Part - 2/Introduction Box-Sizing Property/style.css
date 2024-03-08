@@ -1,0 +1,34 @@
+body {
+  color: orange;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.example {
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  background-color: pink;
+  padding: 30px;
+  border: 10px solid deeppink;
+}
+
+.explanation {
+  color: rgb(38, 153, 191);
+  background-color: honeydew;
+  width: 60%;
+  padding: 20px;
+  margin: auto;
+}
+
+span {
+  color: indianred;
+  font-weight: 800;
+  font-size: 25px;
+}
