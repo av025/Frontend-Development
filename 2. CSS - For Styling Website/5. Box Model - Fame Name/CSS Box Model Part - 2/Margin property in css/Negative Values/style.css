@@ -1,0 +1,54 @@
+* {
+  color: cadetblue;
+  background-color: khaki;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.explanation {
+  background-color: whitesmoke;
+  width: 80%;
+  padding: 10px;
+  font-size: 30px;
+  margin: auto;
+}
+
+.parent {
+  margin: auto;
+  width: 80%;
+  height: 600px;
+  background-color: crimson;
+}
+
+.child-one {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  padding: 20px;
+  /*? Giving margin in positive value */
+  margin: 100px;
+}
+
+.child-two {
+  width: 200px;
+  height: 200px;
+  background-color: ghostwhite;
+  /*? Giving Margin in negative value */
+  margin: -60px;
+  /*! When we give margin in negative it just work opposite to it's behaviour whenever we give margin to any element than it creates spaces from that other html element or in webpage. It moves towards that html element just opposite.  */
+}
+
+.conclusion {
+  color: indianred;
+  font-size: 30px;
+  width: 80%;
+  font-weight: 800;
+  margin: auto;
+  padding: 20px;
+}
