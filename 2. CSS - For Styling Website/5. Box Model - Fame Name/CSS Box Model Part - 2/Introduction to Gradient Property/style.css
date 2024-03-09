@@ -22,7 +22,7 @@ p {
   width: 400px;
   height: 400px;
   margin: auto;
-  border: 4px solid orange;
+  border: 4px solid #ff00ea;
   overflow: hidden;
   border-radius: 100%;
 }
@@ -35,5 +35,8 @@ img {
   /*! Now we are use gradient property. There was three type of gradient 1st.) Linear-gradient , 2nd.) Radial-gradient 3rd.) Rhombus-gradient */
   /** Here  we use linear-gradient property */
   /*? For gradient property we use background-image property in which we use linear gradient */
-  background-image: ;
+  background-image: linear-gradient(deeppink, skyblue);
+  /*! Above we use combination of two colors */
+  background-image: linear-gradient(aqua, deeppink, blue);
+  /** We can use more than two colors too!!!! */
 }
