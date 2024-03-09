@@ -1,0 +1,59 @@
+* {
+  color: #fff;
+  background-color: #333;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.explanation {
+  font-size: 25px;
+  text-align: center;
+  color: crimson;
+  background-color: aliceblue;
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/** Applying Box-model properties on the Block element */
+#example-block-level {
+  background-color: coral;
+  font-size: 20px;
+  /*! Giving width and height */
+  width: 400px;
+  height: 200px;
+  /*! Giving padding */
+  padding: 25px;
+  /*! box-sizing  */
+  box-sizing: border-box;
+  /*? Giving border also...... */
+  border: 15px solid black;
+}
+
+/** Applying Box-model properties on the Inline element */
+.inline-element-one {
+  background-color: skyblue;
+  font-size: 20px;
+  /*! Applying Box Model property one by one */
+  /** Giving first width */
+  width: 400px;
+  /*? We give width which was not applied on inline element */
+  /** Giving height also */
+  height: 400px;
+  /*? Height was also not applied on inline element */
+  /*! Height and width was auto it depends on the content if the content was more it increase it's size */
+}
+
+.inline-element-two {
+  font-size: 20px;
+  background-color: yellow;
+  color: #111;
+}
