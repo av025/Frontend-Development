@@ -1,0 +1,34 @@
+* {
+  font-family: cursive;
+  text-transform: capitalize;
+  background-color: #111;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 60px;
+}
+
+.outline {
+  background-color: pink;
+  font-size: 30px;
+  padding: 20px;
+  color: #111;
+  /** giving border to span tag */
+  border: 10px solid saddlebrown;
+  /*! Giving outline to span tag */
+  outline: 20px solid yellow;
+}
+
+.explanation {
+  color: rgb(193, 28, 28);
+  position: relative;
+  top: 80px;
+  font-weight: 600;
+  width: 1000px;
+  font-size: 20px;
+  background-color: lightseagreen;
+  padding: 20px;
+}
