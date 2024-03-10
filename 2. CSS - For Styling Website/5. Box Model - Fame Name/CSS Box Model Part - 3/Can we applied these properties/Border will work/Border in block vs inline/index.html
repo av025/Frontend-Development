@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border in block element vs inline element</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Border in block element vs inline element</h1>
+    <h2>Border in block element</h2>
+    <div class="border-one">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ab fugit
+      facilis veniam assumenda, aspernatur laboriosam! Dolorum eum aliquam
+      doloremque!
+    </div>
+    <div class="border-two">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex rerum
+      repellat quidem quaerat dolorem corporis expedita molestias? Recusandae
+      deserunt.
+    </div>
+    <p class="explanation">
+      Here we give border to two div tags first one to give 5px and second was
+      10px so it creates spaces for 10px border not overlap on first div tag
+    </p>
+    <h2>Border in inline element</h2>
+    <h3>Border working in left and right direction</h3>
+    <span class="first-border-one">Lorem ipsum dolor sit amet.</span>
+    <span class="second-border-one"
+      >Lorem ipsum dolor sit amet consectetur.</span
+    >
+    <p class="explanation">
+      Now here border working fine in left and right direction beacuse of inline
+      nature.
+    </p>
+    <h3>Border working in top and bottom direction</h3>
+    <span class="first-border-two"
+      >Lorem ipsum dolor sit amet consectetur.</span
+    >
+    <br />
+    <span class="second-border-two"
+      >Lorem ipsum dolor sit amet consectetur.</span
+    >
+    <br />
+
+    <p class="explanation">
+      Here border was overlap to another html element border it does not create
+      space for border in top and bottom direction
+    </p>
+  </body>
+</html>

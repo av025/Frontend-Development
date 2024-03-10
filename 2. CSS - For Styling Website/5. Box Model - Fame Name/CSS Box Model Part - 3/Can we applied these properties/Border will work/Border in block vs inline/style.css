@@ -1,0 +1,77 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.border-one {
+  width: 500px;
+  height: 100px;
+  background-color: chocolate;
+  padding: 20px;
+  /*! Giving border to first div tag */
+  border: 5px solid deeppink;
+}
+
+.border-two {
+  width: 500px;
+  height: 100px;
+  background-color: yellow;
+  color: #111;
+  padding: 10px;
+  /*! Giving border to second div tag */
+  border: 10px solid pink;
+}
+
+/*! Here we give border to two div tags first one to give 5px and second was 10px so it creates spaces for 10px border not overlap on first div tag  */
+
+.explanation {
+  color: darkmagenta;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/*! Inline border styling */
+.first-border-one {
+  background-color: darksalmon;
+  font-size: 18px;
+  padding: 6px;
+  /*? Giving border  */
+  border: 5px solid;
+}
+
+.second-border-one {
+  background-color: yellow;
+  font-size: 18px;
+  padding: 6px;
+  color: #111;
+  /*? Giving border */
+  border: 10px solid deepskyblue;
+}
+
+.first-border-two {
+  background-color: deeppink;
+  font-size: 20px;
+  padding: 6px;
+  /*? Giving border */
+  border: 15px solid;
+}
+
+.second-border-two {
+  background-color: seagreen;
+  font-size: 20px;
+  padding: 6px;
+  /*? Giving border here also */
+  border: 20px solid yellow;
+}
+
+.third-border-two {
+  background-color: darkorange;
+  font-size: 20px;
+}
