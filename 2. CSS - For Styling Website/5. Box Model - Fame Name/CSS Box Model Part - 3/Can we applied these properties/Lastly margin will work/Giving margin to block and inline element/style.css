@@ -1,0 +1,41 @@
+* {
+  color: #fff;
+  background-color: #222;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*? Block element */
+
+.block-margin {
+  width: 400px;
+  height: 200px;
+  background-color: skyblue;
+  padding: 20px;
+  border: 16px solid deeppink;
+  /*! Giving margin to block level element */
+  margin: 60px;
+}
+
+/** Explanation */
+.explanation {
+  color: crimson;
+  font-size: 20px;
+  background-color: #17ebf212;
+  width: 800px;
+  padding: 20px;
+}
+
+/*? Inline element */
+.inline-margin {
+  background-color: coral;
+  padding: 15px;
+  /*! Giving margin to inline element */
+  margin: 60px;
+  /*? Here Margin was only apply on left & right direction because of inline nature.Top & bottom margin was not applied. */
+}
