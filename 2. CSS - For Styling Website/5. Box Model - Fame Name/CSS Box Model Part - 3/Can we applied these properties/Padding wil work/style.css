@@ -1,0 +1,22 @@
+* {
+  background-color: coral;
+  color: #fff;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+}
+
+.padding-example {
+  font-size: 22px;
+  background-color: skyblue;
+  /*? Applying padding to span tag to see that it works or not ? */
+  padding: 20px;
+}
+
+.explanation {
+  font-size: 22px;
+  color: yellow;
+}
