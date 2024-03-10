@@ -1,0 +1,70 @@
+* {
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+.block-level-padding-one {
+  background-color: coral;
+  height: 100px;
+  width: 500px;
+  /*! We can give height and width to block level element */
+  /*? Padding was also applied in block level element */
+  padding: 15px;
+}
+
+.block-level-padding-two {
+  background-color: darksalmon;
+  height: 100px;
+  width: 500px;
+  /*? Giving padding */
+  padding: 15px;
+}
+
+/* Now applying padding to inline element */
+.inline-level-padding-one {
+  background-color: skyblue;
+  /** We known that height & padding was not applied on inline element*/
+  /*! Padding was applied in all four direction  */
+  padding: 25px;
+}
+
+.inline-level-padding-two {
+  background-color: crimson;
+  /*! Giving padding second one also */
+  padding: 15px;
+}
+
+.inline-level-padding-three {
+  background-color: purple;
+  /*! Giving padding to third  */
+  padding: 20px;
+}
+
+.inline-level-padding-four {
+  background-color: yellow;
+  color: #333;
+  /*! Giving padding here also */
+  padding: 15px;
+}
+
+.google-anchor-tag {
+  background-color: deeppink;
+  /** giving padding */
+  padding: 15px;
+}
+
+.instagram-anchor-tag {
+  background-image: linear-gradient(red, blue, green, yellow);
+  /** giving padding */
+  padding: 20px;
+}
+/*! In Block-level element padding was not overlap to each other it creates spaces to both padding applied. Padding was applied in all 4 direction but when we appling padding in top & bottom direction it going to overlap on other element padding it does not push away other html element overlaps on it but because of inline behaviour left and right it was pushing html element.So conclusion is that padding properly works in left and right direction and also work in top and bottom direction also here it overlaps on other elements. */
+
+.explanation {
+  background-color: orange;
+  padding: 20px;
+  font-size: 22px;
+}
