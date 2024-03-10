@@ -1,0 +1,85 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 50px 0 50px 0;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 20px;
+  background-color: indianred;
+  padding: 20px;
+  margin: 60px;
+}
+
+/** inline display */
+.html-one {
+  background-color: #d89210;
+  padding: 20px;
+  border: 4px solid deeppink;
+  margin: 30px;
+}
+
+.css-one {
+  background-color: skyblue;
+  border: 4px solid yellow;
+  margin: 30px;
+  padding: 20px;
+}
+
+.js-one {
+  background-color: yellow;
+  color: #111;
+  margin: 30px;
+  padding: 20px;
+  border: 4px solid skyblue;
+}
+
+/*! Inline-block Display */
+/*? Giving property inline-block display after that set height & width of all span tags */
+
+.html-two {
+  background-color: #d89210;
+  padding: 20px;
+  border: 4px solid deeppink;
+  margin: 30px;
+  /*! Giving Inline-block display property*/
+  display: inline-block;
+  /** Setting height & width */
+  height: 60px;
+  width: 80px;
+}
+
+.css-two {
+  background-color: skyblue;
+  border: 4px solid yellow;
+  margin: 30px;
+  padding: 20px;
+  /*! Giving Inline-block display property*/
+  display: inline-block;
+  /** Setting height & width */
+  height: 60px;
+  width: 80px;
+}
+
+.js-two {
+  background-color: yellow;
+  color: #111;
+  margin: 30px;
+  padding: 20px;
+  border: 4px solid skyblue;
+  /*! Giving Inline-block display property*/
+  display: inline-block;
+  /** Setting height & width */
+  height: 60px;
+  width: 80px;
+}
