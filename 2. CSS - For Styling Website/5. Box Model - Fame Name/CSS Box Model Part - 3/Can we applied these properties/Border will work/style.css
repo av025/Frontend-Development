@@ -1,0 +1,25 @@
+* {
+  color: #fff;
+  background-color: #222;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+}
+
+.example-of-border {
+  color: crimson;
+  background-color: khaki;
+  font-size: 25px;
+  padding: 15px;
+  /*! Applying border here */
+  border: 4px solid crimson;
+}
+
+.explanation {
+  margin-top: 50px;
+  font-size: 25px;
+  color: rgb(236, 41, 41);
+}
