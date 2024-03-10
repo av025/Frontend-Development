@@ -1,0 +1,31 @@
+* {
+  color: #fff;
+  background-color: #222;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  width: 100%;
+  font-size: 20px;
+  background-color: salmon;
+  padding: 20px;
+}
+
+.inline-block {
+  /*! Giving display property inline-block */
+  display: inline-block;
+  height: 100px;
+  width: 90%;
+  background-color: crimson;
+  padding: 20px;
+  margin: 50px;
+  border: 10px solid yellow;
+}
+
+/*! Whenever we give any html element ( both inline & block) display inline-block property so it have nature of both inline and block element */
