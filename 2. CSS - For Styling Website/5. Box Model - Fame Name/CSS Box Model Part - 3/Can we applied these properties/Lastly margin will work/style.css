@@ -1,0 +1,24 @@
+* {
+  color: #fff;
+  background-color: #222;
+  margin: 0;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+.margin-example {
+  background-color: darkgoldenrod;
+  font-size: 20px;
+  padding: 20px;
+  border: 15px solid;
+  /*! Giving margin to inline span element */
+  margin: 200px;
+}
+
+.explanation {
+  position: relative;
+  top: 80px;
+  padding: 20px;
+  font-size: 30px;
+  color: indianred;
+}
