@@ -1,0 +1,35 @@
+* {
+  color: #fff;
+  background-color: chocolate;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.one {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  padding: 30px;
+  display: inline-block;
+}
+.two {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  padding: 30px;
+  display: inline-block;
+  /*! Giving second span tah display : none */
+  display: none;
+}
+.three {
+  width: 100px;
+  height: 100px;
+  background-color: deeppink;
+  padding: 30px;
+  display: inline-block;
+}
