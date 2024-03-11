@@ -1,0 +1,40 @@
+* {
+  color: #fff;
+  background-color: #324;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  width: 60%;
+  background-color: deeppink;
+  margin: auto;
+  padding: 20px;
+}
+
+/*! Replaced Inline Element */
+img {
+  position: relative;
+  left: 32%;
+  /** Experiment with height and width */
+  width: 100%;
+  max-width: 600px;
+  height: 600px;
+  min-height: 300px;
+  /** Now giving height and width */
+  height: 400px;
+  width: 400px;
+  /*? Giving margin, padding, and border */
+  margin: 60px;
+  padding: 50px;
+  border: 40px solid yellow;
+  /** Giving outline also */
+  outline: 30px solid fuchsia;
+}
