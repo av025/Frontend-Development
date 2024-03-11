@@ -1,0 +1,20 @@
+* {
+  background-color: #111;
+  color: #fff;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+p {
+  color: indianred;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 30px;
+}
+
+video {
+  margin-left: 300px;
+  margin-right: 300px;
+  border: 5px solid yellow;
+}
