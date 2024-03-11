@@ -1,0 +1,58 @@
+* {
+  color: #fff;
+  background-color: #123;
+  text-transform: capitalize;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 24px;
+  color: indianred;
+}
+
+/*! Now we are giving display property to inline so it has properties of inline and block element both */
+.first-div {
+  width: 400px;
+  height: 200px;
+  background-color: yellow;
+  color: #111;
+  padding: 20px;
+  /*? Giving display Inline-block */
+  display: inline-block;
+  margin: 10px;
+}
+
+.second-div {
+  width: 400px;
+  height: 200px;
+  background-color: deeppink;
+  padding: 20px;
+  /*? Giving display Inline-block */
+  display: inline-block;
+  margin: 10px;
+}
+
+.third-div {
+  width: 400px;
+  height: 200px;
+  background-color: orange;
+  padding: 20px;
+  /*? Giving display Inline-block */
+  display: inline-block;
+  margin: 10px;
+}
+
+.fourth-div {
+  width: 90%;
+  height: 200px;
+  background-color: burlywood;
+  padding: 20px;
+  /*? Giving display Inline-block */
+  display: inline-block;
+  margin: 10px;
+}
