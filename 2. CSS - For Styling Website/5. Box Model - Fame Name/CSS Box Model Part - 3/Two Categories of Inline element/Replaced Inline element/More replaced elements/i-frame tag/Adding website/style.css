@@ -1,0 +1,19 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+p {
+  font-style: italic;
+  font-size: 22px;
+}
+
+iframe {
+  width: 600px;
+  height: 600px;
+}
+
+/*! In i-frame tag we have to give both width & heigth both to our i-frame both are mandatory. */
