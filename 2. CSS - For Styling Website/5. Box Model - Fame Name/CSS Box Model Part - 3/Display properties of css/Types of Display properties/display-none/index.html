@@ -16,6 +16,23 @@
     <span class="one">One</span>
     <span class="two">Two</span>
     <span class="three">Three</span>
-    <h3></h3>
+    <h3>What was difference between hidden attribute and display none ?</h3>
+    <p>
+      When we are giving hidden attribute to any html element than it was
+      implicitly display:none only
+    </p>
+    <div class="example" hidden>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ex
+      dolores maiores quod distinctio maxime rem quibusdam voluptatem illum
+      eaque suscipit earum, minus nemo dignissimos aliquam dolorum dolorem
+      reprehenderit! Nihil cupiditate beatae ut vero fugiat facilis distinctio
+      dolorum eum voluptatem.
+    </div>
+    <p>
+      Above we have gave the div element hidden attribute than after in css we
+      give display block so it was over-write by display block property hidden
+      attribute has low specificity it can be change or anipulate by css display
+      properties
+    </p>
   </body>
 </html>

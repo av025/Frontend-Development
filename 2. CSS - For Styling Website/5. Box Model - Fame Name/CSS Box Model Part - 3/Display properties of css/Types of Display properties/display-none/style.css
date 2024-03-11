@@ -10,6 +10,9 @@ h1 {
   text-align: center;
 }
 
+p {
+  font-size: 22px;
+}
 .one {
   width: 100px;
   height: 100px;
@@ -32,4 +35,14 @@ h1 {
   background-color: deeppink;
   padding: 30px;
   display: inline-block;
+}
+
+.example {
+  width: 600px;
+  height: 200px;
+  background-color: skyblue;
+  padding: 15px;
+  border: 5px solid yellow;
+  outline: 6px solid deeppink;
+  display: block;
 }
