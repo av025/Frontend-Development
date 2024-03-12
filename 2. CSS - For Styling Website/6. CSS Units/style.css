@@ -1,0 +1,24 @@
+* {
+  color: #fff;
+  background-color: #123;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+.example {
+  /** Giving width and height in pixels unit */
+  width: 600px;
+  height: 350px;
+  /*! We don't give height because browser will automatically set perfectly */
+  padding: 25px;
+  background-color: cornflowerblue;
+}
