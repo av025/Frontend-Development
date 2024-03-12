@@ -1,0 +1,65 @@
+* {
+  color: #fff;
+  background-color: #321123;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+p {
+  font-size: 20px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.great-grand-father {
+  /*! Here we give width to great-grand-father div was 50% */
+  width: 50%;
+  background-color: orange;
+}
+/*? Here we give width to our great grand father was 50% which was relative to it's parent element which was body tag so it's width was taken from body's width 50% */
+
+.first {
+  background-color: orange;
+}
+
+.grand-father {
+  /*! Here also we are giving width of 50% */
+  width: 50%;
+  margin: auto;
+  background-color: deeppink;
+}
+/*? In grand-father we give width 50% whenever we use percentage unit than it was relative to it's parent element so, here the width 50% was taken from it's parent element which was great-grand-father */
+
+.second {
+  background-color: deeppink;
+}
+
+.father {
+  /*! In father also we are given 50% width */
+  width: 50%;
+  margin: auto;
+  background-color: crimson;
+  /*? Here was also same it's 50% width of gran parent width's */
+}
+
+.third {
+  background-color: crimson;
+}
+
+.son {
+  /*! In son we are giving 100% width */
+  width: 100%;
+  margin: auto;
+  background-color: yellow;
+  /*? Here we give width 100% which was father width's */
+}
+
+.fourth {
+  color: #123;
+  background-color: yellow;
+}
+
+/** Percentage unit was depend on the parent's element because it was relative unit. */
