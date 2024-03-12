@@ -1,0 +1,15 @@
+* {
+  color: #fff;
+  background-color: #111;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
