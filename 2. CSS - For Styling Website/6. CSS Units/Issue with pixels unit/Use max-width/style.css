@@ -1,0 +1,33 @@
+* {
+  color: #fff;
+
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(82, 57, 8, 0.467);
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  width: 1400px;
+  background-color: crimson;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.max-width {
+  /*! Here we are giving max-width instead of width which fix our width */
+  max-width: 600px;
+  /*! Basically width was auto whenever we apply on block-level which takes whole line as a width here when we are give max-width = 600px so it constrain width to 600px and not allowing to grow more than that if the viewport is bigger when the viewport start decreasing than after 600px size the size of div element was also decrease so it was not fixed because we are not giving absolute value. */
+  margin: auto;
+  background-color: chocolate;
+  padding: 10px;
+}

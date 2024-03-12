@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using max-width to solve issue</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Using "max-width" to solve issue of Overflow</h1>
+    <p>
+      When we are using max-width than we are constrain or give limit that the
+      html element will not grow more than some certain width. Here we always
+      give aprroximately value.
+      <br />
+      max-width work if and only the width of html element was bigger than we
+      are giving max-width value or if the width of html element was smaller of
+      our max-width than it does-not work.
+    </p>
+    <div class="max-width">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nesciunt,
+      asperiores error corrupti ratione distinctio magni earum itaque, totam
+      mollitia labore maxime eius consectetur! Neque, numquam excepturi quas
+      tempore similique ut distinctio sed reprehenderit pariatur veniam
+      veritatis! Dignissimos repellendus quam veritatis facere pariatur odit
+      deserunt dolorem tenetur quasi corrupti, non, voluptate voluptates! Natus
+      accusantium, iste minus, possimus in corporis quae ullam alias porro vitae
+      corrupti nostrum animi optio ad quia cum mollitia explicabo. Optio
+      expedita, repellendus ratione corporis veritatis dignissimos debitis
+      impedit, ducimus deserunt officia illo harum saepe. Esse dignissimos
+      soluta doloribus tempora voluptate eaque nam exercitationem commodi
+      sapiente aperiam, iusto ipsa quia nesciunt architecto eligendi est. Velit
+      commodi voluptatum dolore aut aliquam et sunt itaque, sapiente, iusto
+      voluptas quod voluptates debitis laudantium quis corrupti optio ipsam
+      architecto! Dolores, a exercitationem eveniet sint similique facere
+      consectetur accusamus? Asperiores accusantium ullam tempora reprehenderit?
+      Itaque quidem, excepturi doloremque voluptas autem in aperiam, consequatur
+      nulla sequi architecto saepe necessitatibus optio repudiandae sunt et
+      dolore eius ea! Recusandae amet doloribus dolore culpa quis pariatur,
+      voluptas temporibus ex ipsum, eos, earum quisquam nam inventore mollitia
+      est expedita magni! Ab ducimus unde quas delectus doloremque aliquid sit
+      magnam. Molestiae odio tempore quasi architecto dolorum odit a!
+    </div>
+    <p>
+      Basically width was auto whenever we apply on block-level which takes
+      whole line as a width here when we are give max-width = 600px so it
+      constrain width to 600px and not allowing to grow more than that if the
+      viewport is bigger when the viewport start decreasing than after 600px
+      size the size of div element was also decrease so it was not fixed because
+      we are not giving absolute value.
+    </p>
+  </body>
+</html>
