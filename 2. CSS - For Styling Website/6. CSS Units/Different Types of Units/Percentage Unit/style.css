@@ -1,0 +1,34 @@
+* {
+  color: #fff;
+  background-color: #123;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  margin: 20px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 25px;
+}
+
+h2 {
+  margin: 25px;
+}
+
+.example {
+  /*! Here we give width in percentage unit. */
+  width: 50%;
+  background-color: crimson;
+  padding: 15px;
+  font-style: italic;
+  margin: 30px;
+}
+
+span {
+  color: orange;
+}
