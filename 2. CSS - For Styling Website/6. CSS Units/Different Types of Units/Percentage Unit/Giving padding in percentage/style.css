@@ -1,0 +1,43 @@
+* {
+  color: #123;
+  background-color: yellow;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.pixels-unit {
+  width: 300px;
+  background-color: deeppink;
+  color: #fff;
+  /*! Giving padding in pixels unit */
+  padding: 30px;
+  margin: 10px;
+}
+
+.percentage-unit {
+  width: 400px;
+  background-color: cornflowerblue;
+  color: #fff;
+  /*! Giving padding in percentage unit */
+  padding: 20%;
+  margin: 10px;
+
+  display: inline-block;
+}
+
+.percentage-unit-explanation {
+  width: 700px;
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  bottom: 1400px;
+  color: rgb(190, 16, 16);
+  font-weight: 600;
+  margin: 40px;
+  font-size: 30px;
+}
