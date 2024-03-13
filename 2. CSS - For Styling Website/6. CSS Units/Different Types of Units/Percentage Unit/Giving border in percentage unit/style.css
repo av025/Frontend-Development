@@ -1,0 +1,36 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  width: 90%;
+  font-size: 22px;
+  margin: auto;
+}
+
+h2 {
+  margin: 20px;
+}
+
+.example {
+  background-color: deeppink;
+  width: 60%;
+  padding: 20px;
+  margin: 30px;
+  /*! Giving border to div element */
+  border: 10% solid #fff;
+  /*? When we are giving border in percentage it was not applied on the html element it was not valid to give border in percentage */
+}
+
+.explanation {
+  color: indianred;
+  font-size: 26px;
+}
