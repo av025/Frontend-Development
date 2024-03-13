@@ -1,0 +1,47 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 24px;
+  color: crimson;
+  padding: 20px;
+  font-weight: 500;
+}
+
+.parent-element {
+  background-color: deeppink;
+  width: 900px;
+  padding: 20px;
+  height: 700px;
+  /*! Giving margin in percentage unit */
+  margin: 3%;
+  margin-left: 15%;
+  /** When we give margin percentage than it takes margin from it's parent  element width here the parent element was body tag */
+}
+
+.parent-heading {
+  background-color: deeppink;
+}
+
+.child-element {
+  background-color: darkorange;
+  width: 300px;
+  height: 300px;
+  /*! Giving margin in percentage unit */
+  margin: 20%;
+  /** In child element we give margin in percentage unit so it's calculate margin from parents element width. */
+}
+
+.child-heading {
+  background-color: darkorange;
+  padding: 100px;
+}
