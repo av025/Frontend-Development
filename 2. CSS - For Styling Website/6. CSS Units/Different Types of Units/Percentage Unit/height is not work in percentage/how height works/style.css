@@ -1,0 +1,71 @@
+* {
+  color: #fff;
+  background-color: #123;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  color: indianred;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+}
+.great-grand-father {
+  background-color: skyblue;
+  /*! Giving width in percentage unit */
+  width: 80%;
+  /*? Giving great grand father height in absolute pixels unit. */
+  height: 600px;
+  /** After giving height to ancestor element in absolute unit we can give height in percentage to its child element */
+}
+
+.first {
+  background-color: skyblue;
+  padding: 10px;
+}
+
+.grand-father {
+  background-color: yellow;
+  /*! Giving width in percentage unit */
+  width: 60%;
+  /*? Giving height in percentage unit */
+  height: 80%;
+}
+
+.second {
+  color: #111;
+  background-color: yellow;
+  padding: 10px;
+}
+
+.father {
+  background-color: deeppink;
+  /*! Giving width in percentage unit */
+  width: 40%;
+  /*? Giving height in percentage unit */
+  height: 60%;
+}
+
+.third {
+  background-color: deeppink;
+  padding: 10px;
+}
+
+.son {
+  background-color: darkorange;
+  /*! Giving width in percentage unit here also */
+  width: 20%;
+  /*? Giving height in percentage unit */
+  height: 40%;
+}
+
+.fourth {
+  background-color: darkorange;
+  padding: 10px;
+}

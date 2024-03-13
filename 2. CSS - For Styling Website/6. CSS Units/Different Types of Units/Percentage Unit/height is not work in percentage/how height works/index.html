@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How height works in percentage unit ?????</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>How height works in percentage unit</h1>
+    <p>
+      If we want percentage unit works with our height than we have to give
+      parent element height in absolute unit { in pixels }
+    </p>
+    <h2>Example of height works with percentage unit</h2>
+    <div class="great-grand-father">
+      <h3 class="first">Great grand father</h3>
+      <div class="grand-father">
+        <h3 class="second">Grand Father</h3>
+        <div class="father">
+          <h3 class="third">Father</h3>
+          <div class="son">
+            <h3 class="fourth">Son</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>
+      After giving great grand father height in pixels { Absolute unit } we ca
+      give height to its children element in percentage unit.
+      <br />
+      <br />
+      If we want to give height in percentage than we have to give that element
+      parent height in absolute unit.
+    </p>
+  </body>
+</html>
