@@ -1,0 +1,62 @@
+* {
+  color: #fff;
+  background-color: #1169ff;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2,
+h3 {
+  margin: 20px;
+}
+
+.example-pixels {
+  width: 60%;
+  color: #111;
+  background-color: yellow;
+  padding: 30px;
+  border: 8px solid #fff;
+  outline: 10px dashed deeppink;
+  margin: 30px;
+  /*! Giving font-size in pixels */
+  font-size: 3px;
+  /*! Here we give font-size manually in absolute unit 3px so our font-size become to small and barely to understand what was written but we see it very small in size. */
+}
+
+p {
+  margin: 40px;
+  font-size: 20px;
+}
+
+.example-percentage {
+  width: 60%;
+  color: #fff;
+  background-color: deeppink;
+  padding: 30px;
+  border: 8px solid darkred;
+  outline: 10px dashed yellow;
+  margin: 30px;
+  /*! Giving font-size in percentage unit */
+  font-size: 10%;
+  /*? Here we give 10% to font-size whenever we give font-size in percentage so there font-size was depend on parent's font-size. So , parent here was body tag it was 10% of body font-fize which was 16px */
+  font-size: 4%;
+  /*? Here we give font-size 4% which was of 16px */
+  font-size: 1%;
+  /*? Here we give font-size 1% which was of 16px */
+}
+
+/*! But here was one problem when we give font-size was in percentage it does not allow font-size go down after 6px it remain constant 6px when we give percentage unit in low value. */
+
+.conclusion {
+  background-color: yellow;
+  font-size: 18px;
+  padding: 15px;
+  color: #111;
+  font-weight: 700;
+  margin: 20px;
+}
