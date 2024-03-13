@@ -1,0 +1,26 @@
+* {
+  color: #fff;
+  background-color: #124;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+}
+
+.example {
+  /** Here we give width in percentage unit */
+  width: 80%;
+  background-color: crimson;
+  padding: 15px;
+  /*! Now we are giving height in percentage unit */
+  height: 50%;
+  /** Above we give 50% height to above div element height was not work in percentage because we have to give absolute unit or fixed unit to height than it work */
+}
+
+p {
+  font-size: 25px;
+  color: yellow;
+}
