@@ -1,0 +1,52 @@
+* {
+  background-color: #111;
+  color: #fff;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  width: 80%;
+  text-align: start;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.margin-pixels {
+  width: 600px;
+  background-color: orange;
+  padding: 20px;
+  /*! Here giving margin in absolute value pixels unit */
+  margin: 20px;
+  margin-left: 160px;
+}
+
+.explanation {
+  font-size: 20px;
+  width: 70%;
+  margin: auto;
+  color: indianred;
+  font-weight: 600;
+}
+
+.margin-percentage {
+  width: 600px;
+  background-color: yellow;
+  color: #111;
+  padding: 20px;
+  /*! Giving margin in percentage unit */
+  margin: 1%;
+  margin-left: 11%;
+}
