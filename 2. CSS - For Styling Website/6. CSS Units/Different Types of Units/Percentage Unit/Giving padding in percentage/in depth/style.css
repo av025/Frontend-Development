@@ -1,0 +1,59 @@
+* {
+  color: #fff;
+  background-color: crimson;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+}
+
+.parent-element {
+  width: 600px;
+  height: 200px;
+  background-color: coral;
+  text-align: center;
+  /*! Giving padding in percent */
+  padding: 10%;
+  /** Whenever we are giving padding in percentage than it's take padding from it's parent width which was body tag.*/
+}
+
+.child-element {
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  background-color: skyblue;
+  /*! Giving padding in percent */
+  padding: 20%;
+  /** Here also padding was taken from parent element width   */
+}
+
+.parent-content-box {
+  box-sizing: content-box;
+  width: 400px;
+  height: 200px;
+  background-color: yellow;
+  color: #111;
+  text-align: center;
+  /*! Giving padding */
+  padding: 10%;
+  /** When box-sizing property was content-box than it's padding was taken from it's parent content-box width not total width */
+}
+
+.child-content-box {
+  box-sizing: content-box;
+  width: 200px;
+  height: 100px;
+  background-color: fuchsia;
+  color: #fff;
+  text-align: center;
+  /* ! Giving padding */
+  padding: 20%;
+  /** When box-sizing property was content-box than it's padding was taken from it's parent content-box width not total width */
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Understand in depth</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Understand padding giving in percentage ( In depth )</h1>
+    <p>
+      We see that whenever we give padding to any html elements in percentage
+      unit than it takes padding from its parent element width
+    </p>
+    <h2>Example of giving html element padding in percentage</h2>
+    <div class="parent-element">
+      parent Element
+      <div class="child-element">Child Element</div>
+    </div>
+    <p>
+      We give 10 percent padding to parent element which padding was calculated
+      from its parent width which was body tag
+    </p>
+    <p>
+      Than we give padding 20 percent padding to child element which was
+      calculated from parent element width
+    </p>
+    <h2>
+      Using percentage unit on padding with box-sizing : content-box property
+    </h2>
+    <div class="parent-content-box">
+      Parent Element
+      <div class="child-content-box">Child Element</div>
+    </div>
+    <p>
+      When box-sizing property was content-box than it's padding was taken from
+      it's parent content-box width not total width.
+    </p>
+  </body>
+</html>
