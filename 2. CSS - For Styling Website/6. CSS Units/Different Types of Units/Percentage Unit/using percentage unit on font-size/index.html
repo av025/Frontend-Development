@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giving font-size in percentage unit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Giving font-size in percentage unit</h1>
+    <p>
+      When we are giving font-size in percentage unit than all other properties
+      same here also font-size value was also calculated from parent element but
+      not from width here caluclated from font-size.
+    </p>
+    <p>
+      The default font-size of every html element except some one was 16px which
+      given by user agent style sheet basically it was not 16px orginally was
+      <i>1em</i>.
+    </p>
+    <h2>Giving Font-size in percentage unit</h2>
+    <p class="example">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maxime
+      alias expedita, culpa voluptas neque? Soluta, blanditiis? Officia iste ea
+      perferendis corrupti dolorem blanditiis, vero laboriosam, repudiandae
+      quidem repellendus adipisci!
+    </p>
+    <h2>Giving parent font-size in relative unit and child percentage unit</h2>
+    <p class="case-study">
+      We known that if we give font-size in percentage than it depends on the
+      parent's font-size so if we give parent element font-size 32px than what
+      happen ?
+    </p>
+    <div class="parent">
+      <h3 class="first">Parent element</h3>
+      <span class="first-span">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem
+        quaerat eos at et eum, deserunt fugit modi tempora repellendus
+        voluptates, nobis veritatis consectetur sint ut amet illo, aperiam
+        neque.
+      </span>
+      <div class="child">
+        <h3 class="second">Child element</h3>
+        <span class="second-span">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum alias
+          distinctio voluptatem delectus quia asperiores neque earum. Incidunt,
+          animi maiores.
+        </span>
+      </div>
+    </div>
+    <p
+      style="color: darkorange; padding: 20px; font-size: 28px; width: initial"
+    >
+      So when we give font-size in absolute value to parent element than if we
+      give font-size to it's child element so parent size was consider 32px so
+      according to 32 pixels percetange unit relative to child element
+      font-size.
+    </p>
+  </body>
+</html>

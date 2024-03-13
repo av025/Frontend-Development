@@ -1,0 +1,82 @@
+* {
+  color: #fff;
+  background-color: #111;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-family: cursive;
+  font-style: italic;
+  text-align: center;
+}
+
+p {
+  width: 90%;
+  margin: auto;
+  font-size: 26px;
+  line-height: 1.5;
+}
+
+.example {
+  background-color: chocolate;
+  padding: 20px;
+  /*! Giving font-size in percentage */
+  font-size: 200%;
+  /*? Above was 200 percent of 16px so it was 32 px so the size was 32px */
+  font-size: 300%;
+  /*? Now font-size become 48px because 300 percent of 16px was 48px. */
+  font-size: 80%;
+  /*? At last we give font-size 80 percent so 80 percent of 16px was 12.8 px so the size of font was 12.8px */
+}
+
+.case-study {
+  font-size: 20px;
+  padding: 20px;
+}
+
+h2 {
+  margin: 30px;
+  margin-left: 100px;
+}
+
+i {
+  color: coral;
+}
+
+.parent {
+  width: 900px;
+  padding: 20px;
+  background-color: crimson;
+  /*! Giving font-size in pixels (Absolute unit) */
+  font-size: 32px;
+}
+
+.first {
+  background-color: crimson;
+}
+
+.first-span {
+  background-color: crimson;
+  padding: 5px;
+}
+.child {
+  background-color: yellow;
+  /*! Giving child font-size in percentage */
+  font-size: 200%;
+  /*? .So when we give font-size in absolute value to parent element than if we give font-size to it's child element so parent size was consider 32px so according to 32 pixels percetange unit relative to child element. */
+}
+
+.second {
+  background-color: yellow;
+  color: black;
+  padding: 15px;
+}
+
+.second-span {
+  background-color: yellow;
+  color: #111;
+  padding: 10px;
+  display: inline-block;
+}
