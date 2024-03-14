@@ -1,0 +1,43 @@
+* {
+  color: #fff;
+  background-color: #111;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+span {
+  color: indianred;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.father {
+  background-color: darkorange;
+  width: 600px;
+  padding: 20px;
+  /*! Setting manually font-size in absolute value  */
+  font-size: 30px;
+}
+
+.son {
+  background-color: deeppink;
+  padding: 20px;
+  /*! Giving font-size in percentage unit */
+  font-size: 9%;
+  /*? After changing the default font-size manually of parent element than if we give any child or desceandant html elemnt in percentage unit which go below 6px too!!!! */
+}
+
+.conclusion {
+  color: orchid;
+  font-size: 22px;
+  font-weight: 600;
+}

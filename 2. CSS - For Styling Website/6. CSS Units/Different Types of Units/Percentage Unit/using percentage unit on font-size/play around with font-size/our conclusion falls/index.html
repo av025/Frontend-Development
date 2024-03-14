@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our assumption becomes false</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Our conclusion becomes false</h1>
+    <p>
+      In previous font-size experiment folder we see that when we give font-size
+      give in perecentage unit it does not go below the 6px because browser not
+      let go below that value.
+    </p>
+    <span
+      >But that's not true the default font-size given by user agent stylesheet
+      if we are using than this assumption work but if we give any parent html
+      element font-size manually in absloute value { like pixels} than we can
+      give font-size to child element in percentage unit which go down below the
+      6px than there was not limit such like that.</span
+    >
+    <h2>Example</h2>
+    <div class="father">
+      Parent Element
+      <br />
+      <br />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus adipisci
+      mollitia eveniet eaque ad ipsum consequatur fugiat placeat voluptas ipsa
+      id sapiente beatae temporibus omnis ipsam cupiditate, deserunt, similique
+      voluptate!
+      <div class="son">
+        Child Element
+        <br />
+        <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+        sequi aliquam fugiat eveniet vero aut rem incidunt. Maxime vitae
+        eligendi ut soluta accusantium, cum doloribus? Possimus a quibusdam hic
+        ducimus!
+      </div>
+    </div>
+    <p class="conclusion">
+      After changing the default font-size manually of parent element than if we
+      give any child or desceandant html elemnt in percentage unit which go
+      below 6px too!!!!
+    </p>
+  </body>
+</html>
