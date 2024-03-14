@@ -1,0 +1,48 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 20px;
+}
+
+p {
+  padding: 0;
+  padding-left: 40px;
+  font-size: 22px;
+}
+
+h2 {
+  padding: 30px;
+  font-style: italic;
+}
+
+.vw {
+  background-color: coral;
+  width: 60%;
+  padding: 20px;
+  margin-left: 60px;
+  /*! Giving font-size in vw unit */
+  font-size: 3vw;
+}
+
+.explanation {
+  color: crimson;
+  font-weight: 500;
+  padding: 0;
+  padding-left: 40px;
+}
+
+.vh {
+  background-color: skyblue;
+  color: #111;
+  width: 60%;
+  padding: 20px;
+  margin-left: 60px;
+  /*! Giving font-size in vh unit */
+  font-size: 5vh;
+}
