@@ -1,0 +1,43 @@
+* {
+  background-color: #111;
+  color: #fea;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  padding: 30px;
+  font-size: 22px;
+}
+
+h2 {
+  padding: 20px;
+}
+
+.vw {
+  background-color: skyblue;
+  width: 600px;
+  margin: 20px;
+  color: #111;
+  /*! Giving padding in vw unit */
+  padding: 6vw;
+}
+
+.explanation {
+  color: crimson;
+  font-weight: 500;
+  padding: 0;
+}
+
+.vh {
+  background-color: crimson;
+  width: 600px;
+  margin: 20px;
+  /*! Giving padding in vh unit */
+  padding: 6vh;
+}
