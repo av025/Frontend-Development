@@ -1,0 +1,31 @@
+* {
+  color: #fff;
+  background-color: #111;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding: 10px;
+}
+
+p {
+  color: indianred;
+  font-size: 22px;
+  padding: 20px;
+  width: 90%;
+}
+
+h2 {
+  padding: 10px;
+  font-style: italic;
+}
+
+div {
+  /** Setting width in vh unit */
+  width: 40vw;
+  background-color: darkorange;
+  padding: 20px;
+  margin-left: 60px;
+}
