@@ -1,0 +1,51 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  width: 90%;
+  margin: auto;
+}
+
+h2,
+h3 {
+  margin-left: 60px;
+  width: 600px;
+}
+
+ul {
+  margin-left: 100px;
+  width: 900px;
+  padding: 30px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+li {
+  padding: 10px;
+  color: coral;
+}
+
+.viewport-units {
+  /** Giving width in viewport width unit */
+  width: 50vw;
+  /** Giving height in viewport height unit */
+  height: 20vh;
+  padding: 40px;
+  background-color: brown;
+}
+
+.conclusion {
+  font-size: 20px;
+  color: indianred;
+  margin: 30px;
+  font-weight: 600;
+}
