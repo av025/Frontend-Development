@@ -1,0 +1,67 @@
+* {
+  background-color: yellow;
+  color: #1562ff;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  padding: 30px;
+}
+
+h2 {
+  margin: 20px;
+  font-style: italic;
+}
+
+.first {
+  width: 200px;
+  padding: 10px;
+  background-color: deeppink;
+  color: #fff;
+  display: inline-block;
+  margin: 30px;
+  /*! Giving height in vh unit */
+  height: 30vh;
+  /*? Here we give height 30vh which means 30 percent of viewport height of browser. */
+}
+.second {
+  width: 200px;
+  padding: 10px;
+  background-color: darkorange;
+  color: #fff;
+  display: inline-block;
+  margin: 30px;
+  /*! Giving height in vh unit */
+  height: 50vh;
+  /*? Here we give height 50vh which means 50 percent of viewport height of browser. */
+}
+
+.third {
+  width: 200px;
+  padding: 10px;
+  background-color: crimson;
+  color: #fff;
+  display: inline-block;
+  margin: 30px;
+  /*! Giving height in vh unit */
+  height: 80vh;
+  /*? Here we give height 80vh which means 80 percent of viewport height of browser. */
+}
+.fourth {
+  width: 200px;
+  padding: 10px;
+  background-color: darksalmon;
+  color: #fff;
+  display: inline-block;
+  margin: 30px;
+  /*! Giving height in vh unit */
+  height: 100vh;
+  /* ? Here we give height 100vh which 100 percent of viewport height of browser. */
+}
