@@ -1,0 +1,44 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  padding: 30px;
+}
+
+h2 {
+  padding: 20px;
+  font-style: italic;
+}
+
+.vw {
+  background-color: coral;
+  padding: 20px;
+  width: 50%;
+  /*! Giving margin in vw unit */
+  margin: 4vw;
+}
+
+.explanation {
+  color: crimson;
+  font-weight: 500;
+  padding: 0;
+  padding-left: 40px;
+}
+
+.vh {
+  background-color: fuchsia;
+  padding: 20px;
+  width: 50%;
+  /*! Giving margin in vh unit */
+  margin: 8vh;
+}
