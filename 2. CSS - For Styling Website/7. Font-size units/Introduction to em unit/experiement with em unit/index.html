@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experiment with em unit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Experiment with em units</h1>
+    <h2>Giving width in em unit</h2>
+    <p>
+      When we give width in em unit than html element width was calculated and
+      related to parent element font-size.
+    </p>
+    <h3>Giving width in em unit</h3>
+    <div class="width-example">
+      We give width to these div element in em unit, So it's width was
+      caluclated from parent's element font-size and parent of div element was
+      body tag and default font-size of almost element was 16px
+    </div>
+    <p>
+      We give width in em unit and value was 20em so div element width was 20
+      times of body tag font-size 20 x 16 = 320px. Width of above div element
+      was 320px
+    </p>
+    <h3>Set font-size of child element</h3>
+    <div class="case">
+      When we set font-size of Child element than width was related to child
+      element font-size if we are giving width in em unit.
+    </div>
+    <p>
+      We are giving width 20em so here width was calculated from child's
+      font-size which was 32px because we set font-size so 20 times of 32px =
+      640px hence the width of above div was 640px.
+    </p>
+    <p class="height-reference">Same things was happen with height to!!!!</p>
+  </body>
+</html>
