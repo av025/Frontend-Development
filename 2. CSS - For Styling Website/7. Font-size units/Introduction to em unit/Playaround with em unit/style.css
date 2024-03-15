@@ -1,0 +1,49 @@
+* {
+  color: #fff;
+  background-color: #111;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+/*! Set the font-size of body element was 30 px to learn and play around with em unit */
+body {
+  font-size: 30px;
+}
+
+h1 {
+  padding: 20px;
+  font-style: italic;
+}
+
+h2 {
+  text-align: center;
+}
+.example-one {
+  background-color: skyblue;
+  padding: 20px;
+  width: 800px;
+  margin: auto;
+  /*! Giving font-size in em unit */
+  font-size: 2em;
+  /*! We set body element font-size 30px and body element was also parent of all the html element we write inside body tag and we give example first font-size was 2em so 2 times of 30 was 60px so font-size of first example was 60px */
+}
+
+.example-two {
+  background-color: crimson;
+  padding: 20px;
+  width: 1000px;
+  margin: auto;
+  /*! Giving font-size in em unit */
+  font-size: 0.5em;
+  /*! We increase our font-size with the help of em unit similarly we can decrease the size of font-size too!!! When we give font-size in decimal value like 0.5em so we give second example font-size 0.5em so half of 30px was 15px that's how we decrease the font-size of second html element. */
+}
+
+p {
+  padding: 30px;
+}
+
+.italic-style {
+  font-style: italic;
+  font-size: 0.9em;
+}
