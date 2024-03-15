@@ -1,0 +1,44 @@
+* {
+  color: #fff;
+  background-color: #111;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2,
+h3 {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+.padding {
+  width: 800px;
+  background-color: crimson;
+  margin-left: 60px;
+  font-weight: 600;
+  /*! Giving padding in em unit */
+  padding: 2em;
+  /*? we give padding 2em than padding of div element was calculated from the parent element font-size and also relaed to it also. So here padding was 32px because div element parent was body tag and font-size of body tag was 16px and we 2em so 2 times of 16px was 32px. */
+}
+
+p {
+  width: 90%;
+  font-size: 22px;
+  padding-left: 60px;
+}
+
+.case-padding {
+  width: 800px;
+  background-color: chocolate;
+  margin-left: 60px;
+  font-weight: 600;
+  font-size: 20px;
+  /*! Giving padding in em unit */
+  padding: 2em;
+  /** In above div we set font-size 20 px and than we give padding in em unit than padding was related and calculated from current div element font-size not from parent element font-size. */
+}
