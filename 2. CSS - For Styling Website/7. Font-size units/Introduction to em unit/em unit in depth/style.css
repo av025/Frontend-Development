@@ -1,0 +1,53 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 20px;
+}
+
+p {
+  font-size: larger;
+  padding-left: 40px;
+}
+
+.parent-item {
+  background-color: orange;
+}
+
+.parent-div {
+  background-color: orange;
+  padding: 20px;
+  /*! Set font-size of Parent div */
+  font-size: 24px;
+  /*? We set font-size of parent div 24px to give child and deceandent element in em unit because em unit was depend on parent element font-size. */
+}
+
+.child-div {
+  background-color: deepskyblue;
+  padding: 20px;
+  /*! Giving font-size to child div in em unit  */
+  font-size: 2em;
+  /*? We give child element font-size was 2em so it was 48px because em unit was related to parent element so it's parent div we set font-size 24px so child element we give 2em which was 2 times of 24 which was 48px */
+  /** Currently  child element has 48px font-size*/
+}
+
+.child-item {
+  background-color: deepskyblue;
+}
+
+.children {
+  background-color: deeppink;
+  padding: 20px;
+  /*! Giving font-size to children div in em unit */
+  font-size: 2em;
+  /*! Children element we give font-size again 2em so here the font-size was 96px beacuse em unit was relatable to it's parent element font-size and child element font-size was 48px */
+}
+
+.children-item {
+  background-color: deeppink;
+}

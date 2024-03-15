@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>em unit in depth</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>em unit in depth</h1>
+    <p>We see that em unit was related to it's parent element font-size.</p>
+    <h2>Example of em unit</h2>
+    <div class="parent-div">
+      <h3 class="parent-item">Parent element</h3>
+      <p class="parent-item">
+        We set font-size of parent div 24px to give child and deceandent element
+        in em unit because em unit was depend on parent element font-size.
+      </p>
+      <div class="child-div">
+        <h3 class="child-item">Child element</h3>
+        <p class="child-item">
+          We give child element font-size was 2em so it was 48px because em unit
+          was related to parent element so it's parent div we set font-size 24px
+          so child element we give 2em which was 2 times of 24 which was 48px.
+          <br />
+          <br />
+          Currently child element has 48px font-size
+        </p>
+        <div class="children">
+          <h3 class="children-item">Children of Child element</h3>
+          <p class="children-item">
+            Children element we give font-size again 2em so here the font-size
+            was 96px beacuse em unit was relatable to it's parent element
+            font-size and child element font-size was 48px.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
