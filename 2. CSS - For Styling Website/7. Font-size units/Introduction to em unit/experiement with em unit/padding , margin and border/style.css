@@ -42,3 +42,25 @@ p {
   padding: 2em;
   /** In above div we set font-size 20 px and than we give padding in em unit than padding was related and calculated from current div element font-size not from parent element font-size. */
 }
+
+.margin {
+  width: 900px;
+  background-color: fuchsia;
+  padding: 20px;
+  font-weight: 600;
+  /*! Giving margin in em unit */
+  margin: 4em;
+  /** We give margin 4em to div element so it related to parent's element which was body tag  font-size and also div  element margin was calculated from parent's font-size only.  */
+}
+
+.margin-case {
+  width: 1000px;
+  background-color: orange;
+  padding: 30px;
+  font-weight: 600;
+  /*? Here we set font-size of div element */
+  font-size: 30px;
+  /*! Giving margin in em unit */
+  margin: 2em;
+  /** Here we set first font-size 30px than if we give margin in em unit than it was related to font-size of div element own and margin was also claculated according to font-size of div element we give margin 2em to div and we give font-size was 30px so 2 times 0f 30 was 60px so we set div element margin was 60px.  */
+}
