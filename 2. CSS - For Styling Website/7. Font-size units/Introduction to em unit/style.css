@@ -1,0 +1,56 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding-left: 30px;
+}
+
+p {
+  width: 90%;
+  margin: auto;
+  line-height: 1.5;
+  font-size: 22px;
+}
+
+h2 {
+  padding-left: 40px;
+  font-style: italic;
+}
+
+.first-example {
+  width: 1000px;
+  background-color: skyblue;
+  padding: 20px;
+  margin-left: 60px;
+  color: #111;
+  font-weight: 400;
+  /*! Giving font-size in em unit  */
+  font-size: 2em;
+}
+
+.explanation {
+  width: 90%;
+  color: darksalmon;
+  padding: 20px;
+}
+
+.second-example {
+  width: 1000px;
+  padding: 20px;
+  margin-left: 60px;
+  font-weight: 400;
+  /*! Giving font-size in em unit  */
+  font-size: 3em;
+  background-color: fuchsia;
+}
+
+.conclusion {
+  color: red;
+  font-size: 2.9em;
+  font-style: italic;
+}
