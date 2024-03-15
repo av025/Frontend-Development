@@ -1,0 +1,37 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding-left: 20px;
+}
+
+p {
+  padding-left: 40px;
+  font-size: 20px;
+  width: 90%;
+  color: indianred;
+  font-weight: 600;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+span {
+  color: rgb(255, 0, 242);
+}
+
+.rem-unit-example {
+  background-color: crimson;
+  padding: 20px;
+  margin: auto;
+  border: 5px solid gold;
+  /*! Giving font-size in rem unit */
+  font-size: 2rem;
+}
