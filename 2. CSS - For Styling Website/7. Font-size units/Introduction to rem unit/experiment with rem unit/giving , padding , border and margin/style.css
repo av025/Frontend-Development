@@ -1,0 +1,28 @@
+* {
+  color: #fff;
+  background-color: #111;
+  /* box-sizing: border-box; */
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding: 10px;
+}
+
+p {
+  padding-left: 40px;
+  font-size: 22px;
+}
+
+/*! Giving padding, margin , borde in rem unit */
+.example {
+  width: 600px;
+  background-color: #238719;
+  /*? Giving padding in rem unit */
+  padding: 6rem;
+  /*? Giving margin in rem unit */
+  margin: 10rem;
+  /*? Giving border in rem unit */
+  border: 12rem solid skyblue;
+}
