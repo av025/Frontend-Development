@@ -1,0 +1,92 @@
+* {
+  background-color: #111;
+  color: #fff;
+  font-family: cursive;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 40px;
+  font-size: 22px;
+}
+
+h2 {
+  padding: 25px;
+  font-style: italic;
+}
+
+.parent-bottom {
+  width: 100%;
+  height: 600px;
+}
+
+.child-bottom {
+  width: 600px;
+  padding: 20px;
+  background-color: darkcyan;
+  margin-left: 60px;
+  margin-top: 200px;
+  /*! Giving position relative to it. */
+  position: relative;
+  /*? Giving bottom property */
+  bottom: 200px;
+}
+
+.placed-above {
+  position: relative;
+  bottom: 650px;
+}
+
+span {
+  color: firebrick;
+}
+
+section {
+  position: relative;
+  bottom: 650px;
+}
+
+.parent-negative {
+  width: 100%;
+  height: 600px;
+}
+
+.child-negative {
+  width: 600px;
+  padding: 20px;
+  background-color: darkcyan;
+  margin-left: 60px;
+  margin-top: 200px;
+  /*! Giving position relative to it. */
+  position: relative;
+  /*? Giving bottom property */
+  bottom: 200px;
+  /*! Giving value to bottom property in negative */
+  bottom: -200px;
+}
+
+.placed-above-two {
+  position: relative;
+  bottom: 250px;
+  margin: 0;
+}
+
+a {
+  color: crimson;
+  font-size: 32px;
+  text-decoration: none;
+  padding: 40px;
+  display: inline-block;
+  margin: auto;
+  position: relative;
+  bottom: 200px;
+}
+
+a:hover {
+  color: seashell;
+}
