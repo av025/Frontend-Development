@@ -1,0 +1,73 @@
+* {
+  background-color: #111;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding: 10px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  color: crimson;
+}
+
+/*! Giving font-size 24px to html element which was root element but here we use root selector */
+:root {
+  font-size: 24px;
+}
+/** We set html font-size with the help of root element selector we can also use html element too!!!! */
+
+.root-selector {
+  font-size: 26px;
+  color: #f1f169;
+  font-weight: 600;
+}
+
+.parent-element {
+  background-color: fuchsia;
+  padding: 20px;
+  /*! Giving font-size in rem unit */
+  font-size: 2rem;
+  /*! We give font-size of parent element 2rem which was 2 times of root element font-size we give root element (Aka HTML element) was 24px so 2 X 24 = 48px so font-size was 48px */
+}
+
+.parent-item {
+  background-color: fuchsia;
+  color: #fff;
+}
+
+.child-element {
+  background-color: yellow;
+  padding: 20px;
+  /*! Giving font-size in rem unit */
+  font-size: 4rem;
+  color: #111;
+  margin: 20px;
+}
+
+.child-item {
+  background-color: yellow;
+  color: #111;
+}
+
+.children-node {
+  background-color: saddlebrown;
+  padding: 20px;
+  /*! Giving font-size in rem unit */
+  font-size: 0.5rem;
+  margin: 20px;
+}
+
+.children-item {
+  background-color: saddlebrown;
+}
+
+#conclusion {
+  font-size: 1.8rem;
+  font-weight: 900;
+}

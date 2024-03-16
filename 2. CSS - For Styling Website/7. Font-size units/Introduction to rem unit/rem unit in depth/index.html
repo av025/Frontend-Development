@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rem unit in depth</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>rem unit in depth</h1>
+    <p>
+      When we give em unit to any html element for font-size property than there
+      font-size was related to root element font-size and root element was html
+      element and default user style sheet font-size was 16px so here we change
+      the font-size of html element.
+    </p>
+    <p class="root-selector">
+      Giving font-size 24px to html element which was root element but here we
+      use root selector.
+    </p>
+    <h2>Example of giving em unit</h2>
+    <div class="parent-element">
+      <h3 class="parent-item">Parent element</h3>
+
+      We give html element font-size 24px which was root element because all
+      html element was reside inside HTML element. We give font-size of parent
+      element 2rem which was 2 times of root element font-size we give root
+      element (Aka HTML element) was 24px so 2 X 24 = 48px so font-size was
+      48px.
+
+      <div class="child-element">
+        <h3 class="child-item">Child element</h3>
+        We give child element font-size 4rem which was 4 times of root-element
+        font-size (Aka HTML element) So , here 4 X 24 = 98px so font-size was
+        98px.
+        <div class="children-node">
+          <h3 class="children-item">Children Node of Child element</h3>
+          here we give font-size 0.5rem which means half of our font-size of
+          root element so half of 24px was 12px. Font-size was 12px. Similarly
+          increase in font-size with the help of rem unit we can decrease
+          font-size too!!!
+        </div>
+      </div>
+    </div>
+    <p id="conclusion">
+      All Div elements font-size was related to Root element HTML Element
+      font-size
+    </p>
+  </body>
+</html>
