@@ -1,0 +1,53 @@
+* {
+  color: #fff;
+  background-color: #111;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 40px;
+  font-size: 22px;
+}
+
+h2 {
+  padding: 30px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+.parent-element {
+  width: 80%;
+  height: 500px;
+  background-color: coral;
+  margin: auto;
+}
+
+.child-element {
+  background-color: crimson;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: auto;
+  /*! Giving relative position */
+  position: relative;
+  /*! Giving both top & bottom property and same value 400px */
+  /** First we give top property */
+  top: 400px;
+  /*? Our html element was move towards the bottom */
+  /** Giving bottom property */
+  bottom: 400px;
+  /*? We give the bottom property 400px but it does not work because top property was take precedance and we give first top property so cascade was concept was also not applied. */
+}
+
+span {
+  color: deeppink;
+}
