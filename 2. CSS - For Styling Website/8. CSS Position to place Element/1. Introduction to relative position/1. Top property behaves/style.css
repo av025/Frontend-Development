@@ -1,0 +1,77 @@
+* {
+  color: #fff;
+  background-color: #111;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 50px;
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+
+h2 {
+  padding-left: 25px;
+  font-style: italic;
+}
+
+.example-top {
+  width: 600px;
+  padding: 20px;
+  background-color: coral;
+  font-size: 20px;
+  margin-left: 60px;
+  /*! Giving position relative */
+  position: relative;
+  /*? Give position top property */
+  top: 100px;
+}
+
+span {
+  color: deeppink;
+}
+
+.explanation {
+  position: relative;
+  top: 100px;
+}
+
+section {
+  position: relative;
+  top: 150px;
+}
+
+.example-negativeValue {
+  width: 600px;
+  padding: 20px;
+  background-color: coral;
+  font-size: 20px;
+  margin-left: 60px;
+  /*! Giving position relative */
+  position: relative;
+  /*? Give position top property */
+  top: 400px;
+  /*! Giving negative value to top position */
+  top: -10px;
+}
+
+a {
+  color: crimson;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 40px;
+  display: inline-block;
+  margin: auto;
+  position: relative;
+  top: 120px;
+}
+
+a:hover {
+  color: seashell;
+}
