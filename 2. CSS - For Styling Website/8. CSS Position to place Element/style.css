@@ -1,0 +1,39 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 40px;
+  font-size: 22px;
+}
+
+span {
+  color: deeppink;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+ul {
+  font-size: 20px;
+  padding-left: 80px;
+}
+
+.example {
+  width: 800px;
+  padding: 20px;
+  margin-left: 60px;
+  background-color: coral;
+  /*! Default mainly all html element are in static position but we are also give example position static manually and those four properties top,bottom , right and left are also not working on that. */
+  position: static;
+}
