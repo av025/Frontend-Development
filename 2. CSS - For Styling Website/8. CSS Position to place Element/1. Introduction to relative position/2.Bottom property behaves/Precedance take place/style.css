@@ -65,3 +65,16 @@ span {
   /*! When we give bottom property 400px so precedance takes place which we see in above example so to avoid that we can give negative - 400px to top property which work same as bottom property. */
   top: -2px;
 }
+
+a {
+  color: crimson;
+  font-size: 22px;
+  text-decoration: none;
+  padding: 40px;
+  display: inline-block;
+  margin: auto;
+}
+
+a:hover {
+  color: seashell;
+}
