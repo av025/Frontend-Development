@@ -1,0 +1,60 @@
+* {
+  background-color: #111;
+  color: #fff;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  font-size: 22px;
+  padding-left: 40px;
+}
+
+span {
+  color: fuchsia;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+.first-div {
+  width: 600px;
+  padding: 20px;
+  background-color: lime;
+  color: #111;
+  font-size: 20px;
+  /*! Giving relative position to div */
+  position: relative;
+}
+
+.second-div {
+  width: 600px;
+  padding: 20px;
+  background-color: lime;
+  color: #111;
+  font-size: 20px;
+  /*! Giving relative position to second div too!!! */
+  position: relative;
+  /* ? Giving top property to it */
+  top: 10px;
+  left: 60px;
+}
+
+a {
+  color: crimson;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 60px;
+  display: inline-block;
+  margin: auto;
+}
+
+a:hover {
+  color: seashell;
+}
