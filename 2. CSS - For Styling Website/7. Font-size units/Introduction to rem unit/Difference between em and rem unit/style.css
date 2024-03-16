@@ -1,0 +1,42 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+h2 {
+  padding-left: 30px;
+}
+
+p {
+  font-size: 22px;
+  padding-left: 45px;
+}
+
+.em {
+  background-color: crimson;
+  padding: 20px;
+  /*? Giving font-size  24px parent div */
+  font-size: 24px;
+}
+
+.em-child {
+  background-color: orange;
+  padding: 20px;
+  /*? Giving font-size in em unit */
+  font-size: 2em;
+  /** Here we give font-size 2em so when we give em unit than this div element font-size was related to parent element font-size it was calculated like this 2 times of 24px so here the font-size was 48px. */
+}
+
+.rem {
+  background-color: deeppink;
+  padding: 20px;
+  /*? Giving font-size in rem unit */
+  font-size: 3rem;
+}

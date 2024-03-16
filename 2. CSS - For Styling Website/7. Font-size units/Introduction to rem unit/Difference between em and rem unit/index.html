@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Difference between em and rem</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>What is difference between em and rem unit???</h1>
+    <p>
+      Both em and rem are font-size units and mainly we are used for font-size
+      property only.
+      <br />
+      <br />
+      Let we see the difference with the help of example.
+    </p>
+    <h2>Em unit for giving font-size</h2>
+    <p>
+      When we give font-size in em unit than there font-size was related to
+      parent element's font-size and also calculated from parent element
+      font-size only.
+    </p>
+    <div class="em">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+      accusamus cum. Ab iusto hic veritatis. Nemo deleniti aut dolor laborum.
+      <div class="em-child">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia maxime
+        quas quisquam, culpa similique quo laborum cum enim ullam? Corporis!
+      </div>
+    </div>
+    <h2>Rem unit for giving font-size</h2>
+    <p>
+      When we use rem unit to html element for font-size than it's font-size was
+      related to root html font-size and root html was html tag. font-size
+      calculate by html element font-size only.
+    </p>
+    <div class="rem">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quis
+      ea, explicabo voluptate voluptatem asperiores culpa sed deserunt ad minima
+      magnam maiores accusantium sunt sit aliquam veritatis reprehenderit quae.
+      Reprehenderit sit, natus ad ullam quo accusamus sapiente ex ratione,
+      aspernatur odit voluptatum laborum, accusantium illo. Inventore nemo
+      tenetur asperiores ipsam reprehenderit? Incidunt dicta suscipit molestiae
+      beatae aperiam iure, labore dolore.
+    </div>
+  </body>
+</html>
