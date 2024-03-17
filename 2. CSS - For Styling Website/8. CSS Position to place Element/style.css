@@ -37,3 +37,11 @@ ul {
   /*! Default mainly all html element are in static position but we are also give example position static manually and those four properties top,bottom , right and left are also not working on that. */
   position: static;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: crimson;
+}

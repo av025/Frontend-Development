@@ -1,0 +1,75 @@
+* {
+  color: #fff;
+  background-color: #111;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding: 15px;
+  text-align: center;
+}
+
+.parent-root {
+  width: 300px;
+  padding: 15px;
+  font-weight: 600;
+  background-color: orange;
+  /*! giving postion absolute */
+  position: absolute;
+}
+
+p {
+  font-size: 22px;
+  padding-left: 40px;
+}
+
+span {
+  color: deeppink;
+}
+
+.giving-margin {
+  margin-top: 100px;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+.parent-element {
+  width: 60%;
+  height: 200px;
+  margin: auto;
+  background-color: cadetblue;
+  /*! Giving relative position */
+  position: relative;
+}
+
+.child-element {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: coral;
+  text-align: center;
+  /*! Giving position absolute to child element */
+  position: absolute;
+}
+
+a {
+  color: crimson;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 40px;
+  display: inline-block;
+  margin: auto;
+}
+
+a:hover {
+  color: seashell;
+}
