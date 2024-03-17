@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>top and bottom property with absolute position</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Top and bottom property with absolute position</h1>
+    <p>
+      When we give absolute position to any html element than it was relative to
+      it's non-static parent element and try align relative to it's parent
+      element For position of our html element we have four properties also
+      which was unlock and accessible when we give non-static position which was
+      <span>top property</span>, <span>right property</span>,
+      <span>bottom property</span>, and <span>left property</span>.
+    </p>
+    <h2>Example of top and bottom property with absolute position</h2>
+    <h3>Parent element</h3>
+    <div class="parent">
+      <div class="child">Child element</div>
+    </div>
+    <h2>Explanation of above example</h2>
+    <ul>
+      <li>
+        Above we give parent element position relative and child element
+        position absolute because absolute property work with non-static
+        position element.
+      </li>
+      <li>
+        Than apply top property of 50px to child element so our child element
+        will move downwards and create gap of 50px from top position.
+      </li>
+      <li>
+        After top property we also give bottom property 50px and here we
+        surprise that bottom property was also in absolute element and our child
+        element will move upwards and create gap of 50px from bottom position we
+        assume that this top and bottom property work same like
+        <span>margin property</span> we assume that for our understanding.
+      </li>
+      <li>
+        <strong
+          >So here from both position top and bottom applied from 50px and left
+          over spaces was cover by html element like a height and we don't want
+          that left space html element was consider as height than we have to
+          use max-height the additional css property to control height of
+          element.</strong
+        >
+      </li>
+    </ul>
+    <h2>Giving negative value to top and bottom property</h2>
+  </body>
+</html>
