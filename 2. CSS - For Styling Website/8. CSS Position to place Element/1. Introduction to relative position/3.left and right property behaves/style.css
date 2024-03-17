@@ -102,3 +102,16 @@ ul {
   /*! Giving right property in negative */
   right: -950px;
 }
+
+a {
+  color: crimson;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 60px;
+  display: inline-block;
+  margin: auto;
+}
+
+a:hover {
+  color: seashell;
+}
