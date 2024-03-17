@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Precedance between left and right property</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Precedance betweeen left and right property with relative position</h1>
+    <p>
+      When we give left and right property of relative position together than
+      precedance was occur. Let we see with example
+    </p>
+    <h2>Example to see precedance between left and right property</h2>
+    <h3>Parent element</h3>
+    <div class="parent-element">
+      <div class="child-element">
+        Left property takes precedance between left and right property
+      </div>
+    </div>
+    <h2>Explanation left property will take precedance</h2>
+    <ul>
+      <li>
+        On above example we give child element relative position of parent
+        element. We also apply 800px left property first and our html element
+        was position 800px away from it's left position than apply right
+        property 800px which was not applied due to precdance take place by left
+        property because
+        <span
+          >our html document was start from left side and when we applied right
+          and left properties together than collision was happen and our browser
+          will not understand what property we have to apply so defaulty left
+          property take precedance and applied</span
+        >.
+      </li>
+    </ul>
+    <h2>How to overcome with precedance situation</h2>
+    <p>
+      Now we want to apply right property but precedance take place when we use
+      both properties togrther than what to do ???
+    </p>
+    <h3>Parent element</h3>
+    <div class="parent-element">
+      <div class="precedance-overcome">
+        For that we have to give left property negative value which work same as
+        right property
+      </div>
+    </div>
+    <ul>
+      <li>
+        We have to give left property in negativevalue which work same as right
+        property.
+      </li>
+    </ul>
+    <a href="../index.html"> Previous left and right property topic</a>
+    <a href="../../4. Inset property with relative posiiton/index.html"
+      >Inset property with relative position</a
+    >
+  </body>
+</html>

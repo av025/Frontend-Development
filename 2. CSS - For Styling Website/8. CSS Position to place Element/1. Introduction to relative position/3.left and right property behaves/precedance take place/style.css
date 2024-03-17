@@ -1,0 +1,87 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 40px;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+h2 {
+  padding-left: 25px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+.parent-element {
+  width: 80%;
+  height: 500px;
+  background-color: coral;
+  margin: auto;
+}
+
+.child-element {
+  width: 200px;
+  padding: 20px;
+  background-color: firebrick;
+  margin-left: 50px;
+  /*! Giving position relative */
+  position: relative;
+  top: 40%;
+  /*? Giving first left property */
+  left: 800px;
+  /** left property was applied and our html element was position 800px away from it's left position */
+  /*? Giving right property */
+  right: 800px;
+  /*! right property was not applied because left property taken precedance */
+}
+
+ul {
+  font-size: 22px;
+  padding-left: 50px;
+  line-height: 1.5;
+}
+
+span {
+  color: deeppink;
+}
+
+.precedance-overcome {
+  width: 200px;
+  padding: 20px;
+  background-color: firebrick;
+  margin-left: 50px;
+  /*! Giving position relative */
+  position: relative;
+  top: 40%;
+  /*? Giving first left property */
+  left: 800px;
+  /** left property was applied and our html element was position 800px away from it's left position */
+  /*? Giving negative value to left property */
+  left: -20px;
+}
+
+a {
+  color: crimson;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 30px;
+  display: inline-block;
+  margin: auto;
+}
+
+a:hover {
+  color: seashell;
+}
