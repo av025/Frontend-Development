@@ -1,0 +1,104 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 40px;
+  font-size: 22px;
+}
+
+h2 {
+  padding-left: 25px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+.parent-element {
+  background-color: coral;
+  width: 80%;
+  height: 500px;
+  margin: auto;
+}
+
+.child-left {
+  width: 150px;
+  height: 150px;
+  background-color: skyblue;
+  margin-left: 15px;
+  padding: 30px;
+  /*! Giving relative position */
+  position: relative;
+  top: 20px;
+  /*! Giving left property to child-left div */
+  left: 1000px;
+}
+
+.child-right {
+  width: 150px;
+  height: 150px;
+  background-color: darkmagenta;
+  padding: 30px;
+  margin-left: 1040px;
+  /*! Giving relative position */
+  position: relative;
+  top: 180px;
+  /*! Giving right property to right-child div */
+  right: 1000px;
+}
+
+.explanation {
+  text-align: start;
+  padding-left: 40px;
+}
+
+span {
+  color: fuchsia;
+}
+
+ul {
+  font-size: 18px;
+}
+
+.parent-negative {
+  width: 80%;
+  height: 470px;
+  margin: auto;
+  background-color: coral;
+}
+
+.child-Lnegative {
+  width: 150px;
+  height: 150px;
+  background-color: skyblue;
+  padding: 30px;
+  margin-left: 1000px;
+  /*! Giving relative position */
+  position: relative;
+  top: 20px;
+  /*! Giving left property in negative */
+  left: -950px;
+}
+
+.child-Rnegative {
+  width: 150px;
+  height: 150px;
+  background-color: darkmagenta;
+  padding: 30px;
+  /*! Giving relative position */
+  position: relative;
+  top: 150px;
+  margin-left: 50px;
+  /*! Giving right property in negative */
+  right: -950px;
+}
