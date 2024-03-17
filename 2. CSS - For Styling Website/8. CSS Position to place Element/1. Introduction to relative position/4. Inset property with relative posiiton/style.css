@@ -54,7 +54,12 @@ h3 {
   /*! Second we give four properties three values */
   inset: 50px 25px 0px;
   /** Above we give inset 3 values of 4 properties like this :- */
-  /** top property we give 50px */
-  /** left property and right property we give 25px */
-  /** bottom property we give 0px */
+  /** top property we give 50px which was first value */
+  /** left property and right property we give 25px which was second value */
+  /** bottom property we give 0px which was third value */
+  /*! Third we give two values to four properties */
+  inset: 100px 200px;
+  /** We give two values to inset pproperty */
+  /** first value was represent top and bottom property so we give 100px */
+  /** second value was represent left and right property so we give 200px */
 }
