@@ -67,3 +67,36 @@ li {
 strong {
   color: indianred;
 }
+
+.child-one {
+  width: 120px;
+  height: 100px;
+  background-color: skyblue;
+  text-align: center;
+  border: 5px solid;
+  display: inline-block;
+  margin: 40px;
+  /*! Giving position absolute */
+  position: absolute;
+  top: 300px;
+  /** Giving property in negative */
+  top: -30px;
+}
+
+.child-two {
+  width: 120px;
+  height: 100px;
+  background-color: firebrick;
+  text-align: center;
+  border: 5px solid wheat;
+  display: inline-block;
+  margin: 40px;
+  /*! Giving position absolute */
+  position: absolute;
+  left: 50;
+  bottom: -30px;
+}
+
+.decrease-width {
+  width: 30%;
+}
