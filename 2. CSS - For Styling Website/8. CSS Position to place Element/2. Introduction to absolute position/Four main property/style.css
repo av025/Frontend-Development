@@ -117,8 +117,6 @@ strong {
 
 .child-landr {
   display: inline-block;
-  width: 100px;
-  height: 100px;
   padding: 20px;
   border: 5px solid yellow;
   background-color: deeppink;
@@ -132,8 +130,7 @@ strong {
 }
 
 .font-size {
-  font-size: 22px;
-  padding-left: 60px;
+  font-size: 32px;
 }
 
 a {
