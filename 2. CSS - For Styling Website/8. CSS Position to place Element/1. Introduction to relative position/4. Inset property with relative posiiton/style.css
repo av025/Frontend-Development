@@ -62,4 +62,6 @@ h3 {
   /** We give two values to inset pproperty */
   /** first value was represent top and bottom property so we give 100px */
   /** second value was represent left and right property so we give 200px */
+  /*! Giving common value to all 4 properties in inset  */
+  inset: 250px;
 }
