@@ -135,3 +135,16 @@ strong {
   font-size: 22px;
   padding-left: 60px;
 }
+
+a {
+  color: crimson;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 40px;
+  display: inline-block;
+  margin: auto;
+}
+
+a:hover {
+  color: seashell;
+}
