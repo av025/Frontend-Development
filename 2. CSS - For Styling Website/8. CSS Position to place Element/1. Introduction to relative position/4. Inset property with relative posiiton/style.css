@@ -1,0 +1,54 @@
+* {
+  color: #fff;
+  background-color: #111;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 40px;
+  line-height: 1.5;
+  font-size: 22px;
+}
+span {
+  color: fuchsia;
+}
+
+h2 {
+  padding-left: 25px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+.parent-element {
+  width: 80%;
+  margin: auto;
+  height: 400px;
+  background-color: yellow;
+}
+
+.child-element {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: 20px;
+  background-color: deeppink;
+  /*! Giving relative position */
+  position: relative;
+  /*? Using inset property  to give all properties together*/
+  /*! First we give four properties separate values */
+  inset: 50px 30px 20px 10px;
+  /** Above inset property we give 4 value which represent four position properties in clockwise direction */
+  /** top property we give 50px */
+  /** right property we give 30px */
+  /** bottom property we give 20px */
+  /** left property we give 10px */
+}
