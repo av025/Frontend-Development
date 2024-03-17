@@ -8,7 +8,7 @@
 }
 
 h1 {
-  padding: 20px;
+  text-align: center;
 }
 
 p {
@@ -22,10 +22,15 @@ span {
 }
 
 h2 {
-  padding-left: 45px;
+  padding-left: 15px;
 }
 
 h3 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+h4 {
   text-align: center;
 }
 
@@ -99,4 +104,34 @@ strong {
 
 .decrease-width {
   width: 30%;
+}
+
+.parent-two {
+  margin: auto;
+  width: 60%;
+  height: 300px;
+  background-color: salmon;
+  /*! Giving position relative */
+  position: relative;
+}
+
+.child-landr {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border: 5px solid yellow;
+  background-color: deeppink;
+  /*! Giving position absolute */
+  position: absolute;
+  top: 35%;
+  /*! Giving first left property  */
+  left: 200px;
+  /*! Giving  right property */
+  right: 300px;
+}
+
+.font-size {
+  font-size: 22px;
+  padding-left: 60px;
 }
