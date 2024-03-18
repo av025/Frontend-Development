@@ -61,4 +61,11 @@ h3 {
   /** In above we apply inset property and give 2 values like this... */
   /** first value was 40px here we give top and bottom properties together. */
   /** second value was 20px here we give left and right properties together. */
+  /*! At last e give common value to all four position */
+  inset: 100px;
+  /** We apply 100px pixel from all four position */
+  max-width: 200px;
+  max-height: 200px;
 }
+
+/*! We give inset property to child element and here position was apply from all 4 direction we give 100px to inset property so 100px apply from all four direction. Here also same problem happeing direction was applying from all 4 position so after 100px the space left our child element acquire as width and height. We can control that also by giving max-width & max-height */
