@@ -1,0 +1,46 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 50px;
+  font-size: 22px;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+span {
+  color: deeppink;
+}
+
+.div-example {
+  width: 500px;
+  background-color: khaki;
+  font-size: 18px;
+  color: #111;
+  padding: 20px;
+  font-weight: 900;
+  /*? Giving sticky position */
+  position: sticky;
+  top: 0;
+}
+
+section,
+h3 {
+  background-color: crimson;
+}
+
+.dummy-paragraph {
+  background-color: crimson;
+}
