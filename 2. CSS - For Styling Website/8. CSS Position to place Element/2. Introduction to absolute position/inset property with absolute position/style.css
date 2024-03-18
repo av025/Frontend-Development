@@ -45,9 +45,15 @@ h3 {
   /*? Using inset property to give 4 position properties */
   /*! First we give individual values to respective four direction */
   inset: 50px 40px 30px 20px;
-  /** In above we apply inset property and give all 4 position properties value individually here vlues assign as clockwise direction */
+  /** In above we apply inset property and give all 4 position properties value individually here values assign as clockwise direction */
   /** first value was 50px which means top property was applied. */
   /** second value was 40px which means right property was applied. */
   /** third value was 30px which means bottom property was applied. */
   /** fourth value was 20px which means left property was applied. */
+  /*! Second we give three values to respective four direction */
+  inset: 50px 40px 20px;
+  /** In above we apply inset property and give 3 values like this.... */
+  /** first value was 50px which means top property was applied. */
+  /** second value was 40px which means we give left and right property together. */
+  /** Third value was 20px here we give bottom 20px */
 }
