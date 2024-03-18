@@ -60,15 +60,16 @@ p {
   font-weight: 800;
 }
 
-/* a {
-    color: crimson;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 40px;
-    display: inline-block;
-    margin: auto;
-  }
-  
-  a:hover {
-    color: seashell;
-  } */
+a {
+  color: crimson;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin: auto;
+  position: relative;
+  top: 600px;
+}
+
+a:hover {
+  color: seashell;
+}
