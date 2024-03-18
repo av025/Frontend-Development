@@ -56,4 +56,9 @@ h3 {
   /** first value was 50px which means top property was applied. */
   /** second value was 40px which means we give left and right property together. */
   /** Third value was 20px here we give bottom 20px */
+  /*! Third we give two values to respectively four direction */
+  inset: 40px 20px;
+  /** In above we apply inset property and give 2 values like this... */
+  /** first value was 40px here we give top and bottom properties together. */
+  /** second value was 20px here we give left and right properties together. */
 }
