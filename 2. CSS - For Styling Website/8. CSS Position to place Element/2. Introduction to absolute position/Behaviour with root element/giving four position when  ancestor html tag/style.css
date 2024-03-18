@@ -1,0 +1,54 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+.div-example {
+  background-color: darkorchid;
+  padding: 30px;
+  font-size: 22px;
+  /*! Giving absolute position */
+  position: absolute;
+  /*! Applying four properties with the help of inset property */
+  inset: 100px 400px;
+}
+
+section {
+  position: relative;
+  top: 700px;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+  line-height: 1.5;
+}
+span {
+  color: fuchsia;
+  background-color: skyblue;
+  font-weight: 900;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+a {
+  color: crimson;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 40px;
+  display: inline-block;
+  margin: auto;
+}
+
+a:hover {
+  color: seashell;
+}
