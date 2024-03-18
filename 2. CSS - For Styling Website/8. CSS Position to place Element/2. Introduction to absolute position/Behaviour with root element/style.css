@@ -1,0 +1,115 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+.first-element {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  padding: 20px;
+  margin: 10px;
+  /*! giving position absolute */
+  position: absolute;
+}
+.second-element {
+  width: 100px;
+  height: 100px;
+  background-color: deepskyblue;
+  padding: 20px;
+  margin: 10px;
+  /*! giving position absolute */
+  position: absolute;
+}
+.third-element {
+  width: 100px;
+  height: 100px;
+  background-color: deeppink;
+  padding: 20px;
+  margin: 10px;
+  /*! giving position absolute */
+  position: absolute;
+}
+
+.fourth-element {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  padding: 20px;
+  margin: 10px;
+  /*! giving position absolute */
+  position: absolute;
+}
+
+.section-first {
+  display: inline-block;
+  position: relative;
+  left: 150px;
+  width: 85%;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+span {
+  color: deeppink;
+}
+
+.display-inlineBlock {
+  display: inline-block;
+}
+
+.first-static {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  padding: 20px;
+  margin: 10px;
+}
+
+.second-static {
+  width: 100px;
+  height: 100px;
+  background-color: deepskyblue;
+  padding: 20px;
+  margin: 10px;
+}
+
+.third-static {
+  width: 100px;
+  height: 100px;
+  background-color: deeppink;
+  padding: 20px;
+  margin: 10px;
+}
+
+.fourth-static {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  padding: 20px;
+  margin: 10px;
+}
+
+#section-second {
+  width: 60%;
+  margin: auto;
+}
+
+.section-third {
+  width: 80%;
+  position: relative;
+  left: 100px;
+  font-size: 20px;
+}
+
+h1 {
+  margin-left: 60px;
+  color: indianred;
+}

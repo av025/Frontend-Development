@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Absolute position behaves with ancestor root element</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="first-element">First element</div>
+    <div class="second-element">Second element</div>
+    <div class="third-element">Third element</div>
+    <div class="fourth-element">Fourth element</div>
+    <section class="section-first">
+      <h2>Case - 2</h2>
+      <p>
+        When we give all div elements absolute position and this div's was not
+        have non-static ancestor than it was related to root-element and they
+        all align itself similar to root element which we can see on the top of
+        left side of our webpage.
+        <br />
+        <span
+          >They are in stack and overlap to each other when we give absolute
+          position than it don't follow normal flow of html document and also
+          overlap with other html element too!!!.
+        </span>
+      </p>
+    </section>
+    <section id="section-second">
+      <div class="first-static display-inlineBlock">First element</div>
+      <div class="second-static display-inlineBlock">Second element</div>
+      <div class="third-static display-inlineBlock">Third element</div>
+      <div class="fourth-static display-inlineBlock">Fourth element</div>
+    </section>
+    <section class="section-third">
+      <h2>Case 1</h2>
+      <p>
+        Above all divs was are have <span>static position</span> and display
+        inline-block.
+      </p>
+    </section>
+    <h1>
+      Above we see that how absolute position behaves with root element ancestor
+    </h1>
+    <a href="../inset property with absolute position/index.html"
+      >Inset property with absolute position</a
+    >
+  </body>
+</html>
