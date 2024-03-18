@@ -1,0 +1,107 @@
+* {
+  background-color: #111;
+  color: #fff;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding-left: 20px;
+}
+
+.div-grandfather {
+  width: 60%;
+  height: 400px;
+  background-color: coral;
+  margin: auto;
+  font-size: 22px;
+  text-align: center;
+  padding: 20px;
+  /*! Giving position relative */
+  position: relative;
+}
+
+.div-father {
+  width: 40%;
+  height: 200px;
+  background-color: yellow;
+  color: #111;
+  padding: 20px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.div-child {
+  width: 20%;
+  height: 100px;
+  background-color: deeppink;
+  font-size: 16px;
+  padding: 10px;
+  /*! Giving position absolute */
+  position: absolute;
+  top: 5px;
+  right: 200px;
+}
+
+h2 {
+  padding-left: 40px;
+  font-style: italic;
+}
+
+p {
+  padding-left: 60px;
+  line-height: 1.5;
+
+  font-size: 22px;
+}
+
+/*! Giving position relative to body tag */
+body {
+  position: relative;
+}
+
+.div-one {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: whitesmoke;
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: -100px;
+}
+.div-two {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-color: yellow;
+  color: inherit;
+  padding: 60px;
+  margin-top: 10px;
+}
+
+a {
+  color: crimson;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 40px;
+  display: inline-block;
+  margin: auto;
+}
+
+a:hover {
+  color: seashell;
+}
+
+.golden {
+  color: darkorchid;
+  font-weight: 900;
+}
+
+.crimson {
+  color: crimson;
+  font-weight: 600;
+}
