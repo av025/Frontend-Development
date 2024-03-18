@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attached absolute element with parent element</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Attached absolute element with parent element</h1>
+    <p>
+      <span class="red">
+        When we have to Attached our child element with our parent element than
+        we have to give non-static position like relative or fixed position to
+        parent element than our child absolute element was Attached with parent
+        element and relative to it than we give position to child elment inside
+        parent element.
+      </span>
+    </p>
+    <h2>Giving parent element position relative and also non-static</h2>
+    <h3>Parent element</h3>
+    <div class="parent-first">
+      <div class="child-first">Child element</div>
+    </div>
+    <p class="give-margin">
+      When we give parent element relative position and child element position
+      absolute so it was attached with parent and also relative to parent
+      element and
+      <span>child element will align itself same like parent element</span>.
+    </p>
+    <h2>Giving position four properties to our child absolute element</h2>
+    <h3>Parent element</h3>
+    <div class="parent-first">
+      <div class="child-first-position">Child element</div>
+    </div>
+    <p class="give-margin">
+      <span
+        >Our child element was attached with parent and we see that our child
+        element align with the help of position properties inside the parent
+        element.</span
+      >
+    </p>
+    <h2>
+      root element attachement of absolute position child element Vs parent
+      element attachement of absolute position child element
+    </h2>
+    <h3 class="heading">When parent was root element</h3>
+    <ul>
+      <li>
+        When absolute child element was not have nearest ancestor element was
+        non-static element than that child element was relative to root element
+        or viewport of our browser and when we give position to child element it
+        giving from viewport.
+      </li>
+    </ul>
+    <h3 class="heading">When parent was parent element</h3>
+    <ul>
+      <li>
+        When our parent element was non-static element like relative or fixed
+        than our absolute position child element was relative to it's parent
+        element and also attached with and than we give psoition accordin to our
+        parent element.
+      </li>
+    </ul>
+  </body>
+</html>

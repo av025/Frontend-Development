@@ -1,0 +1,80 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding-left: 20px;
+}
+
+p {
+  padding-left: 50px;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.red {
+  color: indianred;
+}
+
+h2 {
+  padding-left: 40px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+.parent-first {
+  width: 60%;
+  height: 400px;
+  background-color: coral;
+  margin: auto;
+  /*! Giving parent position relative */
+  position: relative;
+}
+
+.child-first {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background-color: yellow;
+  color: #111;
+  /*! Giving child absolute position */
+  position: absolute;
+}
+
+.give-margin {
+  margin-left: 300px;
+  width: 60%;
+}
+
+span {
+  color: deeppink;
+}
+
+.child-first-position {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background-color: yellow;
+  color: #111;
+  /*! Giving child absolute position */
+  position: absolute;
+  /*! Giving position align properties with the help of inset property */
+  inset: 200px;
+}
+
+.heading {
+  text-align: start;
+  padding-left: 50px;
+}
+
+ul {
+  margin-left: 80px;
+  font-size: 20px;
+}
