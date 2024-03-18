@@ -1,0 +1,39 @@
+* {
+  background-color: #111;
+  color: #fff;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+}
+
+h2 {
+  padding: 30px;
+  font-style: italic;
+}
+
+.div-example {
+  padding: 30px;
+  background-color: deeppink;
+  /*! Giving position fixed */
+  position: fixed;
+}
+
+.dummy-paragraph {
+  background-color: skyblue;
+  padding: 20px;
+  font-size: 18px;
+}
+
+span {
+  color: indianred;
+  font-weight: 600;
+}
