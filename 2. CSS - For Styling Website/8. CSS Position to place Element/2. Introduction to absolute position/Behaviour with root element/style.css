@@ -113,3 +113,16 @@ h1 {
   margin-left: 60px;
   color: indianred;
 }
+
+a {
+  color: crimson;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 40px;
+  display: inline-block;
+  margin: auto;
+}
+
+a:hover {
+  color: seashell;
+}

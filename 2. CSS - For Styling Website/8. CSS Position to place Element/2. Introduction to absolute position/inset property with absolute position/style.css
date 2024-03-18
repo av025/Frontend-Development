@@ -1,0 +1,53 @@
+* {
+  background-color: #111;
+  color: #fff;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding-left: 15px;
+}
+
+span {
+  color: deeppink;
+}
+
+p {
+  padding-left: 50px;
+  font-size: 22px;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+.parent-element {
+  width: 60%;
+  height: 600px;
+  background-color: darkorange;
+  margin: auto;
+  /*! Giving position relative */
+  position: relative;
+}
+
+h3 {
+  text-align: center;
+}
+
+.child-element {
+  padding: 20px;
+  background-color: dodgerblue;
+  /*! Giving position to absolute */
+  position: absolute;
+  /*? Using inset property to give 4 position properties */
+  /*! First we give individual values to respective four direction */
+  inset: 50px 40px 30px 20px;
+  /** In above we apply inset property and give all 4 position properties value individually here vlues assign as clockwise direction */
+  /** first value was 50px which means top property was applied. */
+  /** second value was 40px which means right property was applied. */
+  /** third value was 30px which means bottom property was applied. */
+  /** fourth value was 20px which means left property was applied. */
+}
