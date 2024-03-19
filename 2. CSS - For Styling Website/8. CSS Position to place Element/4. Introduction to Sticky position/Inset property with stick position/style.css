@@ -1,0 +1,47 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+}
+
+a {
+  color: crimson;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 40px;
+  display: inline-block;
+  margin: auto;
+}
+
+a:hover {
+  color: seashell;
+}
+
+.dummy-content {
+  padding: 20px;
+  background-color: black;
+  color: yellow;
+  font-weight: 400;
+}
+
+.inset-property-example {
+  width: 600px;
+  padding: 20px;
+  background-color: darkturquoise;
+  font-size: 22px;
+  /*! Giving position sticky first */
+  position: sticky;
+  /*? Giving four position property with the help of inset property */
+  inset: 100px 600px;
+}
