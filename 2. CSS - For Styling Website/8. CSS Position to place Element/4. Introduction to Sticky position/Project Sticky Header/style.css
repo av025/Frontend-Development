@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+header {
+  width: 100%;
+  min-height: 8vh;
+  background-color: #111;
+  color: #fff;
+  /*! Giving position Sticky */
+  position: sticky;
+  /*! We always use 0 top position */
+  top: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  padding: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.first {
+  background-color: crimson;
+  font-size: 20px;
+  color: #fff;
+}
+
+.second {
+  background-color: skyblue;
+  font-size: 20px;
+  color: #111;
+}
+
+.third {
+  background-color: deeppink;
+  font-size: 20px;
+  color: #fff;
+}
+
+.fourth {
+  background-color: yellow;
+  font-size: 20px;
+  color: #111;
+}
+
+.fifth {
+  background-color: orchid;
+  font-size: 20px;
+  color: #fff;
+}
+
+footer {
+  background-color: #111;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: crimson;
+}
