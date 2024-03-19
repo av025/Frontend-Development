@@ -1,0 +1,108 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+}
+
+span {
+  color: fuchsia;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+.div-one {
+  background-color: coral;
+  width: 600px;
+  padding: 15px;
+  position: relative;
+  bottom: 100px;
+}
+
+.parent {
+  font-size: 18px;
+  background-color: deeppink;
+  padding: 20px;
+}
+
+.explanation {
+  background-color: coral;
+  font-size: 18px;
+  position: sticky;
+  top: 20px;
+}
+
+.conclusion {
+  padding-left: 60px;
+  font-size: 22px;
+  color: indianred;
+  display: inline-block;
+  line-height: 1.5;
+}
+
+.bottom-parent {
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  background-color: darkorange;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.bottom-property {
+  width: 200px;
+  padding: 15px;
+  background-color: indianred;
+  font-weight: 600;
+  /*! Giving position sticky */
+  position: sticky;
+  bottom: 20px;
+}
+
+.right-parent {
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  background-color: crimson;
+  padding: 20px;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.right-property-bottom {
+  width: 200px;
+  padding: 15px;
+  background-color: skyblue;
+  color: #111;
+  font-weight: 600;
+  /*! Giving position sticky */
+  position: sticky;
+  bottom: 0;
+  right: 200px;
+}
+
+a {
+  color: crimson;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 40px;
+  display: inline-block;
+  margin: auto;
+}
+
+a:hover {
+  color: seashell;
+}
