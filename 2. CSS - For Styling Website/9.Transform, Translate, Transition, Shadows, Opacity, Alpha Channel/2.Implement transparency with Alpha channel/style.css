@@ -1,0 +1,37 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+.one {
+  height: 200px;
+  width: 400px;
+  background-color: rgba(255, 20, 145, 0.426);
+  /*! We can use alpha channel with our color values if we are giving alpha chanel than our color was not transparent if we give 0 than it will full transparency and we give transparency of any color was fromm 1 to 0 between we  can decide how our html element will be transparent */
+  padding: 15px;
+  transform-origin: 0 0;
+  transform: scale(2);
+}
+
+.hide-me {
+  width: 400px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
