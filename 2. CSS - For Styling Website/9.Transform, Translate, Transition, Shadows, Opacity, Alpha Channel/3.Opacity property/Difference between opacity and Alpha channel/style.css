@@ -1,0 +1,50 @@
+* {
+  color: #fff;
+  background-color: #111;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+}
+
+span {
+  color: darkorchid;
+}
+
+h2 {
+  padding-left: 30px;
+}
+
+.alpha-channel {
+  margin-left: 60px;
+  width: 600px;
+  padding: 10px;
+  background-color: rgba(34, 139, 34, 0.46);
+  font-size: 22px;
+  color: rgb(100, 228, 100);
+}
+
+.opacity {
+  background-color: deeppink;
+  padding: 15px;
+  width: 800px;
+  margin-left: 60px;
+  /*! Opacity property */
+  opacity: 0.6;
+}
+.opacity > h3 {
+  padding-left: 60px;
+  background-color: deeppink;
+}
+
+.opacity > p {
+  background-color: deeppink;
+}
