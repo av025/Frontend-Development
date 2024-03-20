@@ -1,0 +1,47 @@
+* {
+  background-color: #111;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+.example-one {
+  width: 500px;
+  padding: 20px;
+  font-size: 18px;
+  background-color: coral;
+  position: relative;
+  top: 200px;
+  left: 60px;
+  border: 5px solid skyblue;
+  /*! Give transform rotate property */
+  transform: rotate(45deg);
+}
+
+.example-two {
+  width: 500px;
+  padding: 20px;
+  font-size: 18px;
+  background-color: sandybrown;
+  position: relative;
+  top: 550px;
+  left: 60px;
+  border: 5px solid yellow;
+  /*! Give transfrom rotate proerty in negative */
+  transform: rotate(-45deg);
+}
