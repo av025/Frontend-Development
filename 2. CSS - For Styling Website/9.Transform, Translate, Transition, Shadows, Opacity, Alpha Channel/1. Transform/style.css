@@ -1,0 +1,32 @@
+* {
+  color: #fff;
+  background-color: #111;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+.rectangle {
+  font-size: 20px;
+  margin: auto;
+  width: 400px;
+  height: 300px;
+  padding: 15px;
+  background-color: coral;
+  /*! We use transform property  */
+  transform: scale(1);
+}
