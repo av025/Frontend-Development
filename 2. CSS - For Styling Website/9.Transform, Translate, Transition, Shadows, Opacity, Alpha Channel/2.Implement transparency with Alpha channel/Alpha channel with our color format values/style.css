@@ -1,0 +1,33 @@
+* {
+  color: #fff;
+  background-color: rgb(18, 18, 18);
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  margin-left: 60px;
+  font-size: 22px;
+}
+
+span {
+  color: indianred;
+  font-weight: 900;
+}
+
+.hex-code {
+  width: 600px;
+  height: 400px;
+  font-weight: 18px;
+  padding: 30px;
+  background-color: #ff6912cc;
+  margin-left: 60px;
+  font-size: 22px;
+}
+
+
