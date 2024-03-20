@@ -1,0 +1,38 @@
+* {
+  color: #fff;
+  background-color: #111;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding: 15px;
+}
+
+h2 {
+  font-style: italic;
+  padding-left: 30px;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+}
+
+.translate-property-x-axis {
+  background-color: crimson;
+  width: 300px;
+  padding: 20px;
+  /*! Giving translate property */
+  transform: translateX(100px);
+}
+
+.translate-property-y-axis {
+  background-color: gold;
+  width: 300px;
+  color: #111;
+  padding: 20px;
+  /*! Giving translate property */
+  transform: translateY(100px);
+}
