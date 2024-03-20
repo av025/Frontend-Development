@@ -1,0 +1,48 @@
+* {
+  background-color: #111;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding: 10px;
+}
+
+p {
+  font-size: 22px;
+  padding-left: 60px;
+  line-height: 1.5;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+.example-one {
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  background-color: burlywood;
+  font-size: 18px;
+  /*! Giving transform scale property 0.5 */
+  transform: scale(0.5);
+}
+
+span {
+  color: indianred;
+  padding: 15px;
+  display: inline-block;
+}
+
+.example-two {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  background-color: deeppink;
+  font-size: 18px;
+  /*! Giving transform scale property 1.5 */
+  transform: scale(1.5);
+}
