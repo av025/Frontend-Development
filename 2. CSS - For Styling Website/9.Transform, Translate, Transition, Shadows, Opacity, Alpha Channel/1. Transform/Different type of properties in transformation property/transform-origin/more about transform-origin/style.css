@@ -1,0 +1,33 @@
+* {
+  color: #fff;
+  background-color: #111;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding: 15px;
+}
+
+P {
+  font-size: 30px;
+  padding-left: 60px;
+  position: relative;
+  top: 200px;
+  color: indianred;
+  margin-top: 15px;
+}
+.exampleOfTransformationOrigin {
+  position: relative;
+  top: 150px;
+  left: 600px;
+  width: 600px;
+  background-color: darkgoldenrod;
+  padding: 30px;
+  font-size: 26px;
+  /*! Transform property */
+  transform: scale(2);
+  /*! Giving transform-origin property */
+  transform-origin: 100% 100%;
+}
