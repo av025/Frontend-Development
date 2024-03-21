@@ -1,0 +1,48 @@
+* {
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+}
+
+.background-image {
+  background-image: url("https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3BsYXNofGVufDB8fDB8fHww");
+  width: 100%;
+  height: 600px;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+.background-repeat {
+  width: 100%;
+  height: 400px;
+  /*! Giving background-image to these div */
+  background-image: url("https://plus.unsplash.com/premium_photo-1661894512288-d9b0eacbf1f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHNwbGFzaHxlbnwwfHwwfHx8MA%3D%3D");
+  /*? Background-repeat property */
+  /** With the help of background-repeat property we can repeat our background-image in x-axis or y-axis or  no-repeat property will also give. */
+  background-repeat: repeat-x;
+  /*? When we give background-repeat : repeat-x than our background will repeat in x-axis */
+  background-repeat: repeat-y;
+  /*? When we give value repeat-y than our background will repeat in y direction */
+  background-repeat: no-repeat;
+}
+
+span {
+  color: darkred;
+}
