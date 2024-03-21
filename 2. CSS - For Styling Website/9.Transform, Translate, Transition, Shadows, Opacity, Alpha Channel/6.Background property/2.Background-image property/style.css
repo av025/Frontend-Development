@@ -29,6 +29,11 @@ h2 {
   font-style: italic;
 }
 
+h3 {
+  padding-left: 45px;
+  font-style: oblique;
+}
+
 .background-repeat {
   width: 100%;
   height: 400px;
@@ -109,4 +114,48 @@ li {
   background-position: center;
   background-position: top;
   /** In this shorthand property we can give both direction together */
+}
+
+.background-attachment-one {
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+  color: rgba(255, 20, 145, 0.637);
+  /*! Adding background-image */
+  background-image: url("https://images.unsplash.com/photo-1534513186949-201bfdfed2d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fHNwbGFzaHxlbnwwfHwwfHx8MA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*? Giving background-attachement fixed property */
+  background-attachment: fixed;
+  /*! When we give background-attachment fixed than it fixed our image and we scroll our content inside that html element */
+}
+
+.background-attachment-two {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  /*! Adding background-image */
+  background-image: url("https://images.unsplash.com/photo-1534513186949-201bfdfed2d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fHNwbGFzaHxlbnwwfHwwfHx8MA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*? Giving background-attachement   */
+  background-attachment: scroll;
+  /*! When we give background-attachment scroll than we scroll our background image too!!! When we scroll our page. */
+}
+
+.background-attachment-three {
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+  color: rgba(255, 20, 145, 0.637);
+  /*! Adding background-image */
+  background-image: url("https://images.unsplash.com/photo-1534513186949-201bfdfed2d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fHNwbGFzaHxlbnwwfHwwfHx8MA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*? Giving background-attachment local */
+  background-attachment: local;
+  /*! The background image will scroll with the element's contents */
 }
