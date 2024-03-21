@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Center the div with translate property</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Center the div with translate property</h1>
+    <div class="div-in-center">We center this div</div>
+    <div class="div-center">We center this div</div>
+    <p class="conclusion-relative">
+      We give this pink div position first relative so it becomes relative to
+      it's parent element and give top property 50% and bottom property 50%. But
+      it doesnot center in viewport because relative position does not flow
+      different from normal flow direction of HTML element. it does not look it
+      center so we have to use translate transform property to center it so we
+      give translate -50% in both axis x and y so it centered but not according
+      to viewport.
+    </p>
+    <p class="conclusion-absolute">
+      In orange div we give position absolute so when we give any html element
+      absolute position so it flow different from normal flow of html document
+      if these absolute position does not have non-static parent than it was
+      relative to root element or viewport we can say that so we give top 50%
+      and left 50% so it comes in center but it does not look it center so we
+      have to use translate transform property to center it so we give translate
+      -50% in both axis x and y so it perfectly centered.
+    </p>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+* {
+  background-color: #111;
+  color: #fff;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+.div-in-center {
+  width: 200px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgba(255, 166, 0, 0.86);
+  /*! To center the div first we give position absolute */
+  position: absolute;
+  /** Now give position properties */
+  top: 50%;
+  left: 50%;
+  /** Now also it does not look in center so we use transform property */
+  transform: translateX(-50%);
+  /* transform: translateY(-50%); */
+}
+
+.div-center {
+  width: 200px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: deeppink;
+  /*! To center the div first we give position relative */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  /** Giving transform translate property */
+  transform: translate(-50%, -50%);
+}
+
+p {
+  font-size: 22px;
+  padding-left: 60px;
+  line-height: 1.5;
+}
+
+.conclusion-relative {
+  color: indianred;
+  margin: 10px;
+}
+
+.conclusion-absolute {
+  color: darkturquoise;
+  position: relative;
+  top: 100px;
+}
