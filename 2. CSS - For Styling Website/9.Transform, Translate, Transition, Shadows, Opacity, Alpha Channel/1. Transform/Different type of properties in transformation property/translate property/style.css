@@ -36,3 +36,36 @@ p {
   /*! Giving translate property */
   transform: translateY(100px);
 }
+
+section {
+  position: relative;
+  top: 100px;
+}
+
+.example-one {
+  width: 500px;
+  height: 150px;
+  font-size: 22px;
+  background-color: darksalmon;
+  padding: 15px;
+  font-weight: 600;
+  /*! Giving translate transform property */
+  transform: translateX(50%);
+  /*? Here we give 50% so it move 250px to right side of x-axis */
+  transform: translateX(100%);
+  /*? Here we give 100% so it move 500px to right side of x-axis */
+}
+
+.example-two {
+  width: 500px;
+  height: 150px;
+  font-size: 22px;
+  background-color: dodgerblue;
+  padding: 15px;
+  font-weight: 600;
+  /*! Giving translate transform property */
+  transform: translateY(50%);
+  /*? Here we give 50% so it move 75px downwards in the direction of y-axis. */
+  transform: translateY(100%);
+  /*? Here we give 100% so it move 150px downwards in the direction of y-axis. */
+}
