@@ -1,0 +1,51 @@
+* {
+  background-color: #111;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding: 15px;
+}
+
+h2 {
+  padding-left: 30px;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+}
+
+.color {
+  color: darksalmon;
+  display: inline;
+  margin-left: 0;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+.dummy-paragraph {
+  display: block;
+  margin-left: 60px;
+  font-size: 26px;
+  /*! Giving color */
+  color: crimson;
+  /*! Giving text-shadow to our text */
+  text-shadow: 10px 10px 5px gold;
+}
+.dummy-paragraph-two {
+  margin: 50px;
+  display: block;
+  margin-left: 60px;
+  font-size: 26px;
+  /*! Giving color */
+  color: deeppink;
+  /*! Giving text-shadow to our text */
+  text-shadow: -10px -10px 5px #fff;
+}
