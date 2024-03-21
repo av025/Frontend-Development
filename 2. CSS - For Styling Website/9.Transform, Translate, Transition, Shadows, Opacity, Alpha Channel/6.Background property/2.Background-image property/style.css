@@ -47,6 +47,19 @@ span {
   color: darkred;
 }
 
+.deeppink {
+  color: deeppink;
+}
+
+ul {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  padding: 5px;
+}
+
 .background-size {
   width: 100%;
   height: 500px;
@@ -63,4 +76,37 @@ span {
   /*? When we give background-size cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges */
   background-size: 100% 100%;
   /*? We can give height and width of our background-image also we can give in percentage unit. but when we give height and width than our aspect ratio becomes spoilt of our background-image. */
+}
+
+.background-position {
+  color: rgba(255, 140, 0, 0.427);
+  width: 100%;
+  height: 400px;
+  /*? Giving background-image */
+  background-image: url("https://images.unsplash.com/photo-1597495528367-e4f4bb3f3c4a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fHNwbGFzaHxlbnwwfHwwfHx8MA%3D%3D");
+  /*? Giving background-repeat */
+  background-repeat: no-repeat;
+  /*? Giving background-size */
+  background-size: 100px 100px;
+  /*? Giving background-position */
+  background-position-x: center;
+  /*? Give background-position in x-axis in center */
+  background-position-x: left;
+  /*? Give background-position left in x-axis which was default position. */
+  background-position-x: right;
+  /*? Give background-position right in x-axis. */
+  background-position-x: 500px;
+  /*? We can give background-position in manually also we give 500px in x-axis we can give negative value also. */
+  background-position-y: center;
+  /*? We can give background-position center in y-axis  */
+  background-position-y: top;
+  /*? We can give background-position top in y-axis */
+  background-position-y: bottom;
+  /*? We  can give background-position bottom in y-axis */
+  background-position-y: 300px;
+  /*? We give manually values to in background-position y-axis also */
+  /*! Instead of above we are use background-position short property too!!! */
+  background-position: center;
+  background-position: top;
+  /** In this shorthand property we can give both direction together */
 }
