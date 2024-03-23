@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+}
+
+.hashtag-component {
+  max-width: 80%;
+  margin: 30px auto;
+  padding: 3.5rem;
+  background-color: #075fd5;
+  color: whitesmoke;
+  font-family: sans-serif;
+  background-image: url(./source/background.png);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: right;
+}
+
+.hashtag-component h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.hashtag-component span {
+  font-size: 1.5rem;
+}
+
+/*! For font-size we prefer rem unit  */
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 3px solid;
+  vertical-align: middle;
+  /*! Vertical align property to align verticaly our html element */
+}
