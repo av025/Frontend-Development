@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #0d1a2d;
+}
+
+.main-container {
+  height: 624px;
+  width: 370px;
+  background-color: #15273f;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 15px 15px 5px 20px #0c192c;
+}
+
+.equilibrium {
+  width: 305px;
+  margin: 15px 30px;
+  border-radius: 20px;
+}
+
+h2 {
+  text-transform: capitalize;
+  color: #f9fdff;
+  padding: 10px;
+  margin: 0 15px 10px 15px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+p {
+  margin: 5px 15px;
+  padding: 5px;
+  font-size: 20px;
+  color: #6e84a3;
+}
+
+.nft-value-section {
+  margin: 5px 15px;
+  padding: 5px;
+  position: relative;
+}
+
+.div-left {
+  position: absolute;
+  display: inline-block;
+  padding: 10px;
+}
+
+.div-right {
+  position: absolute;
+  display: inline-block;
+  left: 60%;
+  padding: 10px;
+}
+
+.eth-icon {
+  width: 15px;
+}
+
+.eth-text {
+  font-size: 16px;
+  padding: 10px;
+  color: #00fff8;
+  position: relative;
+  bottom: 5px;
+  font-weight: 600;
+}
+
+.clock-icon {
+  width: 24px;
+}
+
+.clock-text {
+  font-size: 16px;
+  padding: 5px;
+  color: #8bacd9;
+  position: relative;
+  bottom: 5px;
+}
+
+hr {
+  position: relative;
+  top: 60px;
+  left: 10%;
+  width: 80%;
+  opacity: 0.2;
+}
+
+.avatar-image {
+  width: 35px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.creator-section {
+  position: relative;
+  top: 62px;
+  left: 2%;
+  padding: 10px;
+  margin: 5px 10px;
+}
+
+.creator-text {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  font-size: 18px;
+  position: absolute;
+  bottom: 5px;
+}
+
+.creator-span {
+  color: #fff;
+  font-weight: 400;
+}
