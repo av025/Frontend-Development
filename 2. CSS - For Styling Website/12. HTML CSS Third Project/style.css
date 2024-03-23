@@ -34,10 +34,14 @@ body {
 /*! For font-size we prefer rem unit  */
 
 img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 100%;
   border: 3px solid;
   vertical-align: middle;
   /*! Vertical align property to align verticaly our html element */
+}
+
+img + img {
+  margin-left: -15px;
 }
