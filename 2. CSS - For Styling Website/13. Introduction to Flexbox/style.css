@@ -47,8 +47,10 @@ span {
   margin: auto;
   /*! To use flexbox we have to give display:flex */
   display: flex;
-  /** When we give display flex than all our html element was horiziontally align as default. */
+  /** When we give display flex than all our html element was horiziontally align as default and all the children of flex-container become display block. */
 }
+
+/*! This all below are flex-container children which was also called flex-items. */
 
 .child-one {
   font-size: 18px;
@@ -79,14 +81,20 @@ span {
 
 .span-one {
   font-size: 18px;
-  padding: 40px;
+  padding: 10px;
   background-color: chocolate;
   border: 4px solid #f23f39;
+  height: 150px;
+  width: 150px;
+  color: #fff;
 }
 
 .span-two {
   font-size: 18px;
-  padding: 40px;
+  padding: 10px;
   background-color: fuchsia;
   border: 4px solid #699615;
+  color: #fff;
+  height: 150px;
+  width: 150px;
 }
