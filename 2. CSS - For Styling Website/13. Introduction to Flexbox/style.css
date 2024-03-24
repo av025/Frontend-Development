@@ -32,8 +32,11 @@ span {
   background-color: forestgreen;
   padding: 15px;
   font-size: 18px;
+  width: 600px;
   /* width: max-content; */
-  /*! max-content width property was will align our content horizontally in one line as max-content so it overflows our content also on viewport. */
+  /*! max-content width property was will align our maximum  content horizontally in one line as max-content so it overflows our content also on viewport. */
+  width: min-content;
+  /** min-width will align our html content vertically and takes minimum width it depends on length of our word in content if the word has largest legth than width was equal to that word.  */
 }
 
 .div-parent {
