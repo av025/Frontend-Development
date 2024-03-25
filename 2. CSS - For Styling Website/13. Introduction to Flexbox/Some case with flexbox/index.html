@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Some cases with flexbox</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Some cases with flexbox</h1>
+    <h2>When we don't give any height to flex-item or flex-children</h2>
+    <p>
+      When we don't give height to our flex-children than it takes whole height
+      of it's parent element default.
+    </p>
+    <h3>Example</h3>
+    <h4>Parent element</h4>
+    <div class="parent-height">
+      <div class="child-one-height">Child-First</div>
+      <div class="child-two-height">Child Second</div>
+      <div class="child-three-height">Child Third</div>
+      <div class="child-four-height">Child Fourth</div>
+    </div>
+    <h2>
+      When we create any html element flex-container than all the flex-children
+      inside it becomes block level element.
+    </h2>
+    <h3>Example</h3>
+    <h4>Parent element</h4>
+    <div class="parent">
+      <span class="child-one">Child One</span>
+      <span class="child-two">Child Two</span>
+      <span class="child-three">Child three</span>
+    </div>
+    <p>
+      When we create parent element flex-container than all the child element
+      inside the parent are span element which becomes block element element so
+      it creates our html element block level element which are inside the
+      flex-container all defaultly so we can give them height and width that's
+      why................
+    </p>
+    <h2>Only Children get display block not descendants</h2>
+    <h3>Example</h3>
+    <h4>Parent element</h4>
+    <div class="parent-two">
+      <span class="childOne"
+        >Child One
+        <a href="https://www.instagram.com" class="childAnchorOne"
+          >Instagram Home Page</a
+        >
+      </span>
+      <span class="childTwo"
+        >Child Two
+        <a href="https://www.google.com" class="childAnchorTwo"
+          >Google Search Engine</a
+        >
+      </span>
+    </div>
+    <p>
+      So when we create our parent flex-container than our direct children of
+      flex-items becomes block element but not descendants that's we see in
+      above example anchor tag was in inline nature only....
+    </p>
+  </body>
+</html>
