@@ -1,0 +1,63 @@
+* {
+  background-color: #111;
+  color: #fff;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+.div-parent {
+  background-color: chocolate;
+  padding: 15px;
+  width: 80%;
+  height: 600px;
+  margin: auto;
+
+  /*! Giving display flex to create flex-container */
+  display: flex;
+}
+
+.child-one {
+  width: 200px;
+  padding: 15px;
+  background-color: coral;
+  margin: 0px 60px;
+  font-size: 20px;
+}
+
+.child-two {
+  width: 200px;
+  padding: 15px;
+  background-color: darkmagenta;
+  margin: 0px 60px;
+  font-size: 20px;
+}
+
+.child-three {
+  width: 200px;
+  padding: 15px;
+  background-color: fuchsia;
+  margin: 0px 60px;
+  font-size: 20px;
+}
+
+.child-four {
+  width: 200px;
+  padding: 15px;
+  background-color: rgba(255, 255, 0, 0.679);
+  margin: 0px 60px;
+  font-size: 20px;
+}
