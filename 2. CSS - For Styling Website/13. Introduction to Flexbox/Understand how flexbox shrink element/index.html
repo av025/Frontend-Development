@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Understand how flexbox shrink element</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Understand how flexbox shrink element</h1>
+    <h2>
+      Example to see how flexbox give width when we don't give width to an
+      element
+    </h2>
+    <h3>Parent</h3>
+    <div class="div-parent">
+      <span class="childOne">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatum
+        earum molestiae eos iure delectus culpa pariatur ut enim rerum.
+        Recusandae asperiores alias error nam nesciunt exercitationem deleniti
+        quibusdam qui, nemo soluta similique facilis provident ab minus illo,
+        debitis ducimus tempore laudantium esse tenetur molestias placeat
+        explicabo delectus totam! Ducimus corrupti nulla soluta aut beatae
+        dolorum est architecto, voluptate mollitia, laboriosam facilis dolores
+        repellat! Ea quam iusto deserunt inventore iste magni eius maiores
+        explicabo perspiciatis impedit voluptatem delectus quae ducimus vero
+        unde, amet expedita? Repellat aspernatur nisi assumenda reprehenderit
+        est facere. Aliquid, animi quod aliquam voluptates iure quaerat fuga
+        neque nulla ut odio assumenda, dolores laudantium molestiae saepe. Animi
+        tenetur voluptatum aspernatur, voluptas provident at adipisci cum
+        repudiandae, corporis quis ad similique soluta rem. Aliquam distinctio
+        ad quos aut ea provident dolorum iusto quibusdam, dignissimos repellat
+        aspernatur voluptas ab impedit sapiente corrupti enim, nesciunt neque
+        consequatur ex recusandae itaque ipsam vero natus quo. Neque distinctio
+        quisquam iure unde doloremque quibusdam quis quidem tempore consequatur
+        ut.
+      </span>
+      <p class="paragraph-childTwo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sunt
+        asperiores ipsam dolores officia nihil, quidem earum consectetur tempora
+        debitis odio minima, animi in natus provident minus impedit ad commodi!
+        Doloribus recusandae corrupti voluptate autem iure, nisi architecto,
+        eum, consectetur culpa illo pariatur quae minus cupiditate unde! Ratione
+        suscipit at, id blanditiis voluptatibus inventore debitis quas
+      </p>
+      <span class="childThree">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
+        corporis ipsam quos? Animi quos facilis enim aspernatur architecto
+        dignissimos non aliquid minus nobis cumque consectetur
+      </span>
+    </div>
+    <p>
+      Here we don't give width than there width was calculated from content
+      inside the html element it work same like the max-content width like
+      property when we give any html element max-content so it will try to set
+      all content in one line s when we create parent element above
+      flex-container and we don't give width to flex-item or flex-children than
+      there width was calculated from like max-content width.
+    </p>
+    <h2>
+      Example how our Flex-box will shrink when the size of our viewport
+      decrease
+    </h2>
+    <h3>Parent element</h3>
+    <div class="parent-div">
+      <div class="childFirst">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+        praesentium repellat? Tenetur amet sint rerum earum, cumque quas quam
+        quibusdam voluptate quia inventore error aliquam sunt reiciendis
+        tempore. Nobis, amet!
+      </div>
+      <div class="childSecond">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro saepe
+        eveniet dignissimos, omnis obcaecati asperiores accusantium ipsa.
+        Molestiae in omnis sed, provident veniam exercitationem voluptate ea
+        quisquam aliquid, mollitia laboriosam. Deserunt fugiat inventore ex?
+        Natus, aliquid voluptas. Voluptas quidem, corporis ea aut nihil modi
+        optio. Suscipit nihil non eaque, saepe tempore debitis, ut tempora
+        ratione possimus, sint consequatur consequuntur hic!
+      </div>
+      <div class="childThird">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nesciunt
+        sed exercitationem dolore aspernatur eveniet, pariatur quam? Maiores
+        omnis porro doloribus iure blanditiis sint eveniet odio aliquid
+        recusandae cupiditate, aperiam veritatis, deleniti autem soluta incidunt
+        dolorem animi et aliquam laudantium? Aspernatur ipsum quidem libero
+        beatae excepturi debitis non maxime officiis. Molestiae repudiandae
+        laudantium expedita maiores itaque exercitationem quae facilis culpa est
+        assumenda beatae eum, soluta officia dolor iusto, fugiat delectus ipsam
+        porro dolorum! Qui, eius amet inventore fugiat laudantium minus hic
+        dolorum perspiciatis fugit quo itaque iste dolore id optio ad ea, quis
+        unde maxime libero eaque enim? Rerum, ex!
+      </div>
+    </div>
+    <p>
+      When we shrink our flex-box to it work so flexiblely like it's name
+      flexible box so we decrease our viewport size than flex-container all
+      flex-children will also decrease in same ratio in above example we give
+      first flex-item or flex-child width 200px than second child width 400px
+      and last third flex-child width was 600px and we decrease it's size by 10
+      percent than 20 percent so they all are decrease in same ratio if 10% than
+      all flex-child are decreasing similarly in the case of 20% too!!!!.
+    </p>
+    <p style="color: darkslateblue">
+      We can also shrink the content size width also when we don't give width of
+      flex-child so it was also shrink in ration only but there was limit when
+      we shrink content-size width is that it can not go after min-content
+      width.
+    </p>
+  </body>
+</html>

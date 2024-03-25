@@ -1,0 +1,84 @@
+* {
+  background-color: #111;
+  color: #fff;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+h1 {
+  padding: 15px;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+.div-parent {
+  background-color: indianred;
+  width: 100%;
+  height: 600px;
+  padding: 10px;
+  margin: auto;
+  /*! Giving display flex to create flex-container */
+  display: flex;
+}
+
+/*! When we create flex-container than this direct children becomes flex-items or flex-children and all children element becomes display block but actually they are flex-items similar to block element we can give height and width also but some times it behaves wierdly. */
+
+.childOne {
+  padding: 10px;
+  background-color: darkkhaki;
+}
+.paragraph-childTwo {
+  padding: 10px;
+  background-color: coral;
+  margin: 0;
+  font-size: 16px;
+}
+
+.childThree {
+  padding: 10px;
+  background-color: skyblue;
+}
+
+/*? Here we don't give width than there width was calculated  from  content inside the html element or we can say that depends on content if any element has more content so they got bigger width.  */
+
+p {
+  padding-left: 60px;
+  color: indianred;
+  font-size: 22px;
+}
+
+.parent-div {
+  width: 100%;
+  background-color: darksalmon;
+  padding: 10px;
+  display: flex;
+}
+
+.childFirst {
+  width: 200px;
+  background-color: forestgreen;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.childSecond {
+  width: 400px;
+  background-color: indianred;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.childThird {
+  width: 600px;
+  background-color: darkorange;
+  padding: 5px;
+  font-size: 20px;
+}
