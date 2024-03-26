@@ -35,10 +35,32 @@ p {
   align-items: center;
 }
 
-.flex-item-one-parentOne {
+.flex-item-parentOne {
   width: 100px;
-  height: 80px;
+  height: 100px;
   padding: 10px;
   background-color: fuchsia;
   font-weight: 18px;
+}
+
+.flex-container-two {
+  width: 60%;
+  height: 400px;
+  padding: 15px;
+  background-color: hotpink;
+  margin: auto;
+  /*! Display flex to create flex-container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item-parentTwo {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: darkorange;
+  font-weight: 18px;
+  font-weight: 600;
+  box-shadow: 15px 15px 25px 10px rgba(78, 77, 75, 0.91);
 }
