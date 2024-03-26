@@ -6,3 +6,62 @@
   box-sizing: border-box;
 }
 
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+  color: darkorange;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+.parent-element {
+  background-color: coral;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.child-one {
+  background-color: yellow;
+  font-size: 18px;
+  color: #111;
+  padding: 5px;
+  width: 300px;
+  height: 250px;
+  /*! Giving flex-grow property */
+  flex-grow: 0.5;
+  /*! So it was grow 50% of its original size */
+}
+
+.child-two {
+  background-color: crimson;
+  font-size: 18px;
+  padding: 5px;
+  width: 300px;
+  height: 250px;
+  /*! Giving flex-grow property */
+  flex-grow: 1;
+  /*! This flex-item will grow 1 times of original size */
+}
+
+.child-three {
+  background-color: forestgreen;
+  font-size: 18px;
+  padding: 5px;
+  width: 300px;
+  height: 250px;
+  /*! Giving flex-grow property */
+  flex-grow: 2;
+  /*! This flex-item will grow 2 times of original size */
+}
+
+span {
+  color: indianred;
+}
