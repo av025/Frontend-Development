@@ -1,0 +1,138 @@
+* {
+  color: #fff;
+  background-color: #111;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+  color: hotpink;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+.flex-container-one {
+  width: 90%;
+  height: 400px;
+  padding: 20px;
+  background-color: skyblue;
+  margin: auto;
+  gap: 40px;
+  /*! Creating flex-container by giving display flex */
+  display: flex;
+  /*! Giving justify-content to align our flex-item horizontally and we give start value. */
+  justify-content: start;
+  /*? When we give justify-content start than they align in the left position of our flex-container because our webpage start from left side and from top and go from top to bottom. */
+}
+
+.flex-item-one-parentOne {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: darkorange;
+  font-size: 18px;
+}
+
+.flex-item-two-parentOne {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: crimson;
+  font-size: 18px;
+}
+.flex-item-three-parentOne {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: darksalmon;
+  font-size: 18px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.flex-container-two {
+  width: 90%;
+  height: 400px;
+  padding: 20px;
+  background-color: coral;
+  margin: auto;
+  gap: 20px;
+  /*! Giving display flex to create it flex container */
+  display: flex;
+  /* ! Giving justify content  center property  */
+  justify-content: center;
+  /*? When we give property justify content center than our flex-item was align center horizontally. */
+}
+
+.flex-item-one-parentTwo {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: darkorchid;
+  font-size: 18px;
+}
+
+.flex-item-two-parentTwo {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: fuchsia;
+  font-size: 18px;
+}
+
+.flex-item-three-parentTwo {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: lawngreen;
+  font-size: 18px;
+}
+
+.flex-container-three {
+  width: 90%;
+  height: 400px;
+  padding: 20px;
+  background-color: fuchsia;
+  margin: auto;
+  gap: 40px;
+  /*!  Create it Flex container by giving display flex property */
+  display: flex;
+  /*! Giving justify-content end property */
+  justify-content: end;
+}
+
+.flex-item-one-parentThree {
+  width: 100px;
+  height: 100px;
+  background-color: lightseagreen;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.flex-item-two-parentThree {
+  width: 100px;
+  height: 100px;
+  background-color: darkorange;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.flex-item-three-parentThree {
+  width: 100px;
+  height: 100px;
+  background-color: palegreen;
+  padding: 10px;
+  font-size: 18px;
+}
