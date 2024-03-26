@@ -1,0 +1,106 @@
+* {
+  background-color: #111;
+  color: #fff;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+  color: firebrick;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+.parent-one {
+  background-color: #123456;
+  padding: 15px;
+  padding: 15px;
+  margin: auto;
+  /*? Display flex to create flex-container */
+  display: flex;
+}
+
+.child-one-parentOne {
+  background-color: rgba(255, 255, 0, 0.838);
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin: 40px;
+  /*! Giving shrink-flex property and value 0 */
+  /* flex-shrink: 0; */
+}
+
+.child-two-parentOne {
+  background-color: indianred;
+  width: 500px;
+  height: 350px;
+  padding: 10px;
+  margin: 40px;
+  color: #fff;
+  /*! Here also we give shrink-flex property 0 */
+  /* flex-shrink: 0; */
+}
+
+.child-three-parentOne {
+  background-color: darkorange;
+  width: 340px;
+  height: 340px;
+  padding: 10px;
+  margin: 40px;
+  /*! Giving shrink-flex property and value 0 */
+  /* flex-shrink: 0; */
+}
+
+span {
+  color: fuchsia;
+}
+
+.parent-two {
+  background-color: hotpink;
+  padding: 15px;
+  /*! Giving displat flex */
+  display: flex;
+  gap: 60px;
+}
+
+.child-one-parentTwo {
+  background-color: chartreuse;
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+  /*! Giving 1 to flex-shrink property */
+  flex-shrink: 1;
+  /*! When we decrease our viewport screen than it was shrink by 1it means if we shrink our viewport screen than these flex-item will shrink in ratio of 1 or 1 times it shrink of original */
+}
+
+.child-two-parentTwo {
+  background-color: darkorchid;
+  width: 350px;
+  height: 350px;
+  padding: 15px;
+  /*! When we decrease our viewport screen than it was shrink was 0.5 percent or shrink half of it. */
+  flex-shrink: 0.5;
+}
+
+.child-three-parentTwo {
+  background-color: darkorange;
+  width: 400px;
+  height: 400px;
+  padding: 15px;
+  /*! When we decrease our viewport screen than it was shrink 2 times of it's original */
+  flex-shrink: 2;
+}

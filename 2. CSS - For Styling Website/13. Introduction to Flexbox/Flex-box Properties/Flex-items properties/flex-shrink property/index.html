@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex-shrink property</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Flex Shrink property</h1>
+    <p>
+      flex-shrink property will help to shrink and don't shrink our flex-item of
+      flex-container
+    </p>
+    <h2>Give Flex-shrink property 0 value</h2>
+    <h3>Parent element</h3>
+    <div class="parent-one">
+      <div class="child-one-parentOne">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
+        corporis ducimus quod hic consequuntur possimus exercitationem magnam
+        dignissimos. Ut provident itaque quaerat, debitis possimus impedit.
+        Perspiciatis quaerat veritatis laborum quod, nostrum sapiente placeat,
+        unde facilis porro laudantium maiores ex blanditiis!
+      </div>
+      <span class="child-two-parentOne">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+        suscipit ducimus nam id rerum aperiam fugit earum, facere tempora
+        dolore, sit maxime modi deserunt illo saepe accusamus, ipsa odit
+        asperiores. Officia molestias aliquam sed ea deserunt atque quaerat ipsa
+        deleniti ab dolorem earum iure perferendis, eum eius quia! Alias
+        necessitatibus perferendis ipsa accusantium quisquam quo facilis ad
+        saepe exercitationem a.
+      </span>
+      <div class="child-three-parentOne">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius rerum
+        labore, tenetur aliquid error in, architecto maxime a ducimus assumenda
+        soluta, quibusdam maiores officia mollitia corporis. Doloremque tempora
+        suscipit sed, excepturi quae accusamus incidunt illum cum vero a.
+        Officiis, possimus. At quibusdam neque nam vel asperiores officiis,
+        consectetur, eligendi dolorum facere provident optio magnam quisquam
+        aspernatur quae accusamus odit ad?
+      </div>
+    </div>
+    <p>
+      When we give <span>flex-shrink</span> 0 value than our flex-item will not
+      shrink it remains in original size. When we decrease our viewport than if
+      we don't shrink flex-item than it causes overflow.
+    </p>
+    <h2>Give non zero value to flex-shrink property</h2>
+    <h3>Parent element</h3>
+    <div class="parent-two">
+      <div class="child-one-parentTwo">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+        quam neque maxime nisi voluptatem magnam voluptatibus incidunt eaque vel
+        animi? Enim cumque, quisquam tenetur laborum consequatur beatae sunt
+        facilis unde.
+      </div>
+      <div class="child-two-parentTwo">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, officiis
+        perferendis. Aliquid iusto natus nihil asperiores fugiat fugit sunt?
+        Earum minima nihil, labore voluptatem esse, eius laudantium non
+        quibusdam animi distinctio enim ipsum? Accusamus nesciunt facilis culpa
+        vitae. Sed provident, similique fugiat voluptates quae nemo repellendus
+        saepe tempore libero quam aut qui obcaecati hic officia dolorem suscipit
+        unde, eum iusto.
+      </div>
+      <div class="child-three-parentTwo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum
+        incidunt doloribus eos nemo soluta voluptatibus dolores natus, ea
+        voluptas quo similique dicta fugiat accusamus iure. Inventore doloremque
+        ut beatae atque reprehenderit, culpa perspiciatis doloribus ullam
+        placeat suscipit quas delectus. A modi tempore voluptatibus velit enim
+        eaque. Error, tempora? Nisi incidunt vero iste dolore cumque facere ex
+        consectetur facilis reiciendis eius. Delectus sapiente excepturi
+        corrupti inventore eveniet architecto pariatur deserunt nesciunt,
+        dolores a itaque ducimus sequi incidunt iste, necessitatibus neque
+        iusto. Unde veritatis dolorum quia quam porro commodi eaque sapiente?
+      </div>
+    </div>
+    <p>
+      When we give <span>shrink-flex</span> property non-zero than it will
+      shrink according to that for example in above we give flex-shrink 1 to
+      flex-item one than it will shrink our flex-item 1 times of original size
+      than second flex-item was shrink half of it's original size and third
+      flex-item we give flex-shrink 2 than it will shrink 2 times of it original
+      size.
+    </p>
+  </body>
+</html>
