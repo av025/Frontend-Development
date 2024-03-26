@@ -104,3 +104,41 @@ span {
   /*! When we decrease our viewport screen than it was shrink 2 times of it's original */
   flex-shrink: 2;
 }
+
+.parent-three {
+  background-color: #2b9f;
+  padding: 15px;
+  /*! Giving display flex */
+  display: flex;
+  /*! Instead of flex shrink we can giving 0 value we can use min-width also..... */
+  min-width: 300px;
+  /** So it does not allow our width to go down below 300px */
+}
+
+.child-one-parentThree {
+  background-color: darkgoldenrod;
+  padding: 10px;
+  height: 300px;
+  width: 300px;
+  font-size: 18px;
+  /*! Here we give flex-shrink value 0 */
+  flex-shrink: 0;
+}
+
+.child-two-parentThree {
+  background-color: darkorange;
+  padding: 10px;
+  height: 300px;
+  font-size: 18px;
+  /*! Here we give min-width */
+  min-width: 300px;
+}
+
+.child-three-parentThree {
+  background-color: darksalmon;
+  padding: 10px;
+  height: 300px;
+  font-size: 18px;
+  /*! Here also we give min-width 400px */
+  min-width: 400px;
+}
