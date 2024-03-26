@@ -1,0 +1,145 @@
+* {
+  background-color: #111;
+  color: #fff;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+h1 {
+  padding: 15px;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+.flex-container-one {
+  background-color: yellow;
+  width: 90%;
+  margin: auto;
+  height: 400px;
+  padding: 15px;
+  gap: 60px;
+  /*! Creating flex-container by giving flex display */
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  /*! Strecth property was default property */
+}
+
+.flex-item-one-parentOne {
+  width: 150px;
+  padding: 10px;
+  background-color: darkmagenta;
+  font-size: 18px;
+}
+
+.flex-item-two-parentOne {
+  width: 150px;
+  padding: 10px;
+  background-color: fuchsia;
+  font-size: 18px;
+}
+
+.flex-item-three-parentOne {
+  width: 150px;
+  padding: 10px;
+  background-color: indianred;
+  font-size: 18px;
+}
+
+.color-cyan {
+  color: rgb(11, 132, 132);
+  font-weight: 600;
+}
+
+.flex-container-two {
+  width: 90%;
+  height: 400px;
+  background-color: burlywood;
+  padding: 15px;
+  gap: 60px;
+  margin: auto;
+  /*! Creating flex container by giving display flex */
+  display: flex;
+  /*! Align-items property flex-start */
+  align-items: flex-start;
+  /*? When we are giving flex-start than our flex-items was align on the top position vertically */
+}
+
+.flex-item-one-parentTwo {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  font-size: 16px;
+  background-color: darkmagenta;
+}
+
+.flex-item-two-parentTwo {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  font-size: 16px;
+  background-color: darkorange;
+}
+
+.flex-item-three-parentTwo {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  font-size: 16px;
+  background-color: sienna;
+}
+
+.flex-container-three {
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  background-color: indianred;
+  margin: auto;
+  gap: 60px;
+  /*! Giving display flex to create flex-container */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /*! When we give flex-end value to align-items than our flex-items was align at the end of flex-container. */
+}
+
+.flex-item-one-parentThree {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  background-image: linear-gradient(red, orange, pink);
+  font-size: 16px;
+  color: #111;
+  font-weight: 600;
+}
+
+.flex-item-two-parentThree {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  background-image: linear-gradient(hotpink, skyblue, orange);
+  color: #111;
+  font-weight: 600;
+}
+
+.flex-item-three-parentThree {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  background-image: linear-gradient(seagreen, yellow, orchid);
+  color: #111;
+  font-weight: 600;
+}
