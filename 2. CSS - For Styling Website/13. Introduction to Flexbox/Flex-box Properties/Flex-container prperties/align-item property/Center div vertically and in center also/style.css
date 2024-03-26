@@ -1,0 +1,44 @@
+* {
+  font-family: cursive;
+  background-color: #111;
+  color: #fff;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+}
+
+.flex-container-one {
+  width: 60%;
+  height: 400px;
+  padding: 15px;
+  background-color: chocolate;
+  margin: auto;
+  /*! Giving display flex */
+  display: flex;
+  align-items: center;
+}
+
+.flex-item-one-parentOne {
+  width: 100px;
+  height: 80px;
+  padding: 10px;
+  background-color: fuchsia;
+  font-weight: 18px;
+}
