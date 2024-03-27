@@ -110,3 +110,45 @@ p {
   padding: 10px;
   background-color: orchid;
 }
+
+.flex-container-three {
+  width: 80%;
+  height: 400px;
+  background-color: yellow;
+  margin: auto;
+  /*! Display flex to create flex-container */
+  display: flex;
+  gap: 60px;
+  /*! Giving justify content space evenly */
+  justify-content: space-evenly;
+  /*? When we give space-evenly than our flex-items align evenly and the spaces left in the flex-container was also divided equally in flex-container */
+}
+
+.flex-item-one-parentThree {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: chartreuse;
+  color: #111;
+}
+
+.flex-item-two-parentThree {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: hotpink;
+}
+
+.flex-item-three-parentThree {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: darkorange;
+}
+
+.flex-item-four-parentThree {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: brown;
+}
