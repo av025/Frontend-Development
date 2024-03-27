@@ -69,3 +69,44 @@ p {
   font-size: 16px;
   background-color: darkorange;
 }
+
+.flex-container-two {
+  width: 80%;
+  height: 400px;
+  background-color: coral;
+  margin: auto;
+  gap: 60px;
+  /*! Giving display flex */
+  display: flex;
+  /*! Giving property justify content space around */
+  justify-content: space-around;
+  /*? When we give justify space around property so the spaces which are left in our flex-container was take places around our flex-items so we can say that when we give justify content spaces around than spaces are come around our flex-item and spaces was distributed equally but at the corners the spaces was half of the spaces was between. */
+}
+
+.flex-item-one-parentTwo {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: orange;
+}
+
+.flex-item-two-parentTwo {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: crimson;
+}
+
+.flex-item-three-parentTwo {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: skyblue;
+}
+
+.flex-item-four-parentTwo {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: orchid;
+}
