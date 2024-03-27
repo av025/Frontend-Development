@@ -1,0 +1,71 @@
+* {
+  background-color: #111;
+  color: #fff;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+.flex-container-one {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  background-color: #6f7e;
+  /*! Giving display flex to create flex-container */
+  display: flex;
+  gap: 60px;
+  /*! Giving justify content space between property */
+  justify-content: space-between;
+  /*? When we give justify content space between property than the spaces which are left in flex-container so our flex-items was align like that all the spaces which are left in flex-container was now between our flex-item and the flex-item was are at the corner was align close to our flex-container. */
+}
+
+p {
+  padding-left: 60px;
+  font-size: 22px;
+}
+
+.flex-item-one-parentOne {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 0, 0.921);
+  color: black;
+}
+
+.flex-item-two-parentOne {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: coral;
+}
+
+.flex-item-three-parentOne {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: hotpink;
+}
+
+.flex-item-four-parentOne {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: darkorange;
+}
