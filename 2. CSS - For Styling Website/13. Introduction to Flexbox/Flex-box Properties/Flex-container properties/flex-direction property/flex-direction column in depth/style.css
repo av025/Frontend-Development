@@ -1,0 +1,37 @@
+* {
+  background-color: #111;
+  color: #fff;
+  font-family: cursive;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 15px;
+}
+
+h2 {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  padding-left: 60px;
+  line-height: 1.5;
+}
+
+span {
+  color: fuchsia;
+}
+
+.flex-container-one {
+  width: 80%;
+  height: 600px;
+  background-color: firebrick;
+  margin: auto;
+}
